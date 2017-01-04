@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BB14411-1A81-41A1-93E3-2021DD471AED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LilyHeart</RootNamespace>
+    <AssemblyName>LilyHeart</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="AfterBuild" command="cp ${TargetFile} ${SolutionDir}/Assets/DLL" externalConsole="true" />
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="DataPersist">
+      <HintPath>..\Assets\DLL\DataPersist.dll</HintPath>
+    </Reference>
+    <Reference Include="EricUtility">
+      <HintPath>..\Assets\DLL\EricUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>..\Assets\DLL\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="DeviceInfo.cs" />
+    <Compile Include="Duration.cs" />
+    <Compile Include="FileIOHelper.cs" />
+    <Compile Include="GlobalManager.cs" />
+    <Compile Include="HelpManager.cs" />
+    <Compile Include="HonorHelper.cs" />
+    <Compile Include="NinetyOnePlayer.cs" />
+    <Compile Include="Notification\CheckUpdateNotification.cs" />
+    <Compile Include="Notification\GetGameGradesNotification.cs" />
+    <Compile Include="PhotonClient.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PokerGame.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="Shop.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Message\AchievementMessage.cs" />
+    <Compile Include="Message\AddFriendMessage.cs" />
+    <Compile Include="Message\InviteFriendMessage.cs" />
+    <Compile Include="Message\KickedByVIPMessage.cs" />
+    <Compile Include="Message\Message.cs" />
+    <Compile Include="Message\PlayerMessage.cs" />
+    <Compile Include="Message\RegisterMessage.cs" />
+    <Compile Include="Message\RequestFriendMessage.cs" />
+    <Compile Include="Message\SendChipMessage.cs" />
+    <Compile Include="Notification\BetTurnEndedNotification.cs" />
+    <Compile Include="Notification\BetTurnStartedNotification.cs" />
+    <Compile Include="Notification\CheckEmailNotification.cs" />
+    <Compile Include="Notification\ErrorNotification.cs" />
+    <Compile Include="Notification\FindPasswordNotification.cs" />
+    <Compile Include="Notification\GameEndNotification.cs" />
+    <Compile Include="Notification\GameSitDownNotification.cs" />
+    <Compile Include="Notification\GameStartedNotification.cs" />
+    <Compile Include="Notification\GetAwardNotification.cs" />
+    <Compile Include="Notification\JoinGameNotification.cs" />
+    <Compile Include="Notification\Notification.cs" />
+    <Compile Include="Notification\PlayJoinedNotification.cs" />
+    <Compile Include="Notification\PlayerHoleCardsChangedNotification.cs" />
+    <Compile Include="Notification\PlayerLeavedNotification.cs" />
+    <Compile Include="Notification\PlayerTurnBeganNotification.cs" />
+    <Compile Include="Notification\PlayerTurnEndedNotification.cs" />
+    <Compile Include="Notification\PlayerWonPotImproveNotification.cs" />
+    <Compile Include="Notification\PlayerWonPotNotification.cs" />
+    <Compile Include="Notification\PlayersShowCardsFinishedNotification.cs" />
+    <Compile Include="Notification\SendGiftNotification.cs" />
+    <Compile Include="Notification\StandUpNotification.cs" />
+    <Compile Include="Notification\SystemNoticeNotification.cs" />
+    <Compile Include="Notification\The3rdFirstLoginNotification.cs" />
+    <Compile Include="Notification\WorldSpeakNotification.cs" />
+    <Compile Include="Notification\MatchBigBlindChangedNotification.cs" />
+    <Compile Include="Notification\MatchRankListChangedNotification.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="LilyHeart.csproj" />
+    <None Include="Message\.DS_Store" />
+    <None Include="Message\AchievementMessage.cs.meta" />
+    <None Include="Message\AddFriendMessage.cs.meta" />
+    <None Include="Message\InviteFriendMessage.cs.meta" />
+    <None Include="Message\KickedByVIPMessage.cs.meta" />
+    <None Include="Message\Message.cs.meta" />
+    <None Include="Message\PlayerMessage.cs.meta" />
+    <None Include="Message\RegisterMessage.cs.meta" />
+    <None Include="Message\RequestFriendMessage.cs.meta" />
+    <None Include="Message\SendChipMessage.cs.meta" />
+  </ItemGroup>
+</Project>

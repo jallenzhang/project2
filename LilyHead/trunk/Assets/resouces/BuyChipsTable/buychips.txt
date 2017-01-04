@@ -1,0 +1,124 @@
+{"frames": {
+
+"BCTBg_front.png":
+{
+	"frame": {"x":472,"y":110,"w":38,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":38},
+	"sourceSize": {"w":38,"h":38}
+},
+"BCTBlackBg.png":
+{
+	"frame": {"x":295,"y":389,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46}
+},
+"BCTBtn.png":
+{
+	"frame": {"x":77,"y":165,"w":179,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":186},
+	"sourceSize": {"w":179,"h":186}
+},
+"BCTChips_1.png":
+{
+	"frame": {"x":295,"y":331,"w":53,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":56},
+	"sourceSize": {"w":53,"h":56}
+},
+"BCTChips_2.png":
+{
+	"frame": {"x":240,"y":353,"w":53,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":93},
+	"sourceSize": {"w":53,"h":93}
+},
+"BCTChips_3.png":
+{
+	"frame": {"x":258,"y":233,"w":91,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":96},
+	"sourceSize": {"w":91,"h":96}
+},
+"BCTChips_4.png":
+{
+	"frame": {"x":326,"y":110,"w":144,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":96},
+	"sourceSize": {"w":144,"h":96}
+},
+"BCTChips_5.png":
+{
+	"frame": {"x":351,"y":208,"w":133,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":133,"h":92},
+	"sourceSize": {"w":133,"h":92}
+},
+"BCTChips_6.png":
+{
+	"frame": {"x":77,"y":353,"w":161,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":97},
+	"sourceSize": {"w":161,"h":97}
+},
+"BCTChips_7.png":
+{
+	"frame": {"x":326,"y":2,"w":174,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":106},
+	"sourceSize": {"w":174,"h":106}
+},
+"BCTCloseBtn.png":
+{
+	"frame": {"x":258,"y":165,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":66,"h":66}
+},
+"BCTPic_1.png":
+{
+	"frame": {"x":77,"y":2,"w":247,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":247,"h":161},
+	"sourceSize": {"w":247,"h":161}
+},
+"BCTPic_2.png":
+{
+	"frame": {"x":77,"y":452,"w":147,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":43},
+	"sourceSize": {"w":147,"h":43}
+},
+"BCTTableBg.png":
+{
+	"frame": {"x":2,"y":2,"w":73,"h":477},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":477},
+	"sourceSize": {"w":73,"h":477}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "buychips.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b5269404fbfdadc41715af4690bb9673$"
+}
+}

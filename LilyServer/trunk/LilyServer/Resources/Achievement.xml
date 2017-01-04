@@ -1,0 +1,35 @@
+<Achievements>
+  <Achievement Type="3" Number="1" Name="牌友如云" Condition="添加至少30名牌友" Chip="0" Exp="0" />
+  <Achievement Type="3" Number="2" Name="我很慷慨" Condition="发送至少一个筹码给其他玩家" Chip="0" Exp="0" />
+  <Achievement Type="3" Number="3" Name="熟客" Condition="邀请一名牌友加入你的赌局" Chip="0" Exp="0" />
+  <Achievement Type="3" Number="4" Name="赢的就是你" Condition="在牌桌上至少有一名牌友的情况下赢得赌局" Chip="0" Exp="0" />
+  <Achievement Type="3" Number="5" Name="想好怎么跟你妻子说吧" Condition="在赌局上有一名你的牌友输光筹码" Chip="0" Exp="0" />
+  <Achievement Type="3" Number="6" Name="牌友！嘿嘿……" Condition="完成所有牌友成就" Chip="20000" Exp="200" />
+  <Achievement Type="1" Number="7" Name="有钱人就该享受生活" Condition="更换一次场景" Chip="0" Exp="0" />
+  <Achievement Type="1" Number="8" Name="钱不是问题" Condition="使用现金购买一次筹码" Chip="0" Exp="0" />
+  <Achievement Type="1" Number="9" Name="我爱这个游戏" Condition="连续两天登陆康熙德州扑克" Chip="0" Exp="0" />
+  <Achievement Type="1" Number="10" Name="无业游民" Condition="在同一天中累计游戏时间超过3小时" Chip="0" Exp="0" />
+  <Achievement Type="1" Number="11" Name="千奇百怪的漫长赌局" Condition="除了本成就外完成当前版本所有成就" Chip="100000" Exp="500" />
+
+  <Achievement Type="2" Number="12" Name="小财主" Condition="拥有4000个筹码" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="13" Name="略有小成" Condition="累计赢得10场牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="14" Name="我来自拉斯维加斯" Condition="累计赢得100场牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="15" Name="“我是赌神”" Condition="累计在10场牌局中没有赢得筹码" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="16" Name="直到我的膝盖中了一箭……" Condition="累计在100场牌局中没有赢得筹码" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="17" Name="我能说脏话么？" Condition="连续两次发到高牌" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="18" Name="颤抖吧凡人们" Condition="发到一次皇家同花顺" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="19" Name="我叫维克托·拉斯提格" Condition="累计两次在牌局中有至少三人牌大于你的情况下赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="20" Name="一无所有" Condition="在all in情况下输掉牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="21" Name="“大底牌”" Condition="两张底牌为顺子" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="22" Name="“超大的底牌”" Condition="两张底牌为对子" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="23" Name="“超超大的底牌”" Condition="两张底牌为同花" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="24" Name="你们这群凡人！" Condition="以高牌赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="25" Name="咸鱼翻身" Condition="在剩余筹码（未下注）小于等于100的情况下赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="26" Name="坑爹呢？！" Condition="公牌为一付皇家同花顺" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="27" Name="顺子" Condition="以顺子赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="28" Name="同花" Condition="以同花赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="29" Name="葫芦" Condition="以葫芦赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="30" Name="四条" Condition="以四条赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="31" Name="同花顺" Condition="以同花顺赢得牌局" Chip="0" Exp="0" />
+  <Achievement Type="2" Number="32" Name="高端职业玩家" Condition="完成所有赌局成就" Chip="50000" Exp="500" />
+</Achievements>

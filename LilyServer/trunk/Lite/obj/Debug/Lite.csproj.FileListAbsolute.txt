@@ -1,0 +1,51 @@
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\log4net.config
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\Lite.dll.config
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\Lite.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\Lite.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\ExitGames.Logging.Log4Net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\ExitGamesLibs.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\log4net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\Photon.SocketServer.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\PokerWorld.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\DataPersist.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\EricUtility.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\PokerWorld.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\DataPersist.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\bin\EricUtility.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\obj\Debug\Lite.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\Lite\obj\Debug\Lite.pdb
+E:\job\work project\LilyServer\trunk\Lite\bin\log4net.config
+E:\job\work project\LilyServer\trunk\Lite\bin\Lite.dll.config
+E:\job\work project\LilyServer\trunk\Lite\bin\Lite.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\Lite.pdb
+E:\job\work project\LilyServer\trunk\Lite\bin\ExitGames.Logging.Log4Net.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\ExitGamesLibs.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\log4net.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\Photon.SocketServer.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\PokerWorld.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\DataPersist.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\EricUtility.dll
+E:\job\work project\LilyServer\trunk\Lite\bin\PokerWorld.pdb
+E:\job\work project\LilyServer\trunk\Lite\bin\DataPersist.pdb
+E:\job\work project\LilyServer\trunk\Lite\bin\EricUtility.pdb
+E:\job\work project\LilyServer\trunk\Lite\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyServer\trunk\Lite\obj\Debug\Lite.dll
+E:\job\work project\LilyServer\trunk\Lite\obj\Debug\Lite.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\log4net.config
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\Lite.dll.config
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\Lite.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\Lite.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\ExitGames.Logging.Log4Net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\ExitGamesLibs.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\log4net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\Photon.SocketServer.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\PokerWorld.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\DataPersist.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\EricUtility.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\PokerWorld.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\DataPersist.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\bin\EricUtility.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\obj\Debug\Lite.dll
+K:\dongjinzhong\jau\LilyServer\trunk\Lite\obj\Debug\Lite.pdb

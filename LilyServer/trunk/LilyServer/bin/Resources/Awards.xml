@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Awards>
+  <Award Id="1">
+    <Guest>181</Guest>
+    <Normal>362</Normal>
+    <Pay>544</Pay>
+  </Award>
+  <Award Id="2">
+    <Guest>362</Guest>
+    <Normal>725</Normal>
+    <Pay>1088</Pay>
+  </Award>
+  <Award Id="3">
+    <Guest>604</Guest>
+    <Normal>1209</Normal>
+    <Pay>1814</Pay>
+  </Award>
+  <Award Id="4">
+    <Guest>786</Guest>
+    <Normal>1572</Normal>
+    <Pay>2358</Pay>
+  </Award>
+  <Award Id="5">
+    <Guest>967</Guest>
+    <Normal>1935</Normal>
+    <Pay>2903</Pay>
+  </Award>
+  <Award Id="6">
+    <Guest>1209</Guest>
+    <Normal>2419</Normal>
+    <Pay>3628</Pay>
+  </Award>
+  <Award Id="7">
+    <Guest>1935</Guest>
+    <Normal>3870</Normal>
+    <Pay>5806</Pay>
+  </Award>
+</Awards>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{DE4D58B9-9806-231C-1C5A-BFCC2B777495}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_0_0;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\2D Platform\Warrior\AttackHitInfoJS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\2D Platform\Warrior\WarriorControllerJS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\2D Platform\mummy\MummyControllerJS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\AnimationCrossFade_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\AnimationMixing_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\AnimationPlayQueued_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\CharacterAnimation\Bullet_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\CharacterAnimation\Character_Controller_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\MergeAnimation_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Collision\CollisionSpriteAnimationCompoentBB.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Collision\CollisionSpriteAnimationComponentBBExample.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Collision\CollisionSpriteRendererAABB.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Multi Animations\Easy2DDemo_CharacterActor_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Multi Animations\Easy2DDemo_CharacterSpawn_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\ProceduralAnimationJS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Simple Animations\Easy2DDemo_AnimationDemo_JS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\UnloadResource.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Utility\BehaviourControllerJS\BehaviourControllerHolderJS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Utility\BehaviourControllerJS\BehaviourControllerJS.js" />
+     <Compile Include="Assets\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Utility\BehaviourControllerJS\StateTransitionTableAssetJS.js" />
+     <None Include="Assets\NGUI\Resources\Shaders\Depth.shader" />
+     <None Include="Assets\Plugins\Android\res\values\colorlist.xml" />
+     <None Include="Assets\Plugins\Playtomic\LICENSE.txt" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\NGUI\ReadMe - 2.0.9.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\main.xml" />
+     <None Include="Assets\StreamingAssets\readme.txt" />
+     <None Include="Assets\PlayMakerReadme.txt" />
+     <None Include="Assets\Resources\GiftTable\GiftAtlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Editor\Etcetera\READ_ME.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Resources\GamblingInterface_otherTable\RoleHalf.txt" />
+     <None Include="Assets\EasyMotion2D\Resource\Shader\Easy2D.AlphaBlend.shader" />
+     <None Include="Assets\Resources\courseofstudy\study.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Resoures\Languages\English.xml" />
+     <None Include="Assets\resouces\Props\props.txt" />
+     <None Include="Assets\MaskEffect\Shaders\DepthMask.shader" />
+     <None Include="Assets\resouces\a\a.txt" />
+     <None Include="Assets\resouces\Check_deskmate\check_friendinfo.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\resouces\FriendList\friendlistatlas.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\web_view.xml" />
+     <None Include="Assets\resouces\BuyChipsTable\buychips.txt" />
+     <None Include="Assets\Resources\font\font_xi\xi.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\EasyMotion2D\EasyMotion2D.Demo\resources\RenderMode\Easy2D.AlphaBlend2X.shader" />
+     <None Include="Assets\resouces\Box_OpenShine\Box_OpenShine.txt" />
+     <None Include="Assets\EasyMotion2D\Resource\Shader\Easy2D.SoftAdditive.shader" />
+     <None Include="Assets\resouces\AllTips\AllTipsAtlas.txt" />
+     <None Include="Assets\EasyMotion2D\Resource\Shader\Easy2D.AlphaBlend2X.shader" />
+     <None Include="Assets\Resoures\Languages\Chinese.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\EasyMotion2D\Resource\Shader\Easy2D.AlphaKey.shader" />
+     <None Include="Assets\Resources\Languages\Chinese.xml" />
+     <None Include="Assets\EasyMotion2D\Resource\Shader\Easy2D.Additive.shader" />
+     <None Include="Assets\Resources\BuySence_new\buysence_new.txt" />
+     <None Include="Assets\Resources\font\font1024.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\NGUI\ReadMe - 2.1.3.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Resources\Achievement\English.xml" />
+     <None Include="Assets\resouces\PlayerInfoTable\playerinfo.txt" />
+     <None Include="Assets\resouces\UpgradeAnim\updradestar.txt" />
+     <None Include="Assets\Resources\Title\titleicon.txt" />
+     <None Include="Assets\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\Plugins\Playtomic\README.txt" />
+     <None Include="Assets\Resources\SettingTable\setting.txt" />
+     <None Include="Assets\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\Resources\font\font_cu\cu.txt" />
+     <None Include="Assets\Resources\TitleInfo\TitleAtlas.txt" />
+     <None Include="Assets\Resources\Achievement\Chinese.xml" />
+     <None Include="Assets\Resources\PromptMessage\PMAtlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\resouces\avatar\avatar.txt" />
+     <None Include="Assets\resouces\bli\blingatlas.txt" />
+     <None Include="Assets\resouces\Box_Shine - Little\sl.txt" />
+     <None Include="Assets\ex2D\Core\Shaders\SpriteBlend.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (HardClip).shader" />
+     <None Include="Assets\Resources\GamblingInterface\GamblingInterFaceAtlas.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Resources\GamblingRolehalf\PokerAtlas.txt" />
+     <None Include="Assets\resouces\SendChipsTable\sendchipatlas.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\product_item.xml" />
+     <None Include="Assets\Resources\AchievementTable\Achievement.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\EasyMotion2D\Resource\Shader\Easy2D.AlphaBlendPremultiply.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Resources\GiftTable\Gifts.xml" />
+     <None Include="Assets\Resources\Honors.xml" />
+     <None Include="Assets\Resources\IncreaseChipsTable\increasechips.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\resouces\Game lobby\GameLobbyAtlas.txt" />
+     <None Include="Assets\Resources\Languages\English.xml" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\remote_service_binding.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\custom_order.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\alipay_title_320_480.xml" />
+ <Reference Include="DataPersist">
+ <HintPath>Assets\DLL\DataPersist.dll</HintPath>
+ </Reference>
+ <Reference Include="EricUtility">
+ <HintPath>Assets\DLL\EricUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>Assets\DLL\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyMotion2D.Runtime">
+ <HintPath>Assets\EasyMotion2D\Runtime\EasyMotion2D.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="ex2D.Runtime">
+ <HintPath>Assets\ex2D\Core\ex2D.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1ECCC056-403F-DE82-16EC-800D8F942A9F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

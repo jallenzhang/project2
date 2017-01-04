@@ -1,0 +1,102 @@
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\log4net.config
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Resources\GameBlind.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Resources\GameGrade.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Resources\Achievement.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Resources\Awards.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Resources\Gifts.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Resources\Props.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Photon.LoadBalancing.dll.config
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Photon.LoadBalancing.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Photon.LoadBalancing.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\DataPersist.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\ExitGames.Logging.Log4Net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\ExitGamesLibs.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\LilyServer.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Lite.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\LiteLobby.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\log4net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Photon.SocketServer.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\PhotonHostRuntimeInterfaces.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\PokerWorld.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\EricUtility.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\LilyAPNNotification.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\JdSoft.Apns.Notifications.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Newtonsoft.Json.Compact.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\DataPersist.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\LilyServer.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\LiteLobby.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\Lite.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\PokerWorld.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\EricUtility.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\bin\LilyAPNNotification.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\obj\Debug\Photon.LoadBalancing.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LoadBalancing\obj\Debug\Photon.LoadBalancing.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\log4net.config
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Resources\GameBlind.xml
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Resources\GameGrade.xml
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Resources\Achievement.xml
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Resources\Awards.xml
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Resources\Gifts.xml
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Resources\Props.xml
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Photon.LoadBalancing.dll.config
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Photon.LoadBalancing.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Photon.LoadBalancing.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\DataPersist.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\ExitGames.Logging.Log4Net.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\ExitGamesLibs.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\LilyServer.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Lite.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\LiteLobby.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\log4net.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Photon.SocketServer.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\PhotonHostRuntimeInterfaces.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\PokerWorld.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\EricUtility.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\LilyAPNNotification.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\JdSoft.Apns.Notifications.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Newtonsoft.Json.Compact.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\DataPersist.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\LilyServer.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\LiteLobby.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\Lite.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\PokerWorld.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\EricUtility.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\bin\LilyAPNNotification.pdb
+E:\job\work project\LilyServer\trunk\LoadBalancing\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyServer\trunk\LoadBalancing\obj\Debug\Photon.LoadBalancing.dll
+E:\job\work project\LilyServer\trunk\LoadBalancing\obj\Debug\Photon.LoadBalancing.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\log4net.config
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Resources\GameBlind.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Resources\GameGrade.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Resources\Achievement.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Resources\Awards.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Resources\Gifts.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Resources\Props.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Photon.LoadBalancing.dll.config
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Photon.LoadBalancing.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Photon.LoadBalancing.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\DataPersist.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\ExitGames.Logging.Log4Net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\ExitGamesLibs.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\LilyServer.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Lite.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\LiteLobby.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\log4net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Photon.SocketServer.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\PhotonHostRuntimeInterfaces.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\PokerWorld.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\EricUtility.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\LilyAPNNotification.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\JdSoft.Apns.Notifications.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Newtonsoft.Json.Compact.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\DataPersist.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\LilyServer.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\LiteLobby.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\Lite.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\PokerWorld.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\EricUtility.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\bin\LilyAPNNotification.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\obj\Debug\Photon.LoadBalancing.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LoadBalancing\obj\Debug\Photon.LoadBalancing.pdb

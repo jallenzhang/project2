@@ -1,0 +1,14 @@
+C:\LilyServer\LilyServer\EricUtilityGames\bin\Debug\EricUtilityGames.dll
+C:\LilyServer\LilyServer\EricUtilityGames\bin\Debug\EricUtilityGames.pdb
+C:\LilyServer\LilyServer\EricUtilityGames\bin\Debug\EricUtility.dll
+C:\LilyServer\LilyServer\EricUtilityGames\bin\Debug\EricUtility.pdb
+C:\LilyServer\LilyServer\EricUtilityGames\obj\Debug\ResolveAssemblyReference.cache
+C:\LilyServer\LilyServer\EricUtilityGames\obj\Debug\EricUtilityGames.dll
+C:\LilyServer\LilyServer\EricUtilityGames\obj\Debug\EricUtilityGames.pdb
+C:\LilyServer\LilyBody\trunk\EricUtilityGames\bin\Debug\EricUtilityGames.dll
+C:\LilyServer\LilyBody\trunk\EricUtilityGames\bin\Debug\EricUtilityGames.pdb
+C:\LilyServer\LilyBody\trunk\EricUtilityGames\bin\Debug\EricUtility.dll
+C:\LilyServer\LilyBody\trunk\EricUtilityGames\bin\Debug\EricUtility.pdb
+C:\LilyServer\LilyBody\trunk\EricUtilityGames\obj\Debug\ResolveAssemblyReference.cache
+C:\LilyServer\LilyBody\trunk\EricUtilityGames\obj\Debug\EricUtilityGames.dll
+C:\LilyServer\LilyBody\trunk\EricUtilityGames\obj\Debug\EricUtilityGames.pdb

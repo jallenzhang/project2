@@ -1,0 +1,44 @@
+{"frames": {
+
+"PMBg2.png":
+{
+	"frame": {"x":2,"y":2,"w":102,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":105},
+	"sourceSize": {"w":102,"h":105}
+},
+"PMGreenBtn.png":
+{
+	"frame": {"x":2,"y":109,"w":162,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":60},
+	"sourceSize": {"w":162,"h":60}
+},
+"PMLableBg.png":
+{
+	"frame": {"x":166,"y":109,"w":48,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":46},
+	"sourceSize": {"w":48,"h":46}
+},
+"PMRedBtn.png":
+{
+	"frame": {"x":2,"y":171,"w":162,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":60},
+	"sourceSize": {"w":162,"h":60}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "PMAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:10e637a5429f5e8373fec126a262d190$"
+}
+}

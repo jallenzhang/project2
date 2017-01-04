@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LilyAPNNotification" GeneratedClassName="NotificationServiceSet">
+  <Profiles />
+  <Settings>
+    <Setting Name="Connections" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="SendRetries" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ReconnectDelay" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="IsSandBox" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="P12File" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">aps_production.p12</Value>
+    </Setting>
+    <Setting Name="P12FilePwd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">888888</Value>
+    </Setting>
+    <Setting Name="SleepBetweenNotifications" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="A91P12File" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">aps_91production.p12</Value>
+    </Setting>
+    <Setting Name="A91P12FilePwd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">888888</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

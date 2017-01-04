@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBAA74EB-22CE-4C30-9D10-0214B605578A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PokerWorld</RootNamespace>
+    <AssemblyName>PokerWorld</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DataManager.cs" />
+    <Compile Include="Data\DummyPersistance.cs" />
+    <Compile Include="Data\IDataPersistance.cs" />
+    <Compile Include="Data\UserInfo.cs" />
+    <Compile Include="Game\AbstractDealer.cs" />
+    <Compile Include="Game\LilyTestDealer.cs" />
+    <Compile Include="Game\PokerGameCareer.cs" />
+    <Compile Include="Game\TableInfoCareer.cs" />
+    <Compile Include="Game\PokerGameTraining.cs" />
+    <Compile Include="Game\TableInfoTraining.cs" />
+    <Compile Include="Game\EventArgs.cs" />
+    <Compile Include="Game\IPokerGame.cs" />
+    <Compile Include="Game\IPokerViewer.cs" />
+    <Compile Include="Game\PokerGame.cs" />
+    <Compile Include="Game\RandomDealer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\LilyBody\trunk\DataPersist\DataPersist.csproj">
+      <Project>{3A862083-3A6F-4B7A-89CF-9205787635FE}</Project>
+      <Name>DataPersist</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\LilyBody\trunk\EricUtility\EricUtility_4.0.csproj">
+      <Project>{31541BBE-B408-4719-BFCE-03947BB7AB0E}</Project>
+      <Name>EricUtility_4.0</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

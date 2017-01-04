@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameGrades>
+  <GameGrade ID="1" First="8000" Second="2000" Tickets="2000" Tip="75"/>
+  <GameGrade ID="2" First="20000" Second="5000" Tickets="5000" Tip="150"/>
+  <GameGrade ID="3" First="40000" Second="10000" Tickets="10000" Tip="250"/>
+  <GameGrade ID="4" First="200000" Second="50000" Tickets="50000" Tip="750"/>
+  <GameGrade ID="5" First="400000" Second="100000" Tickets="100000" Tip="1000"/>
+  <GameGrade ID="6" First="2000000" Second="500000" Tickets="500000" Tip="5000"/>
+</GameGrades>

@@ -1,0 +1,123 @@
+body
+{
+    margin: 0 auto;
+    font-size: 24px;
+    border-style: none;
+    margin-top: -20px;
+}
+::-webkit-input-placeholder { color:#9c9c9c; }
+input:-moz-placeholder { color:#9c9c9c; }
+
+#mypage
+{
+    background-image: url('../image/LIBg.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 150%;
+    z-index: 0;
+    margin-top:-20px;
+}
+#mypage .avator
+{
+    height: 100%;
+    margin: 45px auto auto 5%;
+    float: left;
+}
+#mypage .avator img
+{
+    max-height: 80%;
+    max-width: 80%;
+}
+#mypage .avator .bgicon
+{
+    position: absolute;
+    width: 135px;
+    height: 140px;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: -1;
+}
+#mypage .avator .myavator
+{
+    z-index: 3;
+}
+
+/* login */
+#mypage .login
+{
+    margin: 20px auto auto auto;
+}
+#mypage .login input
+{
+    padding: 4px 3px 5px;
+    height: 55px;
+    font-size: 100%;
+}
+#mypage .login #loginPwd
+{
+    margin-top: -15px;
+}
+#mypage .login .space
+{
+    height:10px;
+}
+#mypage .login #abtnlogin
+{
+    width: 240px;
+    height: 52px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+#mypage .login #abtnlogin img
+{
+    max-width: 250px;
+    margin-top: -20px;
+}
+#ltips1 {
+    font-size:18px;
+    display:block;    
+    margin-top:-10px;
+}
+
+/* Portrait Êú×Å */
+@media screen and (orientation:portrait) {
+    #mypage .avator img{
+        display:none;        
+    }
+    #mypage .login input{
+        width: 85%;
+        margin-left: 0px;        
+    }   
+    #ltips1{
+        margin-left: 40px;        
+    } 
+}
+
+/* Landscape ºá×Å */
+@media screen and (orientation:landscape) {
+    #mypage .avator img{
+        display:inherit;
+    } 
+    #mypage .login input{
+        width: 55%;
+        margin-left: -10px;        
+    }
+    #ltips1{
+        margin-left: 40px;        
+    } 
+    #mypage .login #abtnlogin{
+        margin-left: 2%;
+    }
+}
+
+/* mask */
+.maskShow{
+    position:absolute;
+    background-color:#000;
+    opacity:0.6;
+    filter:alpha(opacity = 60);
+    z-index:2;
+}
+.maskUnset
+{
+}

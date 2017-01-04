@@ -1,0 +1,36 @@
+{"frames": {
+
+"GIFBg.png":
+{
+	"frame": {"x":2,"y":2,"w":960,"h":574},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":574},
+	"sourceSize": {"w":960,"h":640}
+},
+"GIFBgMask.png":
+{
+	"frame": {"x":2,"y":578,"w":960,"h":209},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":209},
+	"sourceSize": {"w":960,"h":209}
+},
+"GIFBgMask_1.png":
+{
+	"frame": {"x":2,"y":789,"w":959,"h":197},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":959,"h":197},
+	"sourceSize": {"w":959,"h":197}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "GamblingInterFaceAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0258ade9f331415070cde834abbe2bf9$"
+}
+}

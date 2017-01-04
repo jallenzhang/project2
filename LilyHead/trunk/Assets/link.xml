@@ -1,0 +1,9 @@
+<linker>
+	<assembly fullname="DataPersist">
+		<namespace fullname="DataPersist" preserve="all" />
+		<namespace fullname="DataPersist.CardGame" preserve="all" />
+	</assembly>
+	<assembly fullname="LilyHeart">
+		<namespace fullname="LilyHeart" preserve="all" />
+	</assembly>
+</linker>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Lily" Class="DataLilyModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=WIN7--20111029I\TOUFE;Initial Catalog=Lily;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="LilyConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.bank" Member="banks">
+    <Type Name="bank">
+      <Column Name="bankid" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bankin" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="bankout" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="createtime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="optype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="itemid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="duration" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.bots" Member="bots">
+    <Type Name="bot">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nickname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="usertype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="role" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="exp" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="avator" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chips" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="totalgame" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="wins" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="winningpercentage" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="maximumwinnote" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="besthandtype" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="logintime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="money" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="backgroundtype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="roomid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="livingroomtype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="besthandvalue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="achievements" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.configRobotStrategy" Member="configRobotStrategies">
+    <Type Name="configRobotStrategy">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="strategyid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="strategy" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="typeround" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="foldratio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="callratio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="delaymin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="delaymax" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rasiea" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rasieb" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.feedback" Member="feedbacks">
+    <Type Name="feedback">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="content" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.friend" Member="friends">
+    <Type Name="friend">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userA" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="userB" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.item" Member="items">
+    <Type Name="item">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="used" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ReportUserOnline" Member="ReportUserOnlines">
+    <Type Name="ReportUserOnline">
+      <Column Name="reportDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="reportContent" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="updatetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.login" Member="logins">
+    <Type Name="login">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="useridstr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="logintime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.usermessage" Member="usermessages">
+    <Type Name="usermessage">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="receiver" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="messagetype" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="content" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.usersecond" Member="userseconds">
+    <Type Name="usersecond">
+      <Column Name="nickname" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="userIdStr" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="overallPoints" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="registertime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usertype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sex" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="upgradetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.configSystem" Member="configSystems">
+    <Type Name="configSystem">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="value" Type="System.Decimal" DbType="Decimal(18,3) NOT NULL" CanBeNull="false" />
+      <Column Name="valuestr" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="updatetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="updateby" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.userprops" Member="userprops">
+    <Type Name="userprop">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ItemType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ItemId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ItemName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Duration" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PurchaseDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UseDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FailureDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.userpayment" Member="userpayments">
+    <Type Name="userpayment">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="itemid" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="note" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="money" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="payway" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="alipaynote" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="channelId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[user]" Member="users">
+    <Type Name="user">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nickname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="usertype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="role" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="exp" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="avator" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chips" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="totalgame" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="wins" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="winningpercentage" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="maximumwinnote" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="besthandtype" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="logintime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="money" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="backgroundtype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="roomid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="livingroomtype" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ownroomtypes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="besthandvalue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="devicetype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="devicetoken" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="achievements" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="hasbuy" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="systempn" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="friendpn" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="awards" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="awardsadd" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="expadd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="winadd" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="channelid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>康熙德州扑克</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel='stylesheet' type='text/css' href='css/register.ios.css' />    
+    <script type='text/javascript' src='js/jquery-1.8.0.min.js'charset='utf-8'></script>
+    <script type='text/javascript' src='js/jquery.mobile-1.1.1.min.js'charset='utf-8'></script>
+    <script type='text/javascript' src='js/common.js'charset='utf-8'></script>
+    <script type='text/javascript' src='js/register.js'charset='utf-8'></script>
+</head>
+<body>
+    <div data-role="page" id="mypage">
+        <div class="avator">             
+            <!--<img class="bgicon" src="image/LIicon_bg.png" /> -->
+            <img class="myavator" src="image/144.png" />
+            <img class="myavator2" src="image/144.png" />  
+        </div>    
+        <div class="login">     
+            <form onkeypress="checkSubmit(event,'doregister')">   
+                <input id="email" type="text" onblur="blurMail()" placeholder="请输入您的邮箱"/>
+                <label class="icon" id="icon1"><img id="iconimg1" /></label>
+                <br/><label id="ltips1" class="tips">6位到30位的邮箱帐号</label>
+                <br/>
+                <input id="loginPwd" type="password" onblur="onBlur()" placeholder="请输入密码" />
+                <label class="icon" id="icon2"><img id="iconimg2" /></label>
+                <br/><label id="ltips2" class="tips">6位到12位的英文、数字</label>
+                <br/>
+                <input id="again_loginPwd" type="password" onblur="onBlur2()" placeholder="请再次输入密码" />
+                <label class="icon" id="icon3"><img id="iconimg3" /></label>
+                <br/><label id="ltips3" class="tips">重复上面的密码</label>
+                <br/>
+                <a id="abtnreg" onclick="doregister()" target="_blank"><img id="btnreg" src="image/Btn_reg.png" alt=""/></a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

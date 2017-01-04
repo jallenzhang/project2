@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Props>
+
+  <PropItem ItemType="1" ItemId="1" ItemName="高档富人小区" Price="0" Chip="0" Duration="-1" />
+  <PropItem ItemType="1" ItemId="2" ItemName="埃及法老墓室" Price="68" Chip="800000" Duration="-1" />
+  <PropItem ItemType="1" ItemId="4" ItemName="夏威夷风情" Price="6" Chip="70000" Duration="-1" />
+  <PropItem ItemType="1" ItemId="8" ItemName="日本情调桃园" Price="12" Chip="130000" Duration="-1" />
+  <PropItem ItemType="1" ItemId="16" ItemName="西部牛仔酒馆" Price="30" Chip="320000" Duration="-1" />
+  <PropItem ItemType="1" ItemId="32" ItemName="古典浪漫庭院" Price="18" Chip="200000" Duration="-1" />
+  <PropItem ItemType="1" ItemId="64" ItemName="雍容华贵的皇宫" Price="88" Chip="950000" Duration="-1" />
+  <PropItem ItemType="1" ItemId="128" ItemName="古典巴洛克大厅" Price="98" Chip="1100000" Duration="-1" />
+  <PropItem ItemType="1" ItemId="256" ItemName="未来太空漫游" Price="88" Chip="950000" Duration="-1" />  
+  
+  <PropItem ItemType="3" ItemId="1" ItemName="石油大亨" Price="0" Chip="300000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="2" ItemName="饶舌歌星" Price="0" Chip="130000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="3" ItemName="海盗王" Price="0" Chip="240000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="4" ItemName="欧洲王储" Price="0" Chip="160000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="5" ItemName="意大利黑手党千金" Price="0" Chip="100000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="6" ItemName="俄罗斯富商的大老婆" Price="0" Chip="70000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="7" ItemName="宋朝官员姨太太" Price="0" Chip="150000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="8" ItemName="有钱的小萝莉" Price="0" Chip="200000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="9" ItemName="年轻的年羹尧" Price="0" Chip="350000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="10" ItemName="皇后娘娘" Price="0" Chip="370000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="11" ItemName="小格格" Price="0" Chip="400000" Duration="-1" />
+  <PropItem ItemType="3" ItemId="12" ItemName="小阿哥" Price="0" Chip="450000" Duration="-1" />
+
+  <PropItem ItemType="4" ItemId="1" ItemName="康熙玉玺（30天）" Price="6" Chip="70000" Duration="30" />
+  <!--<PropItem ItemType="4" ItemId="2" ItemName="康熙玉玺（90天）" Price="12" Chip="130000" Duration="90" />-->
+  <!--<PropItem ItemType="4" ItemId="3" ItemName="康熙玉玺（180天）" Price="18" Chip="200000" Duration="180" />-->
+  <PropItem ItemType="4" ItemId="4" ItemName="康熙玉玺（365天）" Price="30" Chip="320000" Duration="365" />
+  <!--<PropItem ItemType="4" ItemId="5" ItemName="康熙玉玺（永久）" Price="98" Chip="1100000" Duration="-1" />-->
+
+  <PropItem ItemType="5" ItemId="1" ItemName="皇室血统（30天）" Price="6" Chip="70000" Duration="30" />
+  <!--<PropItem ItemType="5" ItemId="2" ItemName="皇室血统（90天）" Price="12" Chip="130000" Duration="90" />-->
+  <!--<PropItem ItemType="5" ItemId="3" ItemName="皇室血统（180天）" Price="18" Chip="200000" Duration="180" />-->
+  <PropItem ItemType="5" ItemId="4" ItemName="皇室血统（365天）" Price="30" Chip="320000" Duration="365" />
+  <!--<PropItem ItemType="5" ItemId="5" ItemName="皇室血统（永久）" Price="98" Chip="1100000" Duration="-1" />-->
+</Props>

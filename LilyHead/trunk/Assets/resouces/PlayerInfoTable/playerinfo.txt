@@ -1,0 +1,188 @@
+{"frames": {
+
+"BCTBlackBg.png":
+{
+	"frame": {"x":55,"y":863,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46}
+},
+"PITBg.png":
+{
+	"frame": {"x":2,"y":2,"w":59,"h":485},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":485},
+	"sourceSize": {"w":59,"h":485}
+},
+"PITBg_paijuziliao.png":
+{
+	"frame": {"x":63,"y":2,"w":221,"h":241},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":241},
+	"sourceSize": {"w":281,"h":241}
+},
+"PITBg_paizu.png":
+{
+	"frame": {"x":2,"y":586,"w":337,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":337,"h":61},
+	"sourceSize": {"w":337,"h":61}
+},
+"PITBg_role.png":
+{
+	"frame": {"x":132,"y":780,"w":29,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":23},
+	"sourceSize": {"w":29,"h":23}
+},
+"PITBg_ziliao.png":
+{
+	"frame": {"x":2,"y":649,"w":367,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":367,"h":61},
+	"sourceSize": {"w":367,"h":61}
+},
+"PITBtn.png":
+{
+	"frame": {"x":286,"y":2,"w":253,"h":181},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":253,"h":181},
+	"sourceSize": {"w":253,"h":181}
+},
+"PITExperienceBarBg.png":
+{
+	"frame": {"x":469,"y":2,"w":326,"h":17},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":326,"h":17},
+	"sourceSize": {"w":326,"h":17}
+},
+"PITExperienceBarFore.png":
+{
+	"frame": {"x":488,"y":2,"w":321,"h":14},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":321,"h":14},
+	"sourceSize": {"w":321,"h":14}
+},
+"PITPic_3.png":
+{
+	"frame": {"x":246,"y":245,"w":35,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":40},
+	"sourceSize": {"w":35,"h":40}
+},
+"PITPic_5.png":
+{
+	"frame": {"x":2,"y":498,"w":283,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":283,"h":86},
+	"sourceSize": {"w":283,"h":86}
+},
+"PITTitleBtn.png":
+{
+	"frame": {"x":63,"y":245,"w":251,"h":181},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":251,"h":181},
+	"sourceSize": {"w":251,"h":181}
+},
+"Pic_avatarbg.png":
+{
+	"frame": {"x":110,"y":808,"w":13,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":13},
+	"sourceSize": {"w":13,"h":13}
+},
+"SCTCloseBtn.png":
+{
+	"frame": {"x":132,"y":712,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":66,"h":66}
+},
+"TableBtn_Vip.png":
+{
+	"frame": {"x":57,"y":808,"w":51,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":53},
+	"sourceSize": {"w":51,"h":53}
+},
+"TableBtn_Vip_dark.png":
+{
+	"frame": {"x":2,"y":863,"w":51,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":53},
+	"sourceSize": {"w":51,"h":53}
+},
+"TableBtn_dragon.png":
+{
+	"frame": {"x":2,"y":918,"w":51,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":53},
+	"sourceSize": {"w":51,"h":53}
+},
+"TableBtn_dragon_dark.png":
+{
+	"frame": {"x":255,"y":712,"w":51,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":53},
+	"sourceSize": {"w":51,"h":53}
+},
+"TableBtn_hat.png":
+{
+	"frame": {"x":200,"y":712,"w":53,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":53},
+	"sourceSize": {"w":53,"h":53}
+},
+"TableBtn_hat_dark.png":
+{
+	"frame": {"x":2,"y":808,"w":53,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":53},
+	"sourceSize": {"w":53,"h":53}
+},
+"btn_changerole.png":
+{
+	"frame": {"x":2,"y":760,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"btn_changerole_press.png":
+{
+	"frame": {"x":2,"y":712,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "playerinfo.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d5004a293f14cbfe9cf17afe14b969e7$"
+}
+}

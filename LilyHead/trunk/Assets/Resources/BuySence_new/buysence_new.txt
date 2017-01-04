@@ -1,0 +1,180 @@
+{"frames": {
+
+"BSTListBg.png":
+{
+	"frame": {"x":149,"y":2,"w":49,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":68},
+	"sourceSize": {"w":49,"h":68}
+},
+"BSTOneWord.png":
+{
+	"frame": {"x":2,"y":432,"w":719,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":719,"h":41},
+	"sourceSize": {"w":719,"h":41}
+},
+"Btn_buy.png":
+{
+	"frame": {"x":471,"y":2,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"Btn_buy_press.png":
+{
+	"frame": {"x":601,"y":2,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"Btn_scale.png":
+{
+	"frame": {"x":260,"y":2,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60}
+},
+"Btn_use.png":
+{
+	"frame": {"x":731,"y":2,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"Btn_use_press.png":
+{
+	"frame": {"x":861,"y":2,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"China.png":
+{
+	"frame": {"x":666,"y":78,"w":250,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":175},
+	"sourceSize": {"w":250,"h":175}
+},
+"Community.png":
+{
+	"frame": {"x":254,"y":255,"w":250,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":175},
+	"sourceSize": {"w":250,"h":175}
+},
+"Egypt.png":
+{
+	"frame": {"x":506,"y":255,"w":250,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":175},
+	"sourceSize": {"w":250,"h":175}
+},
+"FLBg2.png":
+{
+	"frame": {"x":200,"y":2,"w":58,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":56},
+	"sourceSize": {"w":58,"h":56}
+},
+"Hwaii.png":
+{
+	"frame": {"x":2,"y":255,"w":250,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":175},
+	"sourceSize": {"w":250,"h":175}
+},
+"Japan.png":
+{
+	"frame": {"x":414,"y":78,"w":250,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":175},
+	"sourceSize": {"w":250,"h":175}
+},
+"Pic_bg1.png":
+{
+	"frame": {"x":29,"y":2,"w":33,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":36},
+	"sourceSize": {"w":33,"h":36}
+},
+"Pic_bg2.png":
+{
+	"frame": {"x":2,"y":2,"w":25,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":17},
+	"sourceSize": {"w":25,"h":17}
+},
+"Pic_hot.png":
+{
+	"frame": {"x":322,"y":2,"w":72,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":74},
+	"sourceSize": {"w":72,"h":74}
+},
+"Pic_new.png":
+{
+	"frame": {"x":396,"y":2,"w":73,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":74},
+	"sourceSize": {"w":73,"h":74}
+},
+"Pic_search.png":
+{
+	"frame": {"x":101,"y":2,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46}
+},
+"West.png":
+{
+	"frame": {"x":162,"y":78,"w":250,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":175},
+	"sourceSize": {"w":250,"h":175}
+},
+"chouma.png":
+{
+	"frame": {"x":64,"y":2,"w":35,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":35},
+	"sourceSize": {"w":35,"h":35}
+},
+"useing.png":
+{
+	"frame": {"x":2,"y":78,"w":158,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":35},
+	"sourceSize": {"w":158,"h":35}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "buysence_new.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f37ee62bafa2ac8105ba0f08d657ab86$"
+}
+}

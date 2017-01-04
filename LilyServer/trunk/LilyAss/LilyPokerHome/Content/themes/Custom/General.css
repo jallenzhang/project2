@@ -1,0 +1,122 @@
+﻿table, th, td
+{
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+th
+{
+    width: 10%;
+    border: 1 solid #cccccc;    
+}
+/* Lef menu */
+#sidebar {
+    float: left;
+    font-size: 1.2em;
+    margin-right: 20px;
+    width: 225px;
+}
+.bImg {
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#sidebar li a.button {
+    margin: 0;
+}
+.button {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 10px;
+    position: relative;
+}
+.buttonInactive, .inactive .button {
+    background-position: 0 -300px;
+    color: #333333;
+}
+.button .expanded {
+    background-position: 100% -2280px;
+}
+.button .expand {
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    vertical-align: middle;
+    width: 25px;
+}
+.botmodify label{
+    width:100px;
+    text-align:right;
+    display:block;
+    float:left;
+}
+.systemmodify label{
+    width:100px;
+    text-align:right;
+    display:block;
+    float:left;
+}
+/* on the right side */
+.roundedBorders {
+    float: left;
+    width: 695px;
+}
+.right table{
+    table-layout:fixed;
+}
+.right th {
+    font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    color: #4f6b72;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background: #CAE8EA  no-repeat;
+} 
+.right th.nobg {
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px solid #C1DAD7;
+    background: none;
+} 
+.right td {
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    background: #fff;
+    font-size:11px;
+    padding: 6px 6px 6px 12px;
+    color: #4f6b72;
+} 
+.right td.alt {
+    background: #F5FAFA;
+    color: #797268;
+} 
+.right th.spec {
+    border-left: 1px solid #C1DAD7;
+    border-top: 0;
+    background: #fff no-repeat;
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+} 
+.right th.specalt {
+    border-left: 1px solid #C1DAD7;
+    border-top: 0;
+    background: #f5fafa no-repeat;
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    color: #797268;
+}
+.scroll {  
+    width: 100%;                                     /*宽度*/  
+    height: 500px;                                  /*高度*/   
+    padding-left: 10px;                             /*层内左边距*/  
+    padding-right: 10px;                            /*层内右边距*/  
+    padding-top: 10px;                              /*层内上边距*/  
+    padding-bottom: 10px;                           /*层内下边距*/  
+    overflow-x: auto;                             /*横向滚动条(scroll:始终出现;auto:必要时出现;具体参考CSS文档)*/  
+}  

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataLilyModel">
+  <DataContextMoniker Name="/DataLilyModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="43d35313-5fc9-473a-b74f-0e929a7f887c" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/bank" />
+      <nestedChildShapes>
+        <elementListCompartment Id="930f41ef-1316-4e10-8bd9-d22d777cff37" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f6fc2f0a-d686-4cc1-8054-b533acde6bf9" isExpanded="false" absoluteBounds="0.5, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/bot" />
+      <nestedChildShapes>
+        <elementListCompartment Id="801a8bfb-b321-45a8-8d83-9c1cf4081201" absoluteBounds="0.515, 1.71, 1.9700000000000002, 5.0229593912760411" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="551e744c-6940-4fb4-9ed5-fb2970ba742b" isExpanded="false" absoluteBounds="0.5, 2, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/configRobotStrategy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68b2650c-7aa4-4a1e-9ecf-82f6d04cbd28" absoluteBounds="0.515, 2.46, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e983b8fd-109b-4b36-9da7-1efdc8c32c8a" isExpanded="false" absoluteBounds="0.625, 2.625, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/feedback" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5edfb3ba-8e7c-4862-8ddb-262f1e9988c7" absoluteBounds="0.64, 3.085, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f8e6e68b-0d37-414f-985d-5d0e8df97e97" isExpanded="false" absoluteBounds="0.625, 3.375, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/friend" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a376d8f5-8572-4dbf-80d5-a68127434d33" absoluteBounds="0.64, 3.835, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c8bf741-7b12-4f1e-8d85-01a5f689ced1" isExpanded="false" absoluteBounds="0.5, 4, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f75c920-ee3a-4160-aa9f-a7bc5883fb95" absoluteBounds="0.515, 4.46, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="69ac53a8-a53c-48ee-9fcd-646600b18c84" isExpanded="false" absoluteBounds="0.5, 4.625, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/ReportUserOnline" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd7ed9ca-4e32-45b4-b41e-c9b013539401" absoluteBounds="0.515, 5.085, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d70ecbc0-3c64-4788-a5ed-2bb0c96be300" isExpanded="false" absoluteBounds="3.125, 0.625, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91877725-7f18-4b8e-8bfb-37eb55dad70e" absoluteBounds="3.14, 1.085, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b686a178-5cba-4949-bac1-acda4f8de2cb" isExpanded="false" absoluteBounds="3.125, 2.125, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/usermessage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6c70216-d824-4ef5-b3f5-0898aa30bc5f" absoluteBounds="3.14, 2.585, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="898d2283-f268-49cc-94db-e945a0537849" isExpanded="false" absoluteBounds="3.125, 3.5, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/usersecond" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f05b17a0-52d0-4170-9ba5-eb7684a1346a" absoluteBounds="3.14, 3.96, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b3d2b1c-691d-423d-8618-05473ad32f34" isExpanded="false" absoluteBounds="3.125, 4.125, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/configSystem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="57a75780-e310-4084-8222-07a2caa66662" absoluteBounds="3.14, 4.585, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f83d19b-962b-4f29-bc84-a89d84ed5478" absoluteBounds="5.875, 1, 2, 2.7176639811197916">
+      <DataClassMoniker Name="/DataLilyModelDataContext/userprop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="61116fdc-761d-4cad-8587-a380cb4aef03" absoluteBounds="5.89, 1.46, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eb05f839-5257-4769-846c-460c79895d8c" isExpanded="false" absoluteBounds="3.125, 2.875, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/userpayment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7a173992-06b0-4de1-9373-bfd409572292" absoluteBounds="3.1399999999999997, 3.335, 1.9700000000000002, 2.348683675130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85d6f4d4-4e93-4f0a-8833-0dc3b05cb14f" isExpanded="false" absoluteBounds="3.125, 1.375, 2, 0.45">
+      <DataClassMoniker Name="/DataLilyModelDataContext/user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ad5bd22-3281-4c7f-b0d6-c6a639fdfb45" absoluteBounds="3.14, 1.835, 1.9700000000000002, 7.124176025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

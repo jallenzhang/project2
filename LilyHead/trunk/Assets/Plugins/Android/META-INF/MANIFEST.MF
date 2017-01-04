@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AppDemo4_20120531
+Bundle-SymbolicName: AppDemo4_20120531
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: AppDemo4_20120531.jar,
+ libs/alipay_msp.jar,
+ Alipay/org.osgi.foundation-1.0.0.jar,
+ java/android-sdk_r18-windows/android-sdk-windows/platforms/android-14/android.jar,
+ Java/jdk1.7.0_05/lib/tools.jar
+Export-Package: com,
+ com.alipay,
+ com.alipay.android,
+ com.toufe.lilypoker

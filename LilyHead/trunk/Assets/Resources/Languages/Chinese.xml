@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+   
+  <string>
+    <key>LOGIN_SYSTEM_ERROR</key>
+    <value>系统错误</value>
+  </string>
+    <string>
+        <key>LOGIN_AUTHENTICATION_FAIL</key>
+        <value>用户名或密码错误</value>
+    </string>
+    <string>
+        <key>LOGIN_USER_EXIST</key>
+        <value>用户已存在</value>
+    </string>
+    <string>
+        <key>LOGIN_NO_RESULT</key>
+        <value>无数据</value>
+    </string>
+    <string>
+        <key>LOGIN_UNKNOWN_ERROR</key>
+        <value>未知错误</value>
+    </string>
+    <string>
+        <key>LOGIN_MAIL_LENGTH_ERROR</key>
+        <value>邮箱名字长度在6-30之间</value>
+    </string>
+    <string>
+        <key>FINDER_MAIL_EMPTY_ERROR</key>
+        <value>请输入邮箱!</value>
+    </string>
+    <string>
+        <key>LOGIN_MAIL_FORMATTER_ERROR</key>
+        <value>邮箱格式错误</value>
+    </string>
+    <string>
+        <key>LOGIN_PASSWORD_FORMATTER_ERROR</key>
+        <value>密码必须是数字或者字符</value>
+    </string>
+    <string>
+        <key>LOGIN_PASSWORD_LENGTH_ERROR</key>
+        <value>密码长度在6~12之间</value>
+    </string>
+    <string>
+        <key>LOGIN_NICKNAME_LENGTH_ERROR</key>
+        <value>用户名长度不对</value>
+    </string>
+    
+    <string>
+        <key>LOGIN_AVATOR_CHOOSE_ERROR</key>
+        <value>请选择头像</value>
+    </string>
+    
+    <string>
+        <key>DIALOG_TITLE_ERROR</key>
+        <value>错误</value>
+    </string>
+    <string>
+        <key>DIALOG_BUTTON_OK</key>
+        <value>确定</value>
+    </string>
+    
+    <string>
+        <key>HONOR_CITIZEN</key>
+        <value>平民</value>
+    </string>
+    
+    <string>
+        <key>HONOR_CITIZEN_DESCRIPTION</key>
+        <value>拥有筹码数量小于五万</value>
+    </string>
+    
+	<string>
+        <key>HONOR_KNIGHT</key>
+        <value>知县</value>
+    </string>
+    
+    <string>
+        <key>HONOR_KNIGHT_DESCRIPTION</key>
+        <value>拥有五万以上三十万以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_KNIGHT_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于50场</value>
+    </string>
+    
+	<string>
+        <key>HONOR_BARON</key>
+        <value>千户</value>
+    </string>
+    
+    <string>
+        <key>HONOR_BARON_DESCRIPTION</key>
+        <value>拥有三十万以上五十万以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_BARON_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于100场</value>
+    </string>
+     
+	<string>
+        <key>HONOR_VICOMTE</key>
+        <value>总兵</value>
+    </string>
+    
+    <string>
+        <key>HONOR_VICOMTE_DESCRIPTION</key>
+        <value>拥有五十万以上一百万以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_VICOMTE_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于300场</value>
+    </string>
+    
+	<string>
+        <key>HONOR_COMTE</key>
+        <value>兵部侍郎</value>
+    </string>
+    
+    <string>
+        <key>HONOR_COMTE_DESCRIPTION</key>
+        <value>拥有一百万以上，四百万以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_COMTE_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于400场，胜利场数大于30场</value>
+    </string>
+    
+   <string>
+        <key>HONOR_MARQUIS</key>
+        <value>内务府总管</value>
+    </string>
+    
+    <string>
+        <key>HONOR_MARQUIS_DESCRIPTION</key>
+        <value>拥有四百万以上，八百万以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_MARQUIS_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于550场，胜利场数大于50场</value>
+    </string>
+    
+   <string>
+        <key>HONOR_DUKE</key>
+        <value>八部巡抚</value>
+    </string>
+    
+    <string>
+        <key>HONOR_DUKE_DESCRIPTION</key>
+        <value>拥有八百万以上，二千万以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_DUKE_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于770场，胜利场数大于100场</value>
+    </string>
+    
+    <string>
+        <key>HONOR_ARCHDUKE</key>
+        <value>殿阁大学士</value>
+    </string>
+    
+    <string>
+        <key>HONOR_ARCHDUKE_DESCRIPTION</key>
+        <value>拥有二千万以上，五千万以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_ARCHDUKE_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于1000场，胜利场数大于200场</value>
+    </string>
+    
+    <string>
+        <key>HONOR_INFANTE</key>
+        <value>阿哥</value>
+    </string>
+    
+    <string>
+        <key>HONOR_INFANTE_DESCRIPTION</key>
+        <value>拥有五千万以上、一亿以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_INFANTE_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于1500，胜利场数大于350场</value>
+    </string>
+    
+    <string>
+        <key>HONOR_PRINCESS</key>
+        <value>格格</value>
+    </string>
+    
+    <string>
+        <key>HONOR_PRINCE</key>
+        <value>皇太子</value>
+    </string>
+    
+    <string>
+        <key>HONOR_PRINCE_DESCRIPTION</key>
+        <value>拥有一亿以上，五亿以下的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_PRINCE_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于2000场，胜利场数大于500场，等级大于10级</value>
+    </string>
+
+	<string>
+        <key>HONOR_KING</key>
+        <value>皇帝</value>
+    </string>
+    
+    <string>
+        <key>HONOR_KING_DESCRIPTION</key>
+        <value>拥有超过五亿以上的筹码</value>
+    </string>
+    
+    <string>
+        <key>HONOR_KING_DESCRIPTION_OTHER</key>
+        <value>参加的牌局数大于4000场，胜利场数大于1200场，等级大于10级，至少赢得50场锦标赛赛事</value>
+    </string>
+    
+    <string>
+        <key>HONOR_QUEUE</key>
+        <value>太后</value>
+    </string>
+    
+    <string>
+        <key>NICKNAME_OIL</key>
+        <value>石油大亨</value>
+    </string>
+    
+    <string>
+        <key>NICKNAME_PIRATE</key>
+        <value>海盗王</value>
+    </string>
+    
+    <string>
+        <key>NICKNAME_PRINCE</key>
+        <value>欧洲王储</value>
+    </string>
+    <string>
+        <key>NICKNAME_SONG_WOMEN</key>
+        <value>宋朝官员的姨太太</value>
+    </string>
+    <string>
+        <key>NICKNAME_WEALTHYWIFE</key>
+        <value>俄罗斯富商大老婆</value>
+    </string>
+    <string>
+        <key>NICKNAME_QIANJIN</key>
+        <value>意大利黑手党千金</value>
+    </string>
+    <string>
+        <key>NICKNAME_BLACK</key>
+        <value>饶舌歌星</value>
+    </string>
+    <string>
+        <key>NICKNAME_LOLI</key>
+        <value>有钱的小萝莉</value>
+    </string>
+    
+    <string>
+        <key>LEVEL_CHIP_PROMPT_MESSAGE</key>
+        <value>(等级:{0} 总资产:{1})</value>
+    </string>
+    
+    <string>
+        <key>REQUEST_FRIEND_PROMPT_MESSAGE</key>
+        <value>希望和你成为牌友</value>
+    </string>
+    
+    <string>
+        <key>INVITE_FRIEND_1_PROMPT_MESSAGE</key>
+        <value>邀请你去TA家串门。</value>
+    </string>
+    
+    <string>
+        <key>INVITE_FRIEND_2_PROMPT_MESSAGE</key>
+        <value>邀请你参加TA的牌局。</value>
+    </string>
+    
+    <string>
+        <key>QIANJING_TALK_PROMPT_MESSAGE</key>
+        <value>你只要输点钱给我当保护费，我的手下就会保护你的！</value>
+    </string>
+    
+    <string>
+        <key>OIL_TALK_PROMPT_MESSAGE</key>
+        <value>每当我需要钱的时候，我就拧开家里的水龙头。</value>
+    </string>
+    
+    <string>
+        <key>BLACK_TALK_PROMPT_MESSAGE</key>
+        <value>药！药！切克闹！……#￥@#！！……</value>
+    </string>
+    
+    <string>
+        <key>RUSSIA_TALK_PROMPT_MESSAGE</key>
+        <value>若是我赢了钱，就请你们喝我们最著名的伏特加！</value>
+    </string>
+    
+    <string>
+        <key>SONG_TALK_PROMPT_MESSAGE</key>
+        <value>扑克本极好，闲暇消遣时光，若是赢些银两，倒也不负圣上恩泽！</value>
+    </string>
+    
+    <string>
+        <key>HAIDAO_TALK_PROMPT_MESSAGE</key>
+        <value>我是要成为海贼王的男人，怎么会输在这小小赌桌上！</value>
+    </string>
+    
+    <string>
+        <key>EURO_TALK_PROMPT_MESSAGE</key>
+        <value>我身上最古老最纯正的皇室血统会帮助我赢得牌局的。</value>
+    </string>
+    
+    <string>
+        <key>LOLI_TALK_PROMPT_MESSAGE</key>
+        <value>大叔！你是不是没钱了？没钱还给我买那么多棒棒糖……</value>
+    </string>
+
+    <string>
+        <key>CONNECTING_TIME_OUT_ERROR</key>
+        <value>对不起，服务器无响应，请检查您的网络后再次尝试</value>
+    </string>
+    
+    <string>
+        <key>LOGIN_SUCCESS_SEND_CHIPS_INFO</key>
+        <value>每日登陆，康熙有礼！</value>
+    </string>
+    
+    <string>
+        <key>FRIEND_SEND_CHIPS_INFO</key>
+        <value>{0}给您送筹码了</value>
+    </string>
+    
+    <string>
+        <key>FRIEND_REQUEST_SUCCESSED</key>
+        <value>成功添加{0}为牌友</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NEW_VERSION_NEED_TO_DOWN_TITLE</key>
+        <value>版本更新</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NEW_VERSION_NEED_TO_DOWN_DESCRIPTION</key>
+        <value>检测最新客户端为V{0}，是否更新您的客户端?</value>
+    </string>
+    
+    <string>
+        <key>TIPS_FRIEND_ADDED_TITLE</key>
+        <value>成功添加牌友</value>
+    </string>
+    
+    <string>
+        <key>TIPS_FRIEND_ADDED_DESCRIPTION</key>
+        <value>成功添加{0}为牌友</value>
+    </string>
+    
+    <string>
+        <key>TIPS_JOIN_GAME_NOTEXIST_TITLE</key>
+        <value>加入失败！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_JOIN_GAME_NOTEXIST_DESCRIPTION</key>
+        <value>对不起，主人还未创建牌局</value>
+    </string>
+    
+    <string>
+        <key>TIPS_JOIN_GAME_CHIP_NOT_ENOUGH_TITLE</key>
+        <value>加入失败！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_JOIN_GAME_CHIP_NOT_ENOUGH_DESCRIPTION</key>
+        <value>你的钱不够</value>
+    </string>
+    
+    <string>
+        <key>TIPS_START_GAME_LEVEL_LIMITED_TITLE</key>
+        <value>提示</value>
+    </string>
+    
+    <string>
+        <key>TIPS_START_GAME_CHIP_NOT_ENOUGH_TITLE</key>
+        <value>提示</value>
+    </string>
+    
+    <string>
+        <key>TIPS_START_GAME_LEVEL_LIMITED_DESCRIPTION</key>
+        <value>你的等级必须超过2级时才可以自主创建牌局，请点击下方马上开始按钮开始游戏。</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_LEVEL_LIMITED_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_LEVEL_LIMITED_DESCRIPTION</key>
+        <value>您的等级已经达到游客账户上限，为了您的账户安全，请点击设置按钮选择快速注册，升级成为正式账户</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_CHIPS_LIMITED_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_CHIPS_LIMITED_DESCRIPTION</key>
+        <value>您的筹码已经达到游戏账户上限，为了您的账户安全，请点击设置按钮选择快速注册，升级成为正式账户</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_BUY_CHIPS_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_BUY_CHIPS_DESCRIPTION</key>
+        <value>您目前是游客账户，为了您的消费安全，请点击设置按钮选择快速注册，升级成为正式账户后购买。</value>
+    </string>
+    
+    <string>
+        <key>TIPS_LOGOUT_CONFIRM_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_LOGOUT_CONFIRM_DESCRIPTION</key>
+        <value>你确定要注销该账户？注销账户后需要手动输入账号和密码才能进入游戏！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_CHANGE_PASSWORD_CONFIRM_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_CHANGE_PASSWORD_CONFIRM_DESCRIPTION</key>
+        <value>你确定要修改当前账户密码？</value>
+    </string>
+    
+    <string>
+        <key>TIPS_CHANGE_PASSWORD_CONFIRM_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_CHANGE_PASSWORD_CONFIRM_DESCRIPTION</key>
+        <value>你确定要修改当前账户密码？</value>
+    </string>
+    
+    <string>
+        <key>TIPS_OLD_PASSWORD_CONFIRM_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_OLD_PASSWORD_CONFIRM_DESCRIPTION</key>
+        <value>密码不正确，请再次输入！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NEW_PASSWORD_ERROR_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NEW_PASSWORD_ERROR_DESCRIPTION</key>
+        <value>密码必须是由6-12位的数字和英文组成</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NEW_PASSWORD_DIFFERENT_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NEW_PASSWORD_DIFFERENT_DESCRIPTION</key>
+        <value>两次密码输入不一致</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NOTIFICATION_CLOSE_TITLE</key>
+        <value>小提示</value>
+    </string>
+    
+    <string>
+        <key>TIPS_NOTIFICATION_CLOSE_DESCRIPTION</key>
+        <value>关闭notification系统将减少每日赠送的筹码数量</value>
+    </string>
+    
+    <string>
+        <key>TIPS_HAND_STRENGTH_OPEN_TITLE</key>
+        <value>小提示</value>
+    </string>
+    
+    <string>
+        <key>TIPS_HAND_STRENGTH_OPEN_DESCRIPTION</key>
+        <value>使用牌力指示器，系统将收取一定量的筹码作为报酬</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_FRIEND_ADD_FAILED_TITLE</key>
+        <value>添加失败！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_FRIEND_ADD_FAILED_DESCRIPTION</key>
+        <value>对不起，游客账户无法添加牌友，请点击设置按钮选择快速注册，升级成为正式账户.</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_BUY_CHIP_FAILED_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_GUEST_BUY_CHIP_FAILED_DESCRIPTION</key>
+        <value>您目前是游客账户，为了您的消费安全，请点击设置按钮选择快速注册，升级成为正式账户后购买。</value>
+    </string>
+    
+    <string>
+        <key>TIPS_FAST_START_CHIPS_NOT_ENOUGH_TITLE</key>
+        <value>加入失败！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_FAST_START_CHIPS_NOT_ENOUGH_DESCRIPTION</key>
+        <value>你的钱不够</value>
+    </string>
+    
+    <string>
+        <key>TIPS_WAIT_FOR_NEXT_ROUND_TITLE</key>
+        <value>请等待…</value>
+    </string>
+    
+    <string>
+        <key>TIPS_WAIT_FOR_NEXT_ROUND_DESCRIPTION</key>
+        <value>请等待下一局</value>
+    </string>
+    
+    <string>
+        <key>TIPS_30_DAYS_HANDSTRENGTH_DESCRIPTION</key>
+        <value>恭喜获得牌力指示器免费使用30天权限！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_MORE_MONEY_TO_MILLITION_DESCRIPTION</key>
+        <value>点此获得更多筹码，瞬间成为千万富翁!</value>
+    </string>
+    
+    <string>
+        <key>TIPS_BUY_GIFT_CHIP_FAILED_TITLE</key>
+        <value>购买失败！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_BUY_GIFT_CHIP_FAILED_DESCRIPTION</key>
+        <value>你的钱不够</value>
+    </string>
+    
+    <string>
+        <key>TIPS_BLANK_IN_SEARCHI_BOX_TITLE</key>
+        <value>搜索失败！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_BLANK_IN_SEARCHI_BOX_DESCRIPTION</key>
+        <value>请输入想要搜索的用户昵称</value>
+    </string>
+    
+    <string>
+        <key>TIPS_PASSWORD_BACK_SUCCESS_TITLE</key>
+        <value>密码找回成功！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_PASSWORD_BACK_SUCCESS_DESCRIPTION</key>
+        <value>已重置密码并发送至注册邮箱</value>
+    </string>
+    
+    <string>
+        <key>TIPS_PASSWORD_BACK_FAILED_TITLE</key>
+        <value>密码找回成功！</value>
+    </string>
+    
+    <string>
+        <key>TIPS_PASSWORD_BACK_FAILED_DESCRIPTION</key>
+        <value>已重置密码并发送至注册邮箱</value>
+    </string>
+    
+    <string>
+        <key>TIPS_CHIP_SEND_TO_ME_TITLE</key>
+        <value>牌友赠送</value>
+    </string>
+    
+    <string>
+        <key>TIPS_CHIP_SEND_TO_ME_DESCRIPTION</key>
+        <value>{0}给您送筹码了</value>
+    </string>
+    
+    <string>
+        <key>TIPS_DAILY_GIFT_TITLE</key>
+        <value>每日奖励</value>
+    </string>
+    
+    <string>
+        <key>TIPS_DAILY_GIFT_DESCRIPTION</key>
+        <value>每日登陆，康熙有礼！</value>
+    </string>
+
+    <string>
+		<key>TIPS_EXIT_TITLE</key>
+        <value>离开康熙德州扑克</value>
+    </string>
+    <string>
+		<key>TIPS_EXIT_DESCRIPTION</key>
+        <value>点击确定将离开康熙德州扑克，是否确定？</value>
+   </string>
+	<string>
+		<key>TIPS_LOGOUT_TITLE</key>
+        <value>返回登录界面</value>
+    </string>
+    <string>
+		<key>TIPS_LOGOUT_DESCRIPTION</key>
+        <value>点击确定将返回登录界面，是否确定？</value>
+   </string>
+	 <string>
+		<key>TIPS_GOROOM_TITLE</key>
+        <value>返回客厅</value>
+    </string>
+    <string>
+		<key>TIPS_GOROOM_DESCRIPTION</key>
+        <value>点击确定将返回客厅，是否确定？</value>
+   </string>
+    
+    <string>
+        <key>FIND_PASSWORD_FAILED_TITLE</key>
+        <value>密码找回失败！</value>
+    </string>
+    
+    <string>
+        <key>FIND_PASSWORD_FAILED_DESCRIPTION</key>
+        <value>账号不存在!</value>
+    </string>
+    
+    <string>
+        <key>FIND_PASSWORD_SUCCESSED_TITLE</key>
+        <value>密码找回成功！</value>
+    </string>
+    
+    <string>
+        <key>FIND_PASSWORD_SUCCESSED_DESCRIPTION</key>
+        <value>已重置密码并发送至注册邮箱</value>
+    </string>
+    
+    <string>
+        <key>TWO_PASSWORD_NOT_EQUAL_DESCRIPTION</key>
+        <value>用户两次输入的新密码不一致</value>
+    </string>
+    
+    <string>
+        <key>CANNOT_FIND_FRIEND_BG_LABEL</key>
+        <value>杯具，没有找到[ff0000]{0}[-]的相关用户</value>
+    </string>
+    
+    <string>
+        <key>CANNOT_FIND_FRIEND_FG_LABEL</key>
+        <value>杯具，没有找到{0}的相关用户</value>
+    </string>
+    
+    <string>
+        <key>GUEST_HAND_STRENGTH_FAILED_TITLE</key>
+        <value>小提示</value>
+    </string>
+    
+    <string>
+        <key>GUEST_HAND_STRENGTH_FAILED_DESCRIPTION</key>
+        <value>对不起，只有正式注册用户才可以使用牌力指示器，现在立即注册获得牌力指示器免费使用30天特权！</value>
+    </string>
+    
+    <string>
+        <key>GUEST_LOGIN_INFO_TITLE</key>
+        <value>小提示</value>
+    </string>
+    
+    <string>
+        <key>GUEST_LOGIN_INFO_DESCRIPTION</key>
+        <value>注册成正式用户每天获得额外筹码奖励，并且筹码上线限制取消。</value>
+    </string>
+    
+         <string>
+        <key>HIGHCARD</key>
+        <value>高牌</value>
+    </string>
+    
+    <string>
+        <key>PAIR</key>
+        <value>一对</value>
+    </string>
+       
+    <string>
+        <key>TWOPAIR</key>
+        <value>两对</value>
+    </string>
+    
+     <string>
+        <key>TRIPS</key>
+        <value>三条</value>
+    </string>
+    
+    <string>
+        <key>STRAIGHT</key>
+        <value>顺子</value>
+    </string>
+  
+    <string>
+        <key>FLUSH</key>
+        <value>同花</value>
+    </string>
+    
+    <string>
+        <key>FULLHOUSE</key>
+        <value>葫芦</value>
+    </string>
+    
+     <string>
+        <key>FOUROFAKIND</key>
+        <value>四条</value>
+    </string>
+    
+    <string>
+        <key>STRAIGHTFLUSH</key>
+        <value>同花顺</value>
+    </string>
+    
+    <string>
+        <key>BIGGESTSTRAIGHTFLUSH</key>
+        <value>皇家同花顺</value>
+    </string>
+    
+    <string>
+        <key>SPEAK_WORLD</key>
+        <value>[ff9250][喊话][-]&lt;{0}&gt;:{1}</value>
+    </string>
+    
+    <string>
+        <key>SPEAK_SYSTEM</key>
+        <value>[c693ff][系统][-]:{0}</value>
+    </string>
+    
+    <string>
+        <key>SEND_CHIP_MONEY_NOT_ENOUGH</key>
+        <value>你的筹码太少了</value>
+    </string>
+    
+    <string>
+        <key>CREATTABLEINFO_MONEY_NOT_ENOUGH</key>
+        <value>您的筹码不足5M，无法创建富豪牌局</value>
+    </string>
+    <string>
+        <key>PLEASE_INPUT_WHAT_YOU_WANT_TO_SAY</key>
+        <value>请输入你想说的话</value>
+    </string>
+    <string>
+        <key>SCENE_CLASSIC</key>
+        <value>古典浪漫庭院</value>
+    </string>
+    <string>
+        <key>SCENE_CLASSIC_DESCRIPTION</key>
+        <value>不出城廓而获山水之怡，身居闹市而得林泉之趣</value>
+    </string>
+    <string>
+        <key>SCENE_COMMUNITY</key>
+        <value>高档富人小区</value>
+    </string>
+    <string>
+        <key>SCENE_COMMUNITY_DESCRIPTION</key>
+        <value>坐拥豪华房产，专享富人品味</value>
+    </string>
+    <string>
+        <key>SCENE_WEST</key>
+        <value>西部牛仔酒馆</value>
+    </string>
+    <string>
+        <key>SCENE_WEST_DESCRIPTION</key>
+        <value>一人一枪一匹老马，荒漠夕阳走遍天涯</value>
+    </string>
+    <string>
+        <key>SCENE_JAPAN</key>
+        <value>日本情调桃源</value>
+    </string>
+     <string>
+        <key>SCENE_JAPAN_DESCRIPTION</key>
+        <value>自古扶桑顿首岁岁来朝，而今坐拥桃园滚滚财源</value>
+    </string>
+    <string>
+        <key>SCENE_HAWAII</key>
+        <value>夏威夷风情</value>
+    </string>
+    <string>
+        <key>SCENE_HAWAII_DESCRIPTION</key>
+        <value>专享绿树成荫海风习习，满目绿色蔚蓝相映成趣</value>
+    </string>
+    <string>
+        <key>SCENE_EGYPT</key>
+        <value>埃及法老墓室</value>
+    </string>
+    <string>
+        <key>SCENE_EGYPT_DESCRIPTION</key>
+        <value>幽深墓穴寻幽探秘，万里黄沙异域风情</value>
+    </string>
+    <string>
+        <key>SAME_ACCOUNT_LOGIN_TITLE</key>
+        <value>小提示</value>
+    </string>
+     <string>
+        <key>NOFRIENDTIPS</key>
+        <value>您当前还没有好友</value>
+    </string>
+    <string>
+        <key>TABLEFULLERROR</key>
+        <value>您加入的牌桌已经满了</value>
+    </string>
+    <string>
+        <key>SAME_ACCOUNT_LOGIN_DESCRIPTION</key>
+        <value>您的账号在别处登录！如果不是您自己的操作，请尽快修改密码以保证账号安全！</value>
+    </string>
+    
+    <string>
+        <key>BUY_CHIPS_INDEX_60K</key>
+        <value>60K筹码</value>
+    </string>
+ <string>
+        <key>BUY_CHIPS_INDEX_120K</key>
+        <value>120K筹码</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_250K</key>
+        <value>250K筹码</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_300K</key>
+        <value>300K筹码</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_700K</key>
+        <value>700K筹码</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_3.4M</key>
+        <value>3.4M筹码</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_6.8M</key>
+        <value>6.8M筹码</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_36M</key>
+        <value>36M筹码</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_72M</key>
+        <value>72M筹码</value>
+    </string>
+
+    <string>
+        <key>BUY_CHIPS_INDEX_60K_TIP</key>
+        <value>60,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_120K_TIP</key>
+        <value>120,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_250K_TIP</key>
+        <value>250,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_300K_TIP</key>
+        <value>300,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_700K_TIP</key>
+        <value>700,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_3.4M_TIP</key>
+        <value>3,400,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_6.8M_TIP</key>
+        <value>6,800,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_36M_TIP</key>
+        <value>36,000,000</value>
+    </string>
+    <string>
+        <key>BUY_CHIPS_INDEX_72M_TIP</key>
+        <value>72,000,000</value>
+    </string>
+
+   
+    <string>
+        <key>BIGBLINDAMNT</key>
+        <value>大盲注</value>
+    </string>
+      
+      <string>
+        <key>BLINDAMNTANDSMALLAMNT</key>
+        <value>本局开始盲注提升为{0}</value>
+    </string>
+     <string>
+        <key>SAMLLBLINDAMNT</key>
+        <value>小盲注</value>
+    </string>
+    <string>
+        <key>GUOPAI</key>
+        <value>过牌</value>
+    </string>
+    <string>
+        <key>GAIPAI</key>
+        <value>盖牌</value>
+    </string>
+    <string>
+        <key>YIGAIPAI</key>
+        <value>已盖牌</value>
+    </string>
+    <string>
+        <key>JIAZHU</key>
+        <value>加注</value>
+    </string>
+    <string>
+        <key>QUANXIA</key>
+        <value>全下</value>
+    </string>
+    <string>
+        <key>GENZHU</key>
+        <value>跟注</value>
+    </string>
+        <string>
+        <key>YINGJIA</key>
+        <value>赢家</value>
+    </string>
+         <string>
+        <key>FANPAI</key>
+        <value>翻牌</value>
+    </string>
+        <string>
+        <key>ZHUAANPAI</key>
+        <value>转牌</value>
+    </string>
+    <string>
+        <key>HEPAI</key>
+        <value>河牌</value>
+    </string>
+    <string>
+        <key>GUOPAIHUOJIAZHU</key>
+        <value>过牌或加注</value>
+    </string>
+ 
+    <string>
+        <key>GAIPAIHUOQUANXIA</key>
+        <value>盖牌或全下</value>
+    </string>
+    <string>
+        <key>JOINGAMEERROR1</key>
+        <value>牌局不存在</value>
+    </string>
+    <string>
+        <key>JOINGAMEERROR2</key>
+        <value>你不在牌局中</value>
+    </string>
+    <string>
+        <key>NETWORK_CONNECTION_ERROR_TITLE</key>
+        <value>无法连接网络</value>
+    </string>
+    <string>
+        <key>NETWORK_CONNECTION_ERROR_DESCRIPTION</key>
+        <value>对不起，康熙德州扑克暂时无法连接到网络，请尽量使用3G/wifi网络以保证流畅的游戏体验。是否继续尝试连接？</value>
+    </string>
+    
+    <string>
+        <key>BUY_ITEM_RESPONSE_TITLE</key>
+        <value>支付成功！</value>
+    </string>
+    
+    <string>
+        <key>BUY_ITEM_RESPONSE_DESCRIPTION</key>
+        <value>您的本次消费已成功支付，如有任何疑问，请联系康熙德州扑克客服。客服QQ：2572528640</value>
+    </string>
+    
+    <string>
+        <key>BUY_ITEM_RESPONSE_FAILED_TITLE</key>
+        <value>验证失败。</value>
+    </string>
+    
+    <string>
+        <key>BUY_ITEM_RESPONSE_FAILED_DESCRIPTION</key>
+        <value>对不起，您的本次支付验证失败，请联系康熙德州扑克客服。客服QQ：2572528640</value>
+    </string>
+    
+    <string>
+        <key>PROP_4_1</key>
+        <value>康熙御玺包月</value>
+    </string>
+    
+    <string>
+        <key>PROP_4_2</key>
+        <value>康熙御玺 (90天)</value>
+    </string>
+    
+    <string>
+        <key>PROP_4_3</key>
+        <value>康熙御玺 (180天)</value>
+    </string>
+    
+    <string>
+        <key>PROP_4_4</key>
+        <value>康熙御玺包年</value>
+    </string>
+    
+    <string>
+        <key>PROP_4_5</key>
+        <value>康熙御玺 (永久)</value>
+    </string>
+    
+    <string>
+        <key>PROP_5_1</key>
+        <value>皇室血统包月</value>
+    </string>
+    
+    <string>
+        <key>PROP_5_2</key>
+        <value>皇室血统 (90天)</value>
+    </string>
+    
+    <string>
+        <key>PROP_5_3</key>
+        <value>皇室血统 (180天)</value>
+    </string>
+    
+    <string>
+        <key>PROP_5_4</key>
+        <value>皇室血统包年</value>
+    </string>
+    
+    <string>
+        <key>PROP_5_5</key>
+        <value>皇室血统 (永久)</value>
+    </string>
+    <string>
+        <key>RATE_ALERT_TITLE</key>
+        <value>App Store评分</value>
+    </string>
+    <string>
+        <key>RATE_ALERT_MESSAGE</key>
+        <value>喜欢康熙德州扑克吗？快去App Store留下您的评分吧！</value>
+    </string>
+    
+     <string>
+        <key>BUY_ITEM_CONFIRM_DIALOG_TITLE</key>
+        <value>购买确认</value>
+    </string>
+    
+    <string>
+        <key>BUY_ITEM_CONFIRM_DIALOG_DESCRIPTION</key>
+        <value>您将花费{0}个筹码购买角色（场景）-{1}，是否确认？</value>
+    </string>
+    
+    <string>
+        <key>BUY_SCENE_CONFIRM_DIALOG_DESCRIPTION</key>
+        <value>您将花费{0}个筹码购买场景-{1}，是否确认？</value>
+    </string>
+    
+    <string>
+        <key>BUY_AVATAR_CONFIRM_DIALOG_DESCRIPTION</key>
+        <value>您将花费{0}个筹码购买角色-{1}，是否确认？</value>
+    </string>
+    
+     <string>
+        <key>KICKERRORLEVEL</key>
+        <value>很抱歉对方的等级比你高,不能踢人</value>
+    </string>
+    
+    <string>
+        <key>KICKERRORLIMAT</key>
+        <value>超出踢人次数限制,不能踢人</value>
+    </string>
+    
+    <string>
+        <key>KICKERRORONER</key>
+        <value>对方是房主,不能踢人</value>
+    </string>
+    <string>
+        <key>KICKERRORPLAYING</key>
+        <value>正在打牌,不能踢人</value>
+    </string>
+	<string>
+        <key>SIGNIN_DIALOG_KANGXI_MESSAGE</key>
+        <value>点亮        "康熙御玺",每天奖励＋20％!经验值增速＋25％!</value>
+    </string>
+<string>
+        <key>SIGNIN_DIALOG_OPEN_KANGXI_MESSAGE</key>
+        <value>已点亮        "康熙御玺",每天奖励＋20％!经验值增速＋25％!</value>
+    </string>
+<string>
+        <key>WORLD_SPEAK_SYSTEM_NOTICE_TITLE</key>
+        <value>系统</value>
+    </string>
+    
+    <string>
+        <key>FEEDBACK_SUCCESS_TITLE</key>
+        <value>发送成功</value>
+    </string>
+    
+    <string>
+        <key>FEEDBACK_SUCCESS_DESCRIPTION</key>
+        <value>发送成功，感谢您的宝贵意见。</value>
+    </string>
+    
+    <string>
+        <key>FEEDBACK_FAILED_TITLE</key>
+        <value>发送失败</value>
+    </string>
+    
+    <string>
+        <key>FEEDBACK_FAILED_DESCRIPTION</key>
+        <value>非常感谢您尝试给我们提出宝贵意见，但此时您的网络不通畅，很遗憾发送失败了。请检查您的网络状况并再次尝试。</value>
+    </string>
+
+    <string>
+        <key>FEEDBACK_EMPTY_DESCRIPTION</key>
+        <value>请输入您想要提交的意见或建议！</value>
+    </string>
+    <string>
+        <key>FEEDBACK_TIP_DESCRIPTION</key>
+        <value>请在此输入您想对我们所说的话...</value>
+    </string>
+    
+    <string>
+        <key>CHANGE_PASSWORD_SUCCESS_TITLE</key>
+        <value>修改密码</value>
+    </string>
+    
+    <string>
+        <key>CHANGE_PASSWORD_SUCCESS_DESCRIPTION</key>
+        <value>修改密码成功。</value>
+    </string>
+    
+    <string>
+        <key>PLEASE_INPUT_YOUR_NICKNAME</key>
+        <value>点此输入昵称</value>
+    </string>
+    <string>
+        <key>KICKFOLDTWICE_TITLE</key>
+        <value>糟糕！</value>
+    </string>
+       <string>
+        <key>KICKFOLDTWICE_DESCRIPTION</key>
+        <value>您因为连续两次没有主动表态而被判断为挂机，因此服务器将你请出牌局。请点击快速开始后继续游戏</value>
+    </string>
+    
+    <string>
+        <key>KICKBYVIP_TITLE</key>
+        <value>提醒</value>
+    </string>
+    
+    <string>
+        <key>KICKBYVIP_DESCRIPTION</key>
+        <value>真可怜，您被VIP玩家{0}使用“踢人”功能请出牌局。现在充值任意金额即可提升至“VIP”享受“踢人”及防止被踢功能。</value>
+    </string>
+    <string>
+        <key>TIPS_ALLOW_FRIENDS_TITLE</key>
+        <value>没有牌友</value>
+    </string>
+    <string>
+        <key>TIPS_ALLOW_FRIENDS_DESCRIPTION</key>
+        <value>您当前并没有添加牌友，快去添加一个吧！</value> 
+    </string>
+
+    <string>
+      <key>STATUS_TIPS_MSG_FRIEND_UP</key>
+      <value>您的好友{0}上线了，快去约TA一起打牌吧！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BUY_CHIPS</key>
+      <value>有钱人{0}购买了{1}个筹码，大家快去抢筹码啊！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BUY_SCENE</key>
+      <value>{0}购买了场景——{1}，真是一个有格调的人！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BUY_AVATOR</key>
+      <value>{0}购买了角色——{1}，真是一个有格调的人！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BE_VIP</key>
+      <value>{0}成为了尊贵的VIP玩家，从此尊荣华贵，独享“踢人”特权！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BUY_JADE_MONTH</key>
+      <value>{0}购买了包月康熙玉玺服务，独享每日签到20%额外奖励，经验获得加成25%！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BUY_JADE_YEAR</key>
+      <value>{0}购买了包年康熙玉玺服务，独享每日签到20%额外奖励，经验获得加成25%！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BUY_LINEAGE_MONTH</key>
+      <value>{0}购买了包月皇室血统服务，独享赢得筹码额外获得5%的特殊奖励！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_BUY_LINEAGE_YEAR</key>
+      <value>{0}购买了包年皇室血统服务，独享赢得筹码额外获得5%的特殊奖励！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_STRAIGHT_FLUSH</key>
+      <value>{0}在康熙德州扑克中行大运发大财，得到了一付同花顺！</value>
+    </string>
+    <string>
+      <key>STATUS_TIPS_MSG_ROYAL_STRAIGHT_FLUSH</key>
+      <value>{0}在康熙德州扑克中行大运发大财，得到了一付皇家同花顺！</value>
+    </string>
+         <string>
+        <key>CARDFRIEND_NOTHERE_ERROT</key>
+        <value>错误</value>
+    </string>
+    <string>
+        <key>CARDFRIEND_NOTHERE_DESCRPITION</key>
+        <value>该玩家已经离开牌局，无法获得TA的详细信息</value>
+    </string>
+    
+    <string>
+        <key>SIMPLE_VERSION_LIMITED_1</key>
+        <value>你未使用豪华版，无法同意ta的串门邀请</value>
+    </string>
+    
+    <string>
+        <key>GAME_SPEAK_1</key>
+        <value>人有多大胆,地有多大产!</value>
+    </string>
+    
+    <string>
+        <key>GAME_SPEAK_2</key>
+        <value>玩儿这么小真没意思!</value>
+    </string>
+    
+    <string>
+        <key>GAME_SPEAK_3</key>
+        <value>快点吧，别磨磨唧唧的。</value>
+    </string>
+    
+    <string>
+        <key>GAME_SPEAK_4</key>
+        <value>ALL IN他!</value>
+    </string>
+    <string>
+        <key>NINETYONE_TIP_MESSAGE_TITLE</key>
+        <value>安全提示！</value>
+    </string>
+    <string>
+        <key>NINETYONE_TIP_MESSAGE</key>
+        <value>尊敬的{0}，您好， 	为了您的帐户安全，请您注册帐户后再购买。	</value>
+	</string>
+	
+	<string>
+        <key>NICKNAME_AGE</key>
+        <value>小阿哥</value>
+	</string>
+	
+	<string>
+        <key>NICKNAME_NIANGENYAO</key>
+        <value>年轻的年羹尧</value>
+	</string>
+	
+	<string>
+        <key>NICKNAME_GEGE</key>
+        <value>小格格</value>
+	</string>
+	
+	<string>
+        <key>NICKNAME_NIANGNIANG</key>
+        <value>皇后娘娘</value>
+	</string>
+	
+	<string>
+        <key>NIANGENYAO_SPEAK</key>
+        <value>家国十亿兵，国耻亟待平，十万虎狼师，跃马入东京！</value>
+	</string>
+	
+	<string>
+        <key>NIANGNIANG_SPEAK</key>
+        <value>年少不知愁，一字锁宫闱，惯看萧墙斗，天凉好个秋~</value>
+	</string>
+	
+	<string>
+        <key>GEGE_SPEAK</key>
+        <value>哦呦呦~要打仗么？伦家好怕怕的说~~~</value>
+	</string>
+	
+	<string>
+        <key>AGE_SPEAK</key>
+        <value>本阿哥召唤，速来速来！</value>
+	</string>
+      <string>
+        <key>BLINDAMNT</key>
+        <value>盲注</value>
+    </string>
+    <string>
+        <key>MATCH_TIP_TITLE</key>
+        <value>参赛提示</value>
+	</string>
+    <string>
+        <key>MATCH_TIP_DESCRIPTION</key>
+        <value>您已加入费用为{0}的牌桌，达到5人后开始比赛。比赛开始后将扣除参赛费用。</value>
+	</string>
+    
+    <string>
+        <key>BEFORE_MATCH_TIP_TITLE</key>
+        <value>比赛尚未开始，等待玩家加入。
+        此时离开比赛不扣除入场费和服务费。
+        </value>
+	</string>
+ <string>
+        <key>OVER_MATCH_TIP2</key>
+        <value>请再接再厉
+        </value>
+	</string>
+     <string>
+        <key>OVER_MATCH_TIP1</key>
+        <value>获得奖金 {0}
+        </value>
+	</string>
+    
+        <string>
+        <key>OVER_MATCH_TIP3</key>
+        <value>现在名次 {0}
+        </value>
+	</string>
+<string>
+        <key>OVER_MATCH_TIP4</key>
+        <value>共进行          局游戏              胜利          局
+
+现在名次
+
+现在筹码
+
+
+        </value>
+	</string>
+<string>
+        <key>OVER_MATCH_TIP5</key>
+        <value>共进行          局游戏              胜利          局
+
+现在名次
+
+获得奖金
+
+
+        </value>
+	</string>
+
+</strings>

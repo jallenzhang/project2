@@ -1,0 +1,27 @@
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\bin\Debug\PokerWorld.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\bin\Debug\PokerWorld.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\bin\Debug\DataPersist.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\bin\Debug\EricUtility.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\bin\Debug\DataPersist.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\bin\Debug\EricUtility.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\obj\Debug\PokerWorld.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\PokerWorld\obj\Debug\PokerWorld.pdb
+E:\job\work project\LilyServer\trunk\PokerWorld\bin\Debug\PokerWorld.dll
+E:\job\work project\LilyServer\trunk\PokerWorld\bin\Debug\PokerWorld.pdb
+E:\job\work project\LilyServer\trunk\PokerWorld\bin\Debug\DataPersist.dll
+E:\job\work project\LilyServer\trunk\PokerWorld\bin\Debug\EricUtility.dll
+E:\job\work project\LilyServer\trunk\PokerWorld\bin\Debug\DataPersist.pdb
+E:\job\work project\LilyServer\trunk\PokerWorld\bin\Debug\EricUtility.pdb
+E:\job\work project\LilyServer\trunk\PokerWorld\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyServer\trunk\PokerWorld\obj\Debug\PokerWorld.dll
+E:\job\work project\LilyServer\trunk\PokerWorld\obj\Debug\PokerWorld.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\bin\Debug\PokerWorld.dll
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\bin\Debug\PokerWorld.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\bin\Debug\DataPersist.dll
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\bin\Debug\EricUtility.dll
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\bin\Debug\DataPersist.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\bin\Debug\EricUtility.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\obj\Debug\PokerWorld.dll
+K:\dongjinzhong\jau\LilyServer\trunk\PokerWorld\obj\Debug\PokerWorld.pdb

@@ -1,0 +1,24 @@
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.dll.config
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\bin\Debug\JdSoft.Apns.Notifications.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\obj\Debug\LilyAPNNotification.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyAss\LilyAPNNotification\obj\Debug\LilyAPNNotification.pdb
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.dll.config
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.dll
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.pdb
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\JdSoft.Apns.Notifications.dll
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\Newtonsoft.Json.Compact.dll
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\obj\Debug\LilyAPNNotification.dll
+E:\job\work project\LilyServer\trunk\LilyAss\LilyAPNNotification\obj\Debug\LilyAPNNotification.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.dll.config
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\LilyAPNNotification.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\JdSoft.Apns.Notifications.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\bin\Debug\Newtonsoft.Json.Compact.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\obj\Debug\LilyAPNNotification.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\LilyAPNNotification\obj\Debug\LilyAPNNotification.pdb

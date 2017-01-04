@@ -1,0 +1,25 @@
+C:\LilyServer\LilyServer\EricUtility\bin\Debug\EricUtility.dll
+C:\LilyServer\LilyServer\EricUtility\bin\Debug\EricUtility.pdb
+C:\LilyServer\LilyServer\EricUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\LilyServer\LilyServer\EricUtility\obj\Debug\EricUtility.dll
+C:\LilyServer\LilyServer\EricUtility\obj\Debug\EricUtility.pdb
+C:\LilyServer\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.dll
+C:\LilyServer\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.pdb
+C:\LilyServer\LilyBody\trunk\EricUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\LilyServer\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.dll
+C:\LilyServer\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.pdb
+C:\WorkingCopy\svn\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.dll
+C:\WorkingCopy\svn\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.pdb
+C:\WorkingCopy\svn\LilyBody\trunk\EricUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkingCopy\svn\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.dll
+C:\WorkingCopy\svn\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.pdb
+E:\job\work project\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.dll
+E:\job\work project\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.pdb
+E:\job\work project\LilyBody\trunk\EricUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.dll
+E:\job\work project\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.pdb
+K:\dongjinzhong\jau\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.dll
+K:\dongjinzhong\jau\LilyBody\trunk\EricUtility\bin\Debug\EricUtility.pdb
+K:\dongjinzhong\jau\LilyBody\trunk\EricUtility\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.dll
+K:\dongjinzhong\jau\LilyBody\trunk\EricUtility\obj\Debug\EricUtility.pdb

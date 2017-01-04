@@ -1,0 +1,108 @@
+{"frames": {
+
+"FLBg2.png":
+{
+	"frame": {"x":283,"y":134,"w":58,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":56},
+	"sourceSize": {"w":58,"h":56}
+},
+"SCTBarBg_center.png":
+{
+	"frame": {"x":267,"y":134,"w":14,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":63},
+	"sourceSize": {"w":14,"h":63}
+},
+"SCTBarBg_left.png":
+{
+	"frame": {"x":238,"y":134,"w":27,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":63},
+	"sourceSize": {"w":27,"h":63}
+},
+"SCTBarBg_right.png":
+{
+	"frame": {"x":209,"y":134,"w":27,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":63},
+	"sourceSize": {"w":27,"h":63}
+},
+"SCTBarPress.png":
+{
+	"frame": {"x":75,"y":134,"w":132,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":140},
+	"sourceSize": {"w":132,"h":140}
+},
+"SCTBg.png":
+{
+	"frame": {"x":2,"y":134,"w":71,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":366},
+	"sourceSize": {"w":71,"h":366}
+},
+"SCTBlueBtn.png":
+{
+	"frame": {"x":310,"y":64,"w":162,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":60},
+	"sourceSize": {"w":162,"h":60}
+},
+"SCTCloseBtn.png":
+{
+	"frame": {"x":242,"y":64,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":66,"h":66}
+},
+"SCTPic_1.png":
+{
+	"frame": {"x":2,"y":64,"w":238,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":238,"h":68},
+	"sourceSize": {"w":238,"h":68}
+},
+"SCTPic_2.png":
+{
+	"frame": {"x":194,"y":2,"w":272,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":272,"h":26},
+	"sourceSize": {"w":272,"h":26}
+},
+"SCTPic_3.png":
+{
+	"frame": {"x":166,"y":2,"w":26,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":30},
+	"sourceSize": {"w":26,"h":30}
+},
+"SCTRedBtn.png":
+{
+	"frame": {"x":2,"y":2,"w":162,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":60},
+	"sourceSize": {"w":162,"h":60}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "sendchipatlas.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:01bb2da99733609810af9814125ac327$"
+}
+}

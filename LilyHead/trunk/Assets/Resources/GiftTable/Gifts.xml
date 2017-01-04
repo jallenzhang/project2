@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gifts>
+    <gift>
+        <id>1</id>
+        <name>谢谢</name>
+        <icon_name>Gift_1</icon_name>
+        <price>100</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>2</id>
+        <name>水果沙拉</name>
+        <icon_name>Gift_2</icon_name>
+        <price>100</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	
+	    <gift>
+        <id>3</id>
+        <name>波板糖</name>
+        <icon_name>Gift_3</icon_name>
+        <price>100</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>4</id>
+        <name>巧克力</name>
+        <icon_name>Gift_4</icon_name>
+        <price>100</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>5</id>
+        <name>面条</name>
+        <icon_name>Gift_5</icon_name>
+        <price>200</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>6</id>
+        <name>小笼包</name>
+        <icon_name>Gift_6</icon_name>
+        <price>200</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>7</id>
+        <name>面霜</name>
+        <icon_name>Gift_7</icon_name>
+        <price>200</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>8</id>
+        <name>板砖</name>
+        <icon_name>Gift_8</icon_name>
+        <price>200</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>9</id>
+        <name>咖啡</name>
+        <icon_name>Gift_9</icon_name>
+        <price>200</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>10</id>
+        <name>真棒！</name>
+        <icon_name>Gift_10</icon_name>
+        <price>200</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>11</id>
+        <name>瑞士军刀</name>
+        <icon_name>Gift_11</icon_name>
+        <price>200</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>12</id>
+        <name>雪茄</name>
+        <icon_name>Gift_12</icon_name>
+        <price>300</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>13</id>
+        <name>手表</name>
+        <icon_name>Gift_13</icon_name>
+        <price>300</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+		
+	    <gift>
+        <id>14</id>
+        <name>口红</name>
+        <icon_name>Gift_14</icon_name>
+        <price>300</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>15</id>
+        <name>啤酒</name>
+        <icon_name>Gift_15</icon_name>
+        <price>500</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>16</id>
+        <name>香水</name>
+        <icon_name>Gift_16</icon_name>
+        <price>1000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>17</id>
+        <name>纯金手镯</name>
+        <icon_name>Gift_17</icon_name>
+        <price>1000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>18</id>
+        <name>蓝色妖姬</name>
+        <icon_name>Gift_18</icon_name>
+        <price>1000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>19</id>
+        <name>美女</name>
+        <icon_name>Gift_19</icon_name>
+        <price>1000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>20</id>
+        <name>玫瑰爱心</name>
+        <icon_name>Gift_20</icon_name>
+        <price>2000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>21</id>
+        <name>可爱熊</name>
+        <icon_name>Gift_21</icon_name>
+        <price>2000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>22</id>
+        <name>高跟鞋</name>
+        <icon_name>Gift_22</icon_name>
+        <price>2000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>23</id>
+        <name>红唇</name>
+        <icon_name>Gift_23</icon_name>
+        <price>2000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>24</id>
+        <name>zippo</name>
+        <icon_name>Gift_24</icon_name>
+        <price>2000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>25</id>
+        <name>金条</name>
+        <icon_name>Gift_25</icon_name>
+        <price>5000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>26</id>
+        <name>洋酒</name>
+        <icon_name>Gift_26</icon_name>
+        <price>7000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>27</id>
+        <name>L.V</name>
+        <icon_name>Gift_27</icon_name>
+        <price>10000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+	    <gift>
+        <id>28</id>
+        <name>法拉利</name>
+        <icon_name>Gift_28</icon_name>
+        <price>20000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+		
+	    <gift>
+        <id>29</id>
+        <name>私人别墅</name>
+        <icon_name>Gift_29</icon_name>
+        <price>30000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+		
+	    <gift>
+        <id>30</id>
+        <name>私人游艇</name>
+        <icon_name>Gift_30</icon_name>
+        <price>50000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+		
+	    <gift>
+        <id>31</id>
+        <name>私人飞机</name>
+        <icon_name>Gift_31</icon_name>
+        <price>70000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+		
+	    <gift>
+        <id>32</id>
+        <name>钻石戒指</name>
+        <icon_name>Gift_32</icon_name>
+        <price>100000</price>
+        <unity>GiftPic_1</unity>
+    </gift>
+	
+</gifts>

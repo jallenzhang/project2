@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BC98113-D7EB-4861-A1FE-6864A114D317}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LilyServer</RootNamespace>
+    <AssemblyName>LilyServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>..\3rd_lib\ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\3rd_lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>..\3rd_lib\Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\3rd_lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AchievementManager.cs" />
+    <Compile Include="Awards\Award.cs" />
+    <Compile Include="Awards\AwardManager.cs" />
+    <Compile Include="Events\AchievementEvent.cs" />
+    <Compile Include="Events\BetTurnEndedEvent.cs" />
+    <Compile Include="Events\BetTurnStartedEvent.cs" />
+    <Compile Include="Events\BroadcastMessageEvent.cs" />
+    <Compile Include="Events\BroadcastMessageInTableEvent.cs" />
+    <Compile Include="Events\PlayerRankChangedEvent.cs" />
+    <Compile Include="Events\PlayersShowCardsEvent.cs" />
+    <Compile Include="Events\ExperienceAddedEvent.cs" />
+    <Compile Include="Events\GameStartedEvent.cs" />
+    <Compile Include="Events\GameEndedEvent.cs" />
+    <Compile Include="Events\LilyAddFriendEvent.cs" />
+    <Compile Include="Events\LilyDeleteFriendEvent.cs" />
+    <Compile Include="Events\LilyInviteFriendEvent.cs" />
+    <Compile Include="Events\LilyJoinEvent.cs" />
+    <Compile Include="Events\LilyLeaveEvent.cs" />
+    <Compile Include="Events\LilyRequestFriendEvent.cs" />
+    <Compile Include="Events\PlayerJoinedEvent.cs" />
+    <Compile Include="Events\PlayerLeavedEvent.cs" />
+    <Compile Include="Events\PlayerTurnBeganEvent.cs" />
+    <Compile Include="Events\PlayerTurnEndedEvent.cs" />
+    <Compile Include="Events\PlayerHoleCardsChangedEvent.cs" />
+    <Compile Include="Events\PlayerMoneyChangedEvent.cs" />
+    <Compile Include="Events\PlayerWonPotEvent.cs" />
+    <Compile Include="Events\RoomTypeChangedEvent.cs" />
+    <Compile Include="Events\SameAccountLoginEvent.cs" />
+    <Compile Include="Events\SendChipEvent.cs" />
+    <Compile Include="Events\SendGiftEvent.cs" />
+    <Compile Include="Events\StatusTipsSendEvent.cs" />
+    <Compile Include="Events\TableClosedEvent.cs" />
+    <Compile Include="Gift\Gift.cs" />
+    <Compile Include="Gift\GiftManager.cs" />
+    <Compile Include="HandType.cs" />
+    <Compile Include="Helper\CacheHelper.cs" />
+    <Compile Include="Helper\ConfigurationHelp.cs" />
+    <Compile Include="Helper\DateHelper.cs" />
+    <Compile Include="Helper\EntityTransform.cs" />
+    <Compile Include="Helper\HandStrengthHelper.cs" />
+    <Compile Include="Helper\IAPReceiptHelper.cs" />
+    <Compile Include="Helper\LilyAPN.cs" />
+    <Compile Include="Helper\MailHelper.cs" />
+    <Compile Include="Helper\RobotHelper.cs" />
+    <Compile Include="Helper\TimerHelper.cs" />
+    <Compile Include="Helper\TypeHelper.cs" />
+    <Compile Include="Helper\WordsFilter.cs" />
+    <Compile Include="Helper\XMLResources.cs" />
+    <Compile Include="LilyGame.cs" />
+    <Compile Include="LilyServer.cs" />
+    <Compile Include="LilyGameCache.cs" />
+    <Compile Include="LilyPeer.cs" />
+    <Compile Include="LilyRoom.cs" />
+    <Compile Include="Message\LilyMessageCode.cs" />
+    <Compile Include="Helper\StatusTipsSendMsgHelper.cs" />
+    <Compile Include="Model\feedback.cs" />
+    <Compile Include="Model\LilyEntities.cs" />
+    <Compile Include="Model\friend.cs" />
+    <Compile Include="Model\item.cs" />
+    <Compile Include="Model\LilyModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LilyModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\login.cs" />
+    <Compile Include="Model\user.cs" />
+    <Compile Include="Model\usermessage.cs" />
+    <Compile Include="Model\usersecond.cs" />
+    <Compile Include="Operations\LilyEchoResponse.cs" />
+    <Compile Include="Operations\LilyGameRequest.cs" />
+    <Compile Include="Operations\LilyEchoRequest.cs" />
+    <Compile Include="Operations\Enums.cs" />
+    <Compile Include="Operations\LilyGameResponse.cs" />
+    <Compile Include="Operations\SitRequest.cs" />
+    <Compile Include="PokerGame\PokerGameCareer.cs" />
+    <Compile Include="PokerGame\PokerGameUsers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Resources\GameBlind.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\GameGrade.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Service\BankService.cs" />
+    <Compile Include="Service\ConfigService.cs" />
+    <Compile Include="Service\FriendService.cs" />
+    <Compile Include="Service\JavApiService.cs" />
+    <Compile Include="Service\RobotQueue.cs" />
+    <Compile Include="Service\RobotService.cs" />
+    <Compile Include="Service\UserMessageService.cs" />
+    <Compile Include="Service\UserService.cs" />
+    <Compile Include="SitEvent.cs" />
+    <Compile Include="StatusTipsMsgHander.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Model\LilyModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LilyModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\LilyBody\trunk\DataPersist\DataPersist.csproj">
+      <Project>{3A862083-3A6F-4B7A-89CF-9205787635FE}</Project>
+      <Name>DataPersist</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LilyAss\LilyAPNNotification\LilyAPNNotification.csproj">
+      <Project>{3EA819EE-C490-419E-BF74-46FB056586BF}</Project>
+      <Name>LilyAPNNotification</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiteLobby\LiteLobby\LiteLobby.csproj">
+      <Project>{FA7E92F0-41E3-4295-9CB1-1B9A2F0605B5}</Project>
+      <Name>LiteLobby</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lite\Lite.csproj">
+      <Project>{E1F918F4-F581-4280-9D91-3CF77B24C290}</Project>
+      <Name>Lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PokerWorld\PokerWorld_4.0.csproj">
+      <Project>{FBAA74EB-22CE-4C30-9D10-0214B605578A}</Project>
+      <Name>PokerWorld_4.0</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Achievement.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Awards.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Gifts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Helper\words.txt" />
+    <Content Include="Resources\Props.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

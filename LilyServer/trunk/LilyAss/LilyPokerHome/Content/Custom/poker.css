@@ -1,0 +1,78 @@
+﻿/* static */
+body{
+    margin:0 auto;
+    min-width:700px;
+}
+.backimage{
+    background-image:url('../images/back.png');
+    background-repeat:repeat;
+    width:100%;
+    height:100%;
+}
+#logoHight{
+    z-index:1;
+}
+img{
+    border:0;
+}
+.logo{
+    text-align:center;  
+}
+.logo img{
+    max-width:700px;
+    max-height:700px;
+}
+.logo #staticImg{
+    position:relative;
+    z-index:2;  
+}
+.backimage .logo a{
+    margin-right:30px;
+    outline:none;
+    position:relative;
+    z-index:2;  
+}
+.backimage .logo a img{
+    margin-bottom:10px;
+}
+#onkeyimg{
+    margin-bottom:20px;
+}
+.BtnChoose{
+    clear: both;
+    margin-top:20px;    
+    width:100%;
+    text-align:center;
+}
+ul{
+    list-style-type:none; 
+}
+ul li{
+    float:left;
+}
+.BtnChoose ul .lifirst{
+    width:45%;
+    text-align:right;
+    margin-top:20px;
+}
+.BtnChoose ul .lihuawei{
+    margin-top:10px;
+}
+.btnIcon1 {      
+    margin-right: 60px;
+}
+.btnIcon2{
+    margin-right: 60px;
+}
+.btnIcon3{
+    margin-right: 80px;
+}
+.foot{
+    clear: both;
+    width:100%;
+    text-align:center;
+    margin-top:20px;
+    color: gray;
+    font-size:12px;
+    margin-bottom:40px;
+}

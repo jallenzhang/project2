@@ -1,0 +1,108 @@
+{"frames": {
+
+"ATBackBtn_Pic.png":
+{
+	"frame": {"x":192,"y":432,"w":31,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":35},
+	"sourceSize": {"w":31,"h":35}
+},
+"ATBackBtn_Press.png":
+{
+	"frame": {"x":97,"y":432,"w":93,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":51},
+	"sourceSize": {"w":93,"h":51}
+},
+"ATBackBtn_normal.png":
+{
+	"frame": {"x":2,"y":432,"w":93,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":51},
+	"sourceSize": {"w":93,"h":51}
+},
+"ATBg.png":
+{
+	"frame": {"x":2,"y":358,"w":928,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":928,"h":72},
+	"sourceSize": {"w":928,"h":72}
+},
+"ATBg_front.png":
+{
+	"frame": {"x":706,"y":201,"w":31,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":31},
+	"sourceSize": {"w":31,"h":31}
+},
+"ATBg_frontbox.png":
+{
+	"frame": {"x":683,"y":201,"w":21,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":25},
+	"sourceSize": {"w":21,"h":25}
+},
+"ATCurrentlyBar.png":
+{
+	"frame": {"x":2,"y":201,"w":679,"h":155},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":679,"h":155},
+	"sourceSize": {"w":679,"h":155}
+},
+"ATNormalBtn.png":
+{
+	"frame": {"x":683,"y":97,"w":198,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":59},
+	"sourceSize": {"w":198,"h":59}
+},
+"ATOtherBar.png":
+{
+	"frame": {"x":2,"y":97,"w":679,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":679,"h":102},
+	"sourceSize": {"w":679,"h":102}
+},
+"ATPressBtn.png":
+{
+	"frame": {"x":563,"y":2,"w":198,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":59},
+	"sourceSize": {"w":198,"h":59}
+},
+"BCTBg_front.png":
+{
+	"frame": {"x":523,"y":2,"w":38,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":38},
+	"sourceSize": {"w":38,"h":38}
+},
+"GetAchievement.png":
+{
+	"frame": {"x":2,"y":2,"w":519,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":519,"h":93},
+	"sourceSize": {"w":519,"h":93}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "Achievement.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:122d7d6ecb932e1c184d74d84eaf6648$"
+}
+}

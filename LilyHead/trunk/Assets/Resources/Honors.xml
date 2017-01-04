@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<honors>
+    <honor>
+        <id>1</id>
+        <low_bouns>-1</low_bouns>
+        <high_bouns>50000</high_bouns>
+        <game_number>-1</game_number>
+        <game_win_number>-1</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>2</id>
+        <low_bouns>50000</low_bouns>
+        <high_bouns>300000</high_bouns>
+        <game_number>50</game_number>
+        <game_win_number>-1</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>3</id>
+        <low_bouns>300000</low_bouns>
+        <high_bouns>500000</high_bouns>
+        <game_number>100</game_number>
+        <game_win_number>-1</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>4</id>
+        <low_bouns>500000</low_bouns>
+        <high_bouns>1000000</high_bouns>
+        <game_number>300</game_number>
+        <game_win_number>-1</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>5</id>
+        <low_bouns>1000000</low_bouns>
+        <high_bouns>4000000</high_bouns>
+        <game_number>400</game_number>
+        <game_win_number>30</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>6</id>
+        <low_bouns>4000000</low_bouns>
+        <high_bouns>8000000</high_bouns>
+        <game_number>550</game_number>
+        <game_win_number>50</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>7</id>
+        <low_bouns>8000000</low_bouns>
+        <high_bouns>20000000</high_bouns>
+        <game_number>770</game_number>
+        <game_win_number>100</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>8</id>
+        <low_bouns>20000000</low_bouns>
+        <high_bouns>50000000</high_bouns>
+        <game_number>1000</game_number>
+        <game_win_number>200</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>9</id>
+        <low_bouns>50000000</low_bouns>
+        <high_bouns>100000000</high_bouns>
+        <game_number>1500</game_number>
+        <game_win_number>350</game_win_number>
+        <level>-1</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>10</id>
+        <low_bouns>100000000</low_bouns>
+        <high_bouns>500000000</high_bouns>
+        <game_number>2000</game_number>
+        <game_win_number>500</game_win_number>
+        <level>10</level>
+        <match_number>-1</match_number>
+    </honor>
+    
+    <honor>
+        <id>11</id>
+        <low_bouns>500000000</low_bouns>
+        <high_bouns>-1</high_bouns>
+        <game_number>4000</game_number>
+        <game_win_number>1200</game_win_number>
+        <level>10</level>
+        <match_number>50</match_number>
+    </honor>
+</honors>

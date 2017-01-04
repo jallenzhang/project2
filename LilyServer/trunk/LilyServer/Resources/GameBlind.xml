@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameBlinds>
+  <GameBlind ID="1" BigBlind="2000"/>
+  <GameBlind ID="2" BigBlind="2000"/>
+  <GameBlind ID="3" BigBlind="2000"/>
+  <GameBlind ID="4" BigBlind="4000"/>
+  <GameBlind ID="5" BigBlind="4000"/>
+  <GameBlind ID="6" BigBlind="4000"/>
+  <GameBlind ID="7" BigBlind="6000"/>
+  <GameBlind ID="8" BigBlind="6000"/>
+  <GameBlind ID="9" BigBlind="10000"/>
+  <GameBlind ID="10" BigBlind="10000"/>
+  <GameBlind ID="11" BigBlind="20000"/>
+  <GameBlind ID="12" BigBlind="40000"/>
+  <GameBlind ID="13" BigBlind="80000"/>
+</GameBlinds>

@@ -1,0 +1,116 @@
+{"frames": {
+
+"BCTBg_front.png":
+{
+	"frame": {"x":284,"y":184,"w":38,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":38},
+	"sourceSize": {"w":38,"h":38}
+},
+"BCTCloseBtn.png":
+{
+	"frame": {"x":357,"y":2,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":66,"h":66}
+},
+"Btn_kaitong.png":
+{
+	"frame": {"x":2,"y":136,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"Btn_kaitong_press.png":
+{
+	"frame": {"x":262,"y":136,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"Btn_xufei.png":
+{
+	"frame": {"x":2,"y":184,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"Btn_xufei_press.png":
+{
+	"frame": {"x":132,"y":136,"w":128,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":46},
+	"sourceSize": {"w":128,"h":46}
+},
+"Pic_Vip.png":
+{
+	"frame": {"x":166,"y":2,"w":93,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":93},
+	"sourceSize": {"w":93,"h":93}
+},
+"Pic_blackbg.png":
+{
+	"frame": {"x":324,"y":184,"w":35,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":32},
+	"sourceSize": {"w":35,"h":32}
+},
+"Pic_daojuchangcheng.png":
+{
+	"frame": {"x":132,"y":184,"w":150,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":43},
+	"sourceSize": {"w":150,"h":43}
+},
+"Pic_dragon.png":
+{
+	"frame": {"x":71,"y":2,"w":93,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":93},
+	"sourceSize": {"w":93,"h":93}
+},
+"Pic_hat.png":
+{
+	"frame": {"x":261,"y":2,"w":94,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":93},
+	"sourceSize": {"w":94,"h":93}
+},
+"Pic_line.png":
+{
+	"frame": {"x":2,"y":232,"w":179,"h":5},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":5},
+	"sourceSize": {"w":179,"h":5}
+},
+"TableBg.png":
+{
+	"frame": {"x":2,"y":2,"w":67,"h":132},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":132},
+	"sourceSize": {"w":67,"h":132}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "props.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3bae82090ef3eb5d92b5d7f2956cf449$"
+}
+}

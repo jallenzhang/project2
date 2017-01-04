@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BLL/MyVersion.cs">
+    <Files>
+      <File FileName="Assets/PlayMaker/Actions/GetMaterial.cs" Line="1" Column="1" />
+      <File FileName="Assets/PlayMaker/Actions/GetMaterialTexture.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Other/GlobalScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Helper/UtilityHelper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Other/AutoSizeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/login/SceneManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/BLL/MyVersion.cs" Line="15" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

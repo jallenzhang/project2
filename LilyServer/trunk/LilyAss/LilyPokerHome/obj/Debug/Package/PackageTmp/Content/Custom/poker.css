@@ -1,0 +1,64 @@
+﻿/* static */
+body{
+    margin:0 auto;
+}
+.backimage{
+    background-image:url('../images/back.png');
+    background-repeat:repeat;
+    width:100%;
+    height:869px;
+}
+#logoHight{
+    z-index:1;
+}
+.logo{
+    text-align:center;  
+}
+.logo img{
+    max-width:700px;
+    max-height:700px;
+}
+.backimage .logo a{
+    margin-right:30px;
+    margin-bottom:70px;
+    position:relative;
+    z-index:2;  
+}
+.BtnChoose{
+    clear: both;
+    margin-top:20px;    
+    width:100%;
+    text-align:center;
+}
+.BtnChoose ul{
+    list-style-type:none; 
+}
+.BtnChoose ul li{
+    float:left;
+}
+.BtnChoose ul .lifirst{
+    width:35%;
+    text-align:right;
+    margin-top:20px;
+}
+.BtnChoose ul .lihuawei{
+    margin-top:10px;
+}
+.btnIcon1 {      
+    margin-right: 60px;
+}
+.btnIcon2{
+    margin-right: 60px;
+}
+.btnIcon3{
+    margin-right: 80px;
+}
+.foot{
+    clear: both;
+    width:100%;
+    text-align:center;
+    margin-top:20px;
+    color: gray;
+    font-size:12px;
+    margin-bottom:40px;
+}

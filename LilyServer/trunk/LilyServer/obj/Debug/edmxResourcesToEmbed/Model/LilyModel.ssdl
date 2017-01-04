@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LilyModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="LilyModelStoreContainer">
+    <EntitySet Name="bank" EntityType="LilyModel.Store.bank" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="bots" EntityType="LilyModel.Store.bots" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="configRobotStrategy" EntityType="LilyModel.Store.configRobotStrategy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="configSystem" EntityType="LilyModel.Store.configSystem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="feedback" EntityType="LilyModel.Store.feedback" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="friend" EntityType="LilyModel.Store.friend" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="login" EntityType="LilyModel.Store.login" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="user" EntityType="LilyModel.Store.user" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="usermessage" EntityType="LilyModel.Store.usermessage" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="userpayment" EntityType="LilyModel.Store.userpayment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="userprops" EntityType="LilyModel.Store.userprops" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="vUsers" EntityType="LilyModel.Store.vUsers" store:Type="Views" store:Schema="dbo" store:Name="vUsers">
+      <DefiningQuery>SELECT 
+      [vUsers].[id] AS [id], 
+      [vUsers].[nickname] AS [nickname], 
+      [vUsers].[usertype] AS [usertype], 
+      [vUsers].[username] AS [username], 
+      [vUsers].[mail] AS [mail], 
+      [vUsers].[password] AS [password], 
+      [vUsers].[password2] AS [password2], 
+      [vUsers].[role] AS [role], 
+      [vUsers].[exp] AS [exp], 
+      [vUsers].[avator] AS [avator], 
+      [vUsers].[chips] AS [chips], 
+      [vUsers].[totalgame] AS [totalgame], 
+      [vUsers].[wins] AS [wins], 
+      [vUsers].[winningpercentage] AS [winningpercentage], 
+      [vUsers].[maximumwinnote] AS [maximumwinnote], 
+      [vUsers].[besthandtype] AS [besthandtype], 
+      [vUsers].[status] AS [status], 
+      [vUsers].[logintime] AS [logintime], 
+      [vUsers].[money] AS [money], 
+      [vUsers].[backgroundtype] AS [backgroundtype], 
+      [vUsers].[roomid] AS [roomid], 
+      [vUsers].[livingroomtype] AS [livingroomtype], 
+      [vUsers].[userid] AS [userid], 
+      [vUsers].[achievements] AS [achievements]
+      FROM [dbo].[vUsers] AS [vUsers]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="bank">
+    <Key>
+      <PropertyRef Name="bankid" />
+    </Key>
+    <Property Name="bankid" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="bankin" Type="bigint" />
+    <Property Name="bankout" Type="bigint" />
+    <Property Name="createtime" Type="datetime" />
+    <Property Name="optype" Type="int" />
+    <Property Name="itemid" Type="int" />
+    <Property Name="userid" Type="nvarchar" MaxLength="50" />
+    <Property Name="duration" Type="int" />
+  </EntityType>
+  <EntityType Name="bots">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nickname" Type="nvarchar" MaxLength="50" />
+    <Property Name="usertype" Type="int" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="password2" Type="nvarchar" MaxLength="50" />
+    <Property Name="role" Type="int" />
+    <Property Name="exp" Type="bigint" />
+    <Property Name="avator" Type="int" />
+    <Property Name="chips" Type="bigint" />
+    <Property Name="totalgame" Type="bigint" />
+    <Property Name="wins" Type="int" />
+    <Property Name="winningpercentage" Type="decimal" />
+    <Property Name="maximumwinnote" Type="bigint" />
+    <Property Name="besthandtype" Type="nvarchar" MaxLength="500" />
+    <Property Name="status" Type="int" />
+    <Property Name="logintime" Type="datetime" />
+    <Property Name="money" Type="bigint" />
+    <Property Name="backgroundtype" Type="int" />
+    <Property Name="roomid" Type="nvarchar" MaxLength="50" />
+    <Property Name="livingroomtype" Type="int" />
+    <Property Name="userid" Type="nvarchar" MaxLength="50" />
+    <Property Name="besthandvalue" Type="int" />
+    <Property Name="achievements" Type="bigint" />
+  </EntityType>
+  <EntityType Name="configRobotStrategy">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="strategyid" Type="int" Nullable="false" />
+    <Property Name="strategy" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="typeround" Type="int" Nullable="false" />
+    <Property Name="foldratio" Type="int" Nullable="false" />
+    <Property Name="callratio" Type="int" Nullable="false" />
+    <Property Name="delaymin" Type="int" />
+    <Property Name="delaymax" Type="int" />
+    <Property Name="rasiea" Type="int" />
+    <Property Name="rasieb" Type="int" />
+  </EntityType>
+  <EntityType Name="configSystem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="description" Type="varchar" MaxLength="50" />
+    <Property Name="value" Type="decimal" Nullable="false" Scale="3" />
+    <Property Name="valuestr" Type="nvarchar" MaxLength="500" />
+    <Property Name="updatetime" Type="datetime" />
+    <Property Name="updateby" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="feedback">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="nvarchar" MaxLength="50" />
+    <Property Name="content" Type="nvarchar" MaxLength="500" />
+    <Property Name="time" Type="datetime" />
+  </EntityType>
+  <EntityType Name="friend">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="userA" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="userB" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="useridstr" Type="varchar" MaxLength="50" />
+    <Property Name="logintime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nickname" Type="nvarchar" MaxLength="50" />
+    <Property Name="usertype" Type="int" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="password2" Type="nvarchar" MaxLength="50" />
+    <Property Name="role" Type="int" />
+    <Property Name="exp" Type="bigint" />
+    <Property Name="avator" Type="int" />
+    <Property Name="chips" Type="bigint" />
+    <Property Name="totalgame" Type="bigint" />
+    <Property Name="wins" Type="int" />
+    <Property Name="winningpercentage" Type="decimal" />
+    <Property Name="maximumwinnote" Type="bigint" />
+    <Property Name="besthandtype" Type="nvarchar" MaxLength="500" />
+    <Property Name="status" Type="int" />
+    <Property Name="logintime" Type="datetime" />
+    <Property Name="money" Type="bigint" />
+    <Property Name="backgroundtype" Type="int" />
+    <Property Name="roomid" Type="nvarchar" MaxLength="50" />
+    <Property Name="livingroomtype" Type="int" Nullable="false" />
+    <Property Name="userid" Type="nvarchar" MaxLength="50" />
+    <Property Name="ownroomtypes" Type="int" Nullable="false" />
+    <Property Name="besthandvalue" Type="int" />
+    <Property Name="devicetype" Type="int" />
+    <Property Name="devicetoken" Type="nvarchar" MaxLength="200" />
+    <Property Name="achievements" Type="bigint" />
+    <Property Name="hasbuy" Type="bit" />
+    <Property Name="systempn" Type="bit" />
+    <Property Name="friendpn" Type="bit" />
+    <Property Name="awards" Type="varchar" MaxLength="100" />
+    <Property Name="awardsadd" Type="decimal" Precision="4" Scale="2" />
+    <Property Name="expadd" Type="int" />
+    <Property Name="winadd" Type="decimal" Precision="4" Scale="2" />
+    <Property Name="channelid" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="usermessage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sender" Type="nvarchar" MaxLength="50" />
+    <Property Name="receiver" Type="nvarchar" MaxLength="50" />
+    <Property Name="messagetype" Type="tinyint" Nullable="false" />
+    <Property Name="content" Type="nvarchar" MaxLength="500" />
+    <Property Name="time" Type="datetime" />
+  </EntityType>
+  <EntityType Name="userpayment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="time" Type="datetime" />
+    <Property Name="status" Type="int" />
+    <Property Name="type" Type="int" />
+    <Property Name="itemid" Type="bigint" />
+    <Property Name="note" Type="text" />
+    <Property Name="money" Type="numeric" Scale="2" />
+    <Property Name="userid" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="payway" Type="int" />
+    <Property Name="alipaynote" Type="varchar" MaxLength="50" />
+    <Property Name="channelId" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="userprops">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ItemType" Type="int" Nullable="false" />
+    <Property Name="ItemId" Type="int" Nullable="false" />
+    <Property Name="ItemName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Duration" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PurchaseDate" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="UseDate" Type="datetime" />
+    <Property Name="FailureDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'Lily.dbo.vUsers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vUsers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="nickname" Type="nvarchar" MaxLength="50" />
+    <Property Name="usertype" Type="int" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="password2" Type="nvarchar" MaxLength="50" />
+    <Property Name="role" Type="int" />
+    <Property Name="exp" Type="bigint" />
+    <Property Name="avator" Type="int" />
+    <Property Name="chips" Type="bigint" />
+    <Property Name="totalgame" Type="bigint" />
+    <Property Name="wins" Type="int" />
+    <Property Name="winningpercentage" Type="decimal" />
+    <Property Name="maximumwinnote" Type="bigint" />
+    <Property Name="besthandtype" Type="nvarchar" MaxLength="500" />
+    <Property Name="status" Type="int" />
+    <Property Name="logintime" Type="datetime" />
+    <Property Name="money" Type="bigint" />
+    <Property Name="backgroundtype" Type="int" />
+    <Property Name="roomid" Type="nvarchar" MaxLength="50" />
+    <Property Name="livingroomtype" Type="int" />
+    <Property Name="userid" Type="nvarchar" MaxLength="50" />
+    <Property Name="achievements" Type="bigint" />
+  </EntityType>
+  <Function Name="LilyReportDataAdd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="deviceId" Type="varchar" Mode="In" />
+    <Parameter Name="deviceType" Type="varchar" Mode="In" />
+    <Parameter Name="systemVersion" Type="varchar" Mode="In" />
+    <Parameter Name="channelId" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

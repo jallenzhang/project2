@@ -1,0 +1,269 @@
+﻿body
+{
+    margin: 0 auto;
+    font-size: 24px;
+    border-style: none;
+}
+::-webkit-input-placeholder { color:#9c9c9c; }
+input:-moz-placeholder { color:#9c9c9c; }
+
+.header
+{
+    background-image: url('../image/LITopBlueBg.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 65px;
+    text-align: right;
+}
+.header .title
+{
+    color: #ffffff;
+    display: block;
+    width: 60%;
+    margin-top: 18px;
+    float: left;
+    text-shadow: -0.08em -0.04em 0.04em #333 !important;
+}
+#btnClosePage
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    border-style: none; /*outline:none;     border:none;     text-decoration:none;*/
+}
+.content
+{
+    background-image: url('../image/LIBg.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+}
+.avator
+{
+    height: 400px;
+    margin: 20px auto auto 5%;
+    float: left;
+}
+.avator img
+{
+    max-height: 80%;
+    max-width: 80%;
+}
+.avator .bgicon
+{
+    position: absolute;
+    width: 135px;
+    height: 140px;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: -1;
+}
+.avator .myavator
+{
+    z-index: 3;
+}
+.login
+{
+    margin: 20px auto auto auto;
+}
+.login input
+{
+    background-color: #FFFFFF;
+    margin-left: -10px;
+    border: 1px solid #999999;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) inset;
+    padding: 4px 3px 5px;
+    width: 45%;
+    height: 40px;
+    font-size: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.login input:focus
+{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: medium none;
+}
+
+/* register */
+.login label
+{
+    color: #C0C0C0;
+}
+#abtnreg
+{
+    /*outline:none;     border:none;     text-decoration:none;*/
+    cursor: pointer;
+}
+#abtnreg img
+{
+    /*outline:none;     border:none;     text-decoration:none;*/
+    margin-left: 5%;
+}
+::-moz-focus-inner
+{
+    border: 0px;
+}
+
+/* for mobile */
+.ui-loader
+{
+    display: none;
+}
+.ui-page
+{
+    border-style: none;
+}
+
+/* responsive page widths */
+.ui-mobile-viewport {  margin: 0; overflow-x: visible; -webkit-text-size-adjust: none; -ms-text-size-adjust:none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/* Portrait 竖着 */
+@media screen and (orientation:portrait)
+{
+    .avator img
+    {
+        display: none;
+    }
+    .login input
+    {
+        width: 75%;
+        margin-left: 0px;
+        height: 40px;
+        font-size: 100%;
+    }
+    .header .title 
+    {
+        width: 60%;
+        font-size: 90%;
+    }
+    #ltips1
+    {
+        margin-left: 10px;
+    }
+    #ltips2
+    {
+        margin-left: 10px;
+    }
+    #ltips3
+    {
+        margin-left: 10px;
+    }
+    #loginPwd
+    {
+        margin-top: 9px;
+    }
+    #again_loginPwd
+    {
+        margin-top: 9px;
+    }
+    .login label
+    {
+        font-size:20px;
+    }
+    #abtnreg img
+    {
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    .login .icon img
+    {
+        max-height: 25px;
+        max-width: 25px;
+    }
+}
+
+/* Landscape 横着 */
+@media screen and (orientation:landscape)
+{
+    #mypage .avator img
+    {
+        display: inherit;
+    }
+    .login input
+    {
+        width: 55%;
+        margin-left: -10px;
+        height: 15px;
+        font-size: 60%;
+        margin-top: 0px;
+    }
+    .header .title
+    {
+        width: 62%;
+        font-size: 90%;
+    }
+    .tips{
+        display:block;
+        margin-left: 160px;
+        font-size: 12px;
+        margin-top:2px;
+        margin-bottom:-25px;
+    }   
+    #ltips3{
+        margin-bottom:-15px;
+    }
+    #abtnreg img
+    {
+        max-width: 150px;
+        margin-top: 0px;
+    }
+    .login .icon img
+    {
+        max-height: 18px;
+        max-width: 18px;
+    }
+}
+
+/* for loading */
+.ui-body-a,
+.ui-overlay-a {
+	border: 1px solid 		#444 /*{a-body-border}*/;
+	background: 			#222 /*{a-body-background-color}*/;
+	color: 					#fff /*{a-body-color}*/;
+	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 1px /*{a-body-shadow-radius}*/ #111 /*{a-body-shadow-color}*/;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #444 /*{a-body-background-start}*/), to( #222 /*{a-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #444 /*{a-body-background-start}*/, #222 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #444 /*{a-body-background-start}*/, #222 /*{a-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #444 /*{a-body-background-start}*/, #222 /*{a-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #444 /*{a-body-background-start}*/, #222 /*{a-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #444 /*{a-body-background-start}*/, #222 /*{a-body-background-end}*/);	
+}
+
+.ui-corner-all {
+	-moz-border-radius: 				.6em /*{global-radii-blocks}*/;
+	-webkit-border-radius: 				.6em /*{global-radii-blocks}*/;
+	border-radius: 						.6em /*{global-radii-blocks}*/;
+}
+
+/* loading icon */
+.ui-icon-loading {
+	background: url(../image/ajax-loader.gif);
+	background-size: 46px 46px;
+}
+
+/* loading screen */
+.ui-loading .ui-loader { display: block; }
+.ui-loader { display: none; z-index: 9999999; position: fixed; top: 50%; left: 50%; border:0; }
+.ui-loader-default { background: none; opacity: .18; width: 46px; height: 46px; margin-left: -23px; margin-top: -23px; }
+.ui-loader-verbose { width: 200px; opacity: .88; box-shadow: 0 1px 1px -1px #fff; height: auto; margin-left: -110px; margin-top: -43px; padding: 10px; }
+.ui-loader-default h1 { font-size: 0; width: 0; height: 0; overflow: hidden; }
+.ui-loader-verbose h1 { font-size: 16px; margin: 0; text-align: center; }
+.ui-loader .ui-icon { background-color: #000; display: block; margin: 0; width: 44px; height: 44px; padding: 1px; -webkit-border-radius: 36px; -moz-border-radius: 36px; border-radius: 36px; }
+.ui-loader-verbose .ui-icon { margin: 0 auto 10px; opacity: .75; }
+.ui-loader-textonly { padding: 15px; margin-left: -115px; }
+.ui-loader-textonly .ui-icon { display: none; }
+.ui-loader-fakefix { position: absolute; }
+
+/* mask */
+.maskShow{
+    position:absolute;
+    background-color:#000;
+    opacity:0.6;
+    filter:alpha(opacity = 60);
+    z-index:2;
+}
+.maskUnset
+{
+}

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: dee3954a8e1c5804fb3b2594d3e5bde7
+labels:
+- EasyMotion2D
+MonoAssemblyImporter:
+  serializedVersion: 1
+  iconMap:
+    EasyMotion2D.SpriteRenderer: {fileID: -185125870, guid: 0000000000000000d000000000000000,
+      type: 2}
+  executionOrder: {}

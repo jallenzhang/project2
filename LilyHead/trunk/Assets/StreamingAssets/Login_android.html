@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>康熙德州扑克</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel='stylesheet' type='text/css' href='css/android.css' />    
+    <script type='text/javascript' src='js/jquery-1.8.0.min.jss'charset='utf-8'></script>
+    <script type='text/javascript' src='js/jquery.mobile-1.1.1.min.jss'charset='utf-8'></script>
+    <script type='text/javascript' src='js/common.jss'charset='utf-8'></script>
+    <script type='text/javascript' src='js/login.jss'charset='utf-8'></script>
+</head>
+<body class="content">
+    <div id="mask" class="maskUnset"></div>   
+    <div class="header">    
+        <span class="title">康熙德州扑克</span>         
+        <input id="btnClosePage" onmousedown="btnClose_DownEffect()" onmouseup="btnClose_UpEffect()" onclick="doClosePage()" type="image" src="image/Btn_esc.png" />    
+    </div>
+    <div class="avator">
+        <img class="bgicon" src="image/LIicon_bg.png" />
+        <img class="myavator" src="image/144.png" />     
+    </div>   
+    <div class="login">
+        <input id="email" class="input1" type="text" onblur="blurMail()" placeholder="请输入您注册时的邮箱"/>
+        <br/><label id="ltips1" style="color:Red;"></label>
+        <br/>
+        <input id="loginPwd" type="password" placeholder="请输入密码"/>        
+        <br/>        
+        <a id="abtnlogin" href="" onclick="dologin()" target="_blank"><img id="btnlogin" src="image/Btn_launch.png" alt=""/></a>
+		<a href="" class="forgetpwdstyle" onclick="forgetPwd()">忘记密码</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataJackModel">
+  <DataContextMoniker Name="/DataJackModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b8244dbf-664f-4742-a13d-64c281f5c703" isExpanded="false" absoluteBounds="3.25, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataJackModelDataContext/Partner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9f7fa32-f988-480c-8de8-ee5b867a5f21" absoluteBounds="3.265, 0.96, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e39e4aa8-9ca6-4762-b091-8c513aa4b96b" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataJackModelDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7709bd6c-ddfc-4972-90f6-f3589ba7e387" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="62eb9e07-1f4c-4298-b3a3-b184b34b1a76" isExpanded="false" absoluteBounds="0.5, 2.625, 2, 0.45">
+      <DataClassMoniker Name="/DataJackModelDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e01f5c1-0663-4917-80ec-f495cf6f593d" absoluteBounds="0.515, 3.085, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d6b506bf-22cc-4893-8a79-a7fdbb108e06" isExpanded="false" absoluteBounds="0.5, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/DataJackModelDataContext/UsersInRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a3e3aeb2-8db3-4016-ae8e-b0d7dd2cfb3f" absoluteBounds="0.51500000000000012, 1.96, 1.9700000000000002, 0.62950642903645826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 2.625); (1.5 : 1.95)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataJackModelDataContext/Role/Role_UsersInRole" />
+      <nodes>
+        <classShapeMoniker Id="62eb9e07-1f4c-4298-b3a3-b184b34b1a76" />
+        <classShapeMoniker Id="d6b506bf-22cc-4893-8a79-a7fdbb108e06" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.5 : 0.95); (1.5 : 1.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataJackModelDataContext/User/User_UsersInRole" />
+      <nodes>
+        <classShapeMoniker Id="e39e4aa8-9ca6-4762-b091-8c513aa4b96b" />
+        <classShapeMoniker Id="d6b506bf-22cc-4893-8a79-a7fdbb108e06" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c0fecde2-2ac7-4b6a-827e-1a658a4774c4" absoluteBounds="3.375, 1.375, 2, 1.7625655110677081">
+      <DataClassMoniker Name="/DataJackModelDataContext/ActionPermission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2935eb1b-17ba-45de-bf9e-db0abfe89d84" absoluteBounds="3.39, 1.835, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3d27581-bddf-491f-9d79-e1fa0ffcb361" absoluteBounds="0.75, 4.125, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/DataJackModelDataContext/ChannelResult" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8bdae368-ab2c-4a1a-8038-8b79629fd570" absoluteBounds="0.765, 4.585, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e17029dc-014f-43c2-bd26-0bf99ee33d69" absoluteBounds="3.25, 4.375, 2, 1.3805261230468751">
+      <DataClassMoniker Name="/DataJackModelDataContext/Channel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a66cebb7-c4a8-499c-bf9e-b2675cae0427" absoluteBounds="3.265, 4.835, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfed6775-5e94-4086-9d55-7ea71938e69d" absoluteBounds="5.625, 4.25, 2, 1.9535852050781251">
+      <DataClassMoniker Name="/DataJackModelDataContext/Mobile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4383e4e3-a154-4738-82b4-db04646856bb" absoluteBounds="5.64, 4.71, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="62912e0b-d5dd-4475-ac20-53477be70c45" absoluteBounds="5.5, 2.375, 2, 1.1895064290364583">
+      <DataClassMoniker Name="/DataJackModelDataContext/UsersInChannel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40ffbff9-5b71-4d99-bb57-9b0bbfbca7e5" absoluteBounds="5.515, 2.835, 1.9700000000000002, 0.62950642903645826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1341d1dc-d542-4b7d-a90c-52c6b71a07aa" absoluteBounds="8.375, 2.75, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/DataJackModelDataContext/ChannelResultALL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bea19018-94e6-4967-a5b7-0655e10e52c0" absoluteBounds="8.39, 3.21, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

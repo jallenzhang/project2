@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LilyModelStoreContainer" CdmEntityContainer="LilyEntities">
+    <EntitySetMapping Name="friend">
+      <EntityTypeMapping TypeName="LilyModel.friend">
+        <MappingFragment StoreEntitySet="friend">
+          <ScalarProperty Name="userB" ColumnName="userB" />
+          <ScalarProperty Name="userA" ColumnName="userA" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="LilyModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="channelid" ColumnName="channelid" />
+          <ScalarProperty Name="winadd" ColumnName="winadd" />
+          <ScalarProperty Name="expadd" ColumnName="expadd" />
+          <ScalarProperty Name="awardsadd" ColumnName="awardsadd" />
+          <ScalarProperty Name="awards" ColumnName="awards" />
+          <ScalarProperty Name="friendpn" ColumnName="friendpn" />
+          <ScalarProperty Name="systempn" ColumnName="systempn" />
+          <ScalarProperty Name="hasbuy" ColumnName="hasbuy" />
+          <ScalarProperty Name="achievements" ColumnName="achievements" />
+          <ScalarProperty Name="devicetoken" ColumnName="devicetoken" />
+          <ScalarProperty Name="devicetype" ColumnName="devicetype" />
+          <ScalarProperty Name="besthandvalue" ColumnName="besthandvalue" />
+          <ScalarProperty Name="ownroomtypes" ColumnName="ownroomtypes" />
+          <ScalarProperty Name="password2" ColumnName="password2" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="livingroomtype" ColumnName="livingroomtype" />
+          <ScalarProperty Name="roomid" ColumnName="roomid" />
+          <ScalarProperty Name="backgroundtype" ColumnName="backgroundtype" />
+          <ScalarProperty Name="money" ColumnName="money" />
+          <ScalarProperty Name="logintime" ColumnName="logintime" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="besthandtype" ColumnName="besthandtype" />
+          <ScalarProperty Name="maximumwinnote" ColumnName="maximumwinnote" />
+          <ScalarProperty Name="winningpercentage" ColumnName="winningpercentage" />
+          <ScalarProperty Name="wins" ColumnName="wins" />
+          <ScalarProperty Name="totalgame" ColumnName="totalgame" />
+          <ScalarProperty Name="chips" ColumnName="chips" />
+          <ScalarProperty Name="avator" ColumnName="avator" />
+          <ScalarProperty Name="exp" ColumnName="exp" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="usertype" ColumnName="usertype" />
+          <ScalarProperty Name="nickname" ColumnName="nickname" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="feedback">
+      <EntityTypeMapping TypeName="LilyModel.feedback">
+        <MappingFragment StoreEntitySet="feedback">
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usermessage">
+      <EntityTypeMapping TypeName="LilyModel.usermessage">
+        <MappingFragment StoreEntitySet="usermessage">
+          <ScalarProperty Name="messagetype" ColumnName="messagetype" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="receiver" ColumnName="receiver" />
+          <ScalarProperty Name="sender" ColumnName="sender" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="login">
+      <EntityTypeMapping TypeName="LilyModel.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="logintime" ColumnName="logintime" />
+          <ScalarProperty Name="useridstr" ColumnName="useridstr" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bots">
+      <EntityTypeMapping TypeName="LilyModel.bots">
+        <MappingFragment StoreEntitySet="bots">
+          <ScalarProperty Name="achievements" ColumnName="achievements" />
+          <ScalarProperty Name="besthandvalue" ColumnName="besthandvalue" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="livingroomtype" ColumnName="livingroomtype" />
+          <ScalarProperty Name="roomid" ColumnName="roomid" />
+          <ScalarProperty Name="backgroundtype" ColumnName="backgroundtype" />
+          <ScalarProperty Name="money" ColumnName="money" />
+          <ScalarProperty Name="logintime" ColumnName="logintime" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="besthandtype" ColumnName="besthandtype" />
+          <ScalarProperty Name="maximumwinnote" ColumnName="maximumwinnote" />
+          <ScalarProperty Name="winningpercentage" ColumnName="winningpercentage" />
+          <ScalarProperty Name="wins" ColumnName="wins" />
+          <ScalarProperty Name="totalgame" ColumnName="totalgame" />
+          <ScalarProperty Name="chips" ColumnName="chips" />
+          <ScalarProperty Name="avator" ColumnName="avator" />
+          <ScalarProperty Name="exp" ColumnName="exp" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="password2" ColumnName="password2" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="usertype" ColumnName="usertype" />
+          <ScalarProperty Name="nickname" ColumnName="nickname" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vUsers">
+      <EntityTypeMapping TypeName="LilyModel.vUsers">
+        <MappingFragment StoreEntitySet="vUsers">
+          <ScalarProperty Name="achievements" ColumnName="achievements" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="livingroomtype" ColumnName="livingroomtype" />
+          <ScalarProperty Name="roomid" ColumnName="roomid" />
+          <ScalarProperty Name="backgroundtype" ColumnName="backgroundtype" />
+          <ScalarProperty Name="money" ColumnName="money" />
+          <ScalarProperty Name="logintime" ColumnName="logintime" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="besthandtype" ColumnName="besthandtype" />
+          <ScalarProperty Name="maximumwinnote" ColumnName="maximumwinnote" />
+          <ScalarProperty Name="winningpercentage" ColumnName="winningpercentage" />
+          <ScalarProperty Name="wins" ColumnName="wins" />
+          <ScalarProperty Name="totalgame" ColumnName="totalgame" />
+          <ScalarProperty Name="chips" ColumnName="chips" />
+          <ScalarProperty Name="avator" ColumnName="avator" />
+          <ScalarProperty Name="exp" ColumnName="exp" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="password2" ColumnName="password2" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="usertype" ColumnName="usertype" />
+          <ScalarProperty Name="nickname" ColumnName="nickname" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bank">
+      <EntityTypeMapping TypeName="LilyModel.bank">
+        <MappingFragment StoreEntitySet="bank">
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="itemid" ColumnName="itemid" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="optype" ColumnName="optype" />
+          <ScalarProperty Name="createtime" ColumnName="createtime" />
+          <ScalarProperty Name="bankout" ColumnName="bankout" />
+          <ScalarProperty Name="bankin" ColumnName="bankin" />
+          <ScalarProperty Name="bankid" ColumnName="bankid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userpayment">
+      <EntityTypeMapping TypeName="LilyModel.userpayment">
+        <MappingFragment StoreEntitySet="userpayment">
+          <ScalarProperty Name="channelId" ColumnName="channelId" />
+          <ScalarProperty Name="alipaynote" ColumnName="alipaynote" />
+          <ScalarProperty Name="payway" ColumnName="payway" />
+          <ScalarProperty Name="itemid" ColumnName="itemid" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="money" ColumnName="money" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="configRobotStrategy">
+      <EntityTypeMapping TypeName="LilyModel.configRobotStrategy">
+        <MappingFragment StoreEntitySet="configRobotStrategy">
+          <ScalarProperty Name="rasieb" ColumnName="rasieb" />
+          <ScalarProperty Name="rasiea" ColumnName="rasiea" />
+          <ScalarProperty Name="delaymax" ColumnName="delaymax" />
+          <ScalarProperty Name="delaymin" ColumnName="delaymin" />
+          <ScalarProperty Name="callratio" ColumnName="callratio" />
+          <ScalarProperty Name="foldratio" ColumnName="foldratio" />
+          <ScalarProperty Name="typeround" ColumnName="typeround" />
+          <ScalarProperty Name="strategy" ColumnName="strategy" />
+          <ScalarProperty Name="strategyid" ColumnName="strategyid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="configSystem">
+      <EntityTypeMapping TypeName="LilyModel.configSystem">
+        <MappingFragment StoreEntitySet="configSystem">
+          <ScalarProperty Name="updateby" ColumnName="updateby" />
+          <ScalarProperty Name="updatetime" ColumnName="updatetime" />
+          <ScalarProperty Name="valuestr" ColumnName="valuestr" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userprops">
+      <EntityTypeMapping TypeName="LilyModel.userprops">
+        <MappingFragment StoreEntitySet="userprops">
+          <ScalarProperty Name="FailureDate" ColumnName="FailureDate" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="PurchaseDate" ColumnName="PurchaseDate" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+          <ScalarProperty Name="ItemType" ColumnName="ItemType" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="LilyReportDataAdd" FunctionName="LilyModel.Store.LilyReportDataAdd" />
+  </EntityContainerMapping>
+</Mapping>

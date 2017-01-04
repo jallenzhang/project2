@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A862083-3A6F-4B7A-89CF-9205787635FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DataPersist</RootNamespace>
+    <AssemblyName>DataPersist</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="AfterBuild" command="cp ${TargetDir}/*.dll ${SolutionDir}/Assets/DLL" externalConsole="true" />
+        <Command type="AfterExecute" command="cp ${TargetFile} ${SolutionDir}/Assets/DLL" />
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Achievement\Achievement.cs" />
+    <Compile Include="CardGame\GameCard.cs" />
+    <Compile Include="CardGame\GameCardKind.cs" />
+    <Compile Include="CardGame\GameCardSpecial.cs" />
+    <Compile Include="CardGame\GameCardUtility.cs" />
+    <Compile Include="CardGame\GameCardValue.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="FriendData.cs" />
+    <Compile Include="HandTypes.cs" />
+    <Compile Include="PlayerAction.cs" />
+    <Compile Include="MoneyPot.cs" />
+    <Compile Include="PlayerInfo.cs" />
+    <Compile Include="RobotInfo.cs" />
+    <Compile Include="TableInfo.cs" />
+    <Compile Include="TypeAction.cs" />
+    <Compile Include="TypeBet.cs" />
+    <Compile Include="TypeRound.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="HelperLib\SerializeHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="OperationStatus.cs" />
+    <Compile Include="HandEvaluator\HandAnalysis.cs" />
+    <Compile Include="HandEvaluator\HandEvaluator.cs" />
+    <Compile Include="HandEvaluator\HandIterator.cs" />
+    <Compile Include="HandEvaluator\PocketHands.cs" />
+    <Compile Include="FeedbackData.cs" />
+    <Compile Include="RoomData.cs" />
+    <Compile Include="UserMessage.cs" />
+    <Compile Include="UserProps.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\EricUtility\EricUtility_4.0.csproj">
+      <Project>{31541BBE-B408-4719-BFCE-03947BB7AB0E}</Project>
+      <Name>EricUtility_4.0</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

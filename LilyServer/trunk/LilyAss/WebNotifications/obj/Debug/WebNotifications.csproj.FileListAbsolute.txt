@@ -1,0 +1,104 @@
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\RdlCompile.cache
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\RdlCompile.compiled
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\WebNotifications.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\WebNotifications.pdb
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\DataPersist.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\LilyAPNNotification.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\log4net.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\Microsoft.Web.Infrastructure.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\MvcPager.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.Formatting.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.WebRequest.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Helpers.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.WebHost.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Mvc.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Razor.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Deployment.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Razor.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\EricUtility.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\JdSoft.Apns.Notifications.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\Newtonsoft.Json.Compact.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\DataPersist.pdb
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\LilyAPNNotification.pdb
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\Microsoft.Web.Infrastructure.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.Formatting.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.WebRequest.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Helpers.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.WebHost.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Mvc.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Razor.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Deployment.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Razor.xml
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\EricUtility.pdb
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Net.Http.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Http.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\WebNotifications.dll
+E:\job\work project\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\WebNotifications.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\WebNotifications.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\WebNotifications.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\DataPersist.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\LilyAPNNotification.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\log4net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\Microsoft.Web.Infrastructure.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\MvcPager.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.Formatting.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.WebRequest.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Helpers.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.WebHost.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Mvc.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Razor.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Deployment.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Razor.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\EricUtility.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\JdSoft.Apns.Notifications.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\Newtonsoft.Json.Compact.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\DataPersist.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\LilyAPNNotification.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\Microsoft.Web.Infrastructure.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.Formatting.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Net.Http.WebRequest.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Helpers.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Http.WebHost.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Mvc.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.Razor.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Deployment.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\System.Web.WebPages.Razor.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\EricUtility.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Net.Http.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Helpers.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Http.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Mvc.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.Razor.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.WebPages.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\RdlCompile.cache
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\RdlCompile.compiled
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\WebNotifications.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyAss\WebNotifications\obj\Debug\WebNotifications.pdb

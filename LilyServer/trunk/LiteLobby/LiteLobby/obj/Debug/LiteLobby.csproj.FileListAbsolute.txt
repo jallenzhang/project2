@@ -1,0 +1,42 @@
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\log4net.config
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\LiteLobby.dll.config
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\LiteLobby.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\LiteLobby.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\ExitGames.Logging.Log4Net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\ExitGamesLibs.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\Lite.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\log4net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\Photon.SocketServer.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\PhotonHostRuntimeInterfaces.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\bin\Lite.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\obj\Debug\LiteLobby.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LiteLobby\LiteLobby\obj\Debug\LiteLobby.pdb
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\log4net.config
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\LiteLobby.dll.config
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\LiteLobby.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\LiteLobby.pdb
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\ExitGames.Logging.Log4Net.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\ExitGamesLibs.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\Lite.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\log4net.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\Photon.SocketServer.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\PhotonHostRuntimeInterfaces.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\bin\Lite.pdb
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\obj\Debug\LiteLobby.dll
+E:\job\work project\LilyServer\trunk\LiteLobby\LiteLobby\obj\Debug\LiteLobby.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\log4net.config
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\LiteLobby.dll.config
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\LiteLobby.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\LiteLobby.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\ExitGames.Logging.Log4Net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\ExitGamesLibs.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\Lite.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\log4net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\Photon.SocketServer.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\PhotonHostRuntimeInterfaces.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\bin\Lite.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\obj\Debug\LiteLobby.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LiteLobby\LiteLobby\obj\Debug\LiteLobby.pdb

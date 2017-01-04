@@ -1,0 +1,60 @@
+{"frames": {
+
+"TITBlackBg.png":
+{
+	"frame": {"x":6,"y":2,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46}
+},
+"TITCloseBtn.png":
+{
+	"frame": {"x":121,"y":2,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":66,"h":66}
+},
+"TITLable.png":
+{
+	"frame": {"x":54,"y":2,"w":65,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":27},
+	"sourceSize": {"w":65,"h":27}
+},
+"TITListBg.png":
+{
+	"frame": {"x":2,"y":77,"w":870,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":870,"h":143},
+	"sourceSize": {"w":870,"h":143}
+},
+"TITListLine.png":
+{
+	"frame": {"x":2,"y":73,"w":866,"h":2},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":866,"h":2},
+	"sourceSize": {"w":866,"h":2}
+},
+"TITListVerticalLine.png":
+{
+	"frame": {"x":2,"y":2,"w":2,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2,"h":69},
+	"sourceSize": {"w":2,"h":69}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "TitleAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d3f0dcc86ec0a64138091154649d2499$"
+}
+}

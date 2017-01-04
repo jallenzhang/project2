@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="LilyModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="LilyModelStoreContainer">
+          <EntitySet Name="bank" EntityType="LilyModel.Store.bank" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="bots" EntityType="LilyModel.Store.bots" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="configRobotStrategy" EntityType="LilyModel.Store.configRobotStrategy" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="configSystem" EntityType="LilyModel.Store.configSystem" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="feedback" EntityType="LilyModel.Store.feedback" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="friend" EntityType="LilyModel.Store.friend" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="login" EntityType="LilyModel.Store.login" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="user" EntityType="LilyModel.Store.user" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="usermessage" EntityType="LilyModel.Store.usermessage" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="userpayment" EntityType="LilyModel.Store.userpayment" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="userprops" EntityType="LilyModel.Store.userprops" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="vUsers" EntityType="LilyModel.Store.vUsers" store:Type="Views" store:Schema="dbo" store:Name="vUsers">
+            <DefiningQuery>SELECT 
+      [vUsers].[id] AS [id], 
+      [vUsers].[nickname] AS [nickname], 
+      [vUsers].[usertype] AS [usertype], 
+      [vUsers].[username] AS [username], 
+      [vUsers].[mail] AS [mail], 
+      [vUsers].[password] AS [password], 
+      [vUsers].[password2] AS [password2], 
+      [vUsers].[role] AS [role], 
+      [vUsers].[exp] AS [exp], 
+      [vUsers].[avator] AS [avator], 
+      [vUsers].[chips] AS [chips], 
+      [vUsers].[totalgame] AS [totalgame], 
+      [vUsers].[wins] AS [wins], 
+      [vUsers].[winningpercentage] AS [winningpercentage], 
+      [vUsers].[maximumwinnote] AS [maximumwinnote], 
+      [vUsers].[besthandtype] AS [besthandtype], 
+      [vUsers].[status] AS [status], 
+      [vUsers].[logintime] AS [logintime], 
+      [vUsers].[money] AS [money], 
+      [vUsers].[backgroundtype] AS [backgroundtype], 
+      [vUsers].[roomid] AS [roomid], 
+      [vUsers].[livingroomtype] AS [livingroomtype], 
+      [vUsers].[userid] AS [userid], 
+      [vUsers].[achievements] AS [achievements]
+      FROM [dbo].[vUsers] AS [vUsers]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+        <EntityType Name="bank">
+          <Key>
+            <PropertyRef Name="bankid" />
+          </Key>
+          <Property Name="bankid" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="bankin" Type="bigint" />
+          <Property Name="bankout" Type="bigint" />
+          <Property Name="createtime" Type="datetime" />
+          <Property Name="optype" Type="int" />
+          <Property Name="itemid" Type="int" />
+          <Property Name="userid" Type="nvarchar" MaxLength="50" />
+          <Property Name="duration" Type="int" />
+        </EntityType>
+        <EntityType Name="bots">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nickname" Type="nvarchar" MaxLength="50" />
+          <Property Name="usertype" Type="int" />
+          <Property Name="username" Type="nvarchar" MaxLength="50" />
+          <Property Name="mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+          <Property Name="password2" Type="nvarchar" MaxLength="50" />
+          <Property Name="role" Type="int" />
+          <Property Name="exp" Type="bigint" />
+          <Property Name="avator" Type="int" />
+          <Property Name="chips" Type="bigint" />
+          <Property Name="totalgame" Type="bigint" />
+          <Property Name="wins" Type="int" />
+          <Property Name="winningpercentage" Type="decimal" />
+          <Property Name="maximumwinnote" Type="bigint" />
+          <Property Name="besthandtype" Type="nvarchar" MaxLength="500" />
+          <Property Name="status" Type="int" />
+          <Property Name="logintime" Type="datetime" />
+          <Property Name="money" Type="bigint" />
+          <Property Name="backgroundtype" Type="int" />
+          <Property Name="roomid" Type="nvarchar" MaxLength="50" />
+          <Property Name="livingroomtype" Type="int" />
+          <Property Name="userid" Type="nvarchar" MaxLength="50" />
+          <Property Name="besthandvalue" Type="int" />
+          <Property Name="achievements" Type="bigint" />
+        </EntityType>
+        <EntityType Name="configRobotStrategy">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="strategyid" Type="int" Nullable="false" />
+          <Property Name="strategy" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="typeround" Type="int" Nullable="false" />
+          <Property Name="foldratio" Type="int" Nullable="false" />
+          <Property Name="callratio" Type="int" Nullable="false" />
+          <Property Name="delaymin" Type="int" />
+          <Property Name="delaymax" Type="int" />
+          <Property Name="rasiea" Type="int" />
+          <Property Name="rasieb" Type="int" />
+        </EntityType>
+        <EntityType Name="configSystem">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="description" Type="varchar" MaxLength="50" />
+          <Property Name="value" Type="decimal" Nullable="false" Scale="3" />
+          <Property Name="valuestr" Type="nvarchar" MaxLength="500" />
+          <Property Name="updatetime" Type="datetime" />
+          <Property Name="updateby" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="feedback">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userid" Type="nvarchar" MaxLength="50" />
+          <Property Name="content" Type="nvarchar" MaxLength="500" />
+          <Property Name="time" Type="datetime" />
+        </EntityType>
+        <EntityType Name="friend">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userA" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="userB" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="useridstr" Type="varchar" MaxLength="50" />
+          <Property Name="logintime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nickname" Type="nvarchar" MaxLength="50" />
+          <Property Name="usertype" Type="int" />
+          <Property Name="username" Type="nvarchar" MaxLength="50" />
+          <Property Name="mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+          <Property Name="password2" Type="nvarchar" MaxLength="50" />
+          <Property Name="role" Type="int" />
+          <Property Name="exp" Type="bigint" />
+          <Property Name="avator" Type="int" />
+          <Property Name="chips" Type="bigint" />
+          <Property Name="totalgame" Type="bigint" />
+          <Property Name="wins" Type="int" />
+          <Property Name="winningpercentage" Type="decimal" />
+          <Property Name="maximumwinnote" Type="bigint" />
+          <Property Name="besthandtype" Type="nvarchar" MaxLength="500" />
+          <Property Name="status" Type="int" />
+          <Property Name="logintime" Type="datetime" />
+          <Property Name="money" Type="bigint" />
+          <Property Name="backgroundtype" Type="int" />
+          <Property Name="roomid" Type="nvarchar" MaxLength="50" />
+          <Property Name="livingroomtype" Type="int" Nullable="false" />
+          <Property Name="userid" Type="nvarchar" MaxLength="50" />
+          <Property Name="ownroomtypes" Type="int" Nullable="false" />
+          <Property Name="besthandvalue" Type="int" />
+          <Property Name="devicetype" Type="int" />
+          <Property Name="devicetoken" Type="nvarchar" MaxLength="200" />
+          <Property Name="achievements" Type="bigint" />
+          <Property Name="hasbuy" Type="bit" />
+          <Property Name="systempn" Type="bit" />
+          <Property Name="friendpn" Type="bit" />
+          <Property Name="awards" Type="varchar" MaxLength="100" />
+          <Property Name="awardsadd" Type="decimal" Precision="4" Scale="2" />
+          <Property Name="expadd" Type="int" />
+          <Property Name="winadd" Type="decimal" Precision="4" Scale="2" />
+          <Property Name="channelid" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="usermessage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sender" Type="nvarchar" MaxLength="50" />
+          <Property Name="receiver" Type="nvarchar" MaxLength="50" />
+          <Property Name="messagetype" Type="tinyint" Nullable="false" />
+          <Property Name="content" Type="nvarchar" MaxLength="500" />
+          <Property Name="time" Type="datetime" />
+        </EntityType>
+        <EntityType Name="userpayment">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="time" Type="datetime" />
+          <Property Name="status" Type="int" />
+          <Property Name="type" Type="int" />
+          <Property Name="itemid" Type="bigint" />
+          <Property Name="note" Type="text" />
+          <Property Name="money" Type="numeric" Scale="2" />
+          <Property Name="userid" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="payway" Type="int" />
+          <Property Name="alipaynote" Type="varchar" MaxLength="50" />
+          <Property Name="channelId" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="userprops">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ItemType" Type="int" Nullable="false" />
+          <Property Name="ItemId" Type="int" Nullable="false" />
+          <Property Name="ItemName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Duration" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="PurchaseDate" Type="datetime" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="UseDate" Type="datetime" />
+          <Property Name="FailureDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'Lily.dbo.vUsers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="vUsers">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="bigint" Nullable="false" />
+          <Property Name="nickname" Type="nvarchar" MaxLength="50" />
+          <Property Name="usertype" Type="int" />
+          <Property Name="username" Type="nvarchar" MaxLength="50" />
+          <Property Name="mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+          <Property Name="password2" Type="nvarchar" MaxLength="50" />
+          <Property Name="role" Type="int" />
+          <Property Name="exp" Type="bigint" />
+          <Property Name="avator" Type="int" />
+          <Property Name="chips" Type="bigint" />
+          <Property Name="totalgame" Type="bigint" />
+          <Property Name="wins" Type="int" />
+          <Property Name="winningpercentage" Type="decimal" />
+          <Property Name="maximumwinnote" Type="bigint" />
+          <Property Name="besthandtype" Type="nvarchar" MaxLength="500" />
+          <Property Name="status" Type="int" />
+          <Property Name="logintime" Type="datetime" />
+          <Property Name="money" Type="bigint" />
+          <Property Name="backgroundtype" Type="int" />
+          <Property Name="roomid" Type="nvarchar" MaxLength="50" />
+          <Property Name="livingroomtype" Type="int" />
+          <Property Name="userid" Type="nvarchar" MaxLength="50" />
+          <Property Name="achievements" Type="bigint" />
+        </EntityType>
+        <Function Name="LilyReportDataAdd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="deviceId" Type="varchar" Mode="In" />
+          <Parameter Name="deviceType" Type="varchar" Mode="In" />
+          <Parameter Name="systemVersion" Type="varchar" Mode="In" />
+          <Parameter Name="channelId" Type="varchar" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LilyModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="LilyEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="friend" EntityType="LilyModel.friend" />
+          <EntitySet Name="user" EntityType="LilyModel.user" />
+          <EntitySet Name="feedback" EntityType="LilyModel.feedback" />
+          <EntitySet Name="usermessage" EntityType="LilyModel.usermessage" />
+          <EntitySet Name="login" EntityType="LilyModel.login" />
+          <EntitySet Name="bots" EntityType="LilyModel.bots" />
+          <EntitySet Name="vUsers" EntityType="LilyModel.vUsers" />
+          <EntitySet Name="bank" EntityType="LilyModel.bank" />
+          <EntitySet Name="userpayment" EntityType="LilyModel.userpayment" />
+          <EntitySet Name="configRobotStrategy" EntityType="LilyModel.configRobotStrategy" />
+          <EntitySet Name="configSystem" EntityType="LilyModel.configSystem" />
+          <EntitySet Name="userprops" EntityType="LilyModel.userprops" />
+          <FunctionImport Name="LilyReportDataAdd">
+            <Parameter Name="deviceId" Mode="In" Type="String" />
+            <Parameter Name="deviceType" Mode="In" Type="String" />
+            <Parameter Name="systemVersion" Mode="In" Type="String" />
+            <Parameter Name="channelId" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="friend">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="userA" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="userB" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="nickname" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="usertype" />
+          <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="mail" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="role" />
+          <Property Type="Int64" Name="exp" />
+          <Property Type="Int32" Name="avator" />
+          <Property Type="Int64" Name="chips" />
+          <Property Type="Int64" Name="totalgame" />
+          <Property Type="Int32" Name="wins" />
+          <Property Type="Decimal" Name="winningpercentage" Precision="18" Scale="0" />
+          <Property Type="Int64" Name="maximumwinnote" />
+          <Property Type="String" Name="besthandtype" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="status" />
+          <Property Type="DateTime" Name="logintime" />
+          <Property Type="Int64" Name="money" />
+          <Property Type="Int32" Name="backgroundtype" />
+          <Property Type="String" Name="roomid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="livingroomtype" Nullable="false" />
+          <Property Type="String" Name="userid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="password2" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="ownroomtypes" Nullable="false" />
+          <Property Type="Int32" Name="besthandvalue" />
+          <Property Type="Int32" Name="devicetype" />
+          <Property Type="String" Name="devicetoken" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="Int64" Name="achievements" />
+          <Property Type="Boolean" Name="hasbuy" />
+          <Property Type="Boolean" Name="systempn" />
+          <Property Type="Boolean" Name="friendpn" />
+          <Property Type="String" Name="awards" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Type="Decimal" Name="awardsadd" />
+          <Property Type="Int32" Name="expadd" />
+          <Property Type="Decimal" Name="winadd" Precision="4" Scale="2" />
+          <Property Type="String" Name="channelid" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="feedback">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="userid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="content" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="time" />
+        </EntityType>
+        <EntityType Name="usermessage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="sender" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="receiver" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="content" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="time" />
+          <Property Type="Byte" Name="messagetype" Nullable="false" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="useridstr" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="logintime" />
+        </EntityType>
+        <EntityType Name="bots">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int64" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="nickname" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="usertype" />
+          <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="mail" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="password2" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="role" />
+          <Property Type="Int64" Name="exp" />
+          <Property Type="Int32" Name="avator" />
+          <Property Type="Int64" Name="chips" />
+          <Property Type="Int64" Name="totalgame" />
+          <Property Type="Int32" Name="wins" />
+          <Property Type="Decimal" Name="winningpercentage" Precision="18" Scale="0" />
+          <Property Type="Int64" Name="maximumwinnote" />
+          <Property Type="String" Name="besthandtype" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="status" />
+          <Property Type="DateTime" Name="logintime" />
+          <Property Type="Int64" Name="money" />
+          <Property Type="Int32" Name="backgroundtype" />
+          <Property Type="String" Name="roomid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="livingroomtype" />
+          <Property Type="String" Name="userid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="besthandvalue" />
+          <Property Type="Int64" Name="achievements" />
+        </EntityType>
+        <EntityType Name="vUsers">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int64" Name="id" Nullable="false" />
+          <Property Type="String" Name="nickname" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="usertype" />
+          <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="mail" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="password2" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="role" />
+          <Property Type="Int64" Name="exp" />
+          <Property Type="Int32" Name="avator" />
+          <Property Type="Int64" Name="chips" />
+          <Property Type="Int64" Name="totalgame" />
+          <Property Type="Int32" Name="wins" />
+          <Property Type="Decimal" Name="winningpercentage" Precision="18" Scale="0" />
+          <Property Type="Int64" Name="maximumwinnote" />
+          <Property Type="String" Name="besthandtype" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="status" />
+          <Property Type="DateTime" Name="logintime" />
+          <Property Type="Int64" Name="money" />
+          <Property Type="Int32" Name="backgroundtype" />
+          <Property Type="String" Name="roomid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="livingroomtype" />
+          <Property Type="String" Name="userid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int64" Name="achievements" />
+        </EntityType>
+        <EntityType Name="bank">
+          <Key>
+            <PropertyRef Name="bankid" />
+          </Key>
+          <Property Type="Int64" Name="bankid" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="bankin" />
+          <Property Type="Int64" Name="bankout" />
+          <Property Type="DateTime" Name="createtime" />
+          <Property Type="Int32" Name="optype" />
+          <Property Type="String" Name="userid" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="itemid" />
+          <Property Type="Int32" Name="duration" />
+        </EntityType>
+        <EntityType Name="userpayment">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="time" />
+          <Property Type="Int32" Name="status" />
+          <Property Type="Int32" Name="type" />
+          <Property Type="String" Name="note" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="money" Precision="18" Scale="2" />
+          <Property Type="String" Name="userid" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int64" Name="itemid" />
+          <Property Type="Int32" Name="payway" />
+          <Property Type="String" Name="alipaynote" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="channelId" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="configRobotStrategy">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="strategyid" Nullable="false" />
+          <Property Type="String" Name="strategy" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="typeround" Nullable="false" />
+          <Property Type="Int32" Name="foldratio" Nullable="false" />
+          <Property Type="Int32" Name="callratio" Nullable="false" />
+          <Property Type="Int32" Name="delaymin" />
+          <Property Type="Int32" Name="delaymax" />
+          <Property Type="Int32" Name="rasiea" />
+          <Property Type="Int32" Name="rasieb" />
+        </EntityType>
+        <EntityType Name="configSystem">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="description" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Decimal" Name="value" Nullable="false" Precision="18" Scale="3" />
+          <Property Type="String" Name="valuestr" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="updatetime" />
+          <Property Type="String" Name="updateby" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="userprops">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ItemType" Nullable="false" />
+          <Property Type="Int32" Name="ItemId" Nullable="false" />
+          <Property Type="String" Name="ItemName" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="Duration" Nullable="false" />
+          <Property Type="String" Name="UserId" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="PurchaseDate" Nullable="false" />
+          <Property Type="Int32" Name="Status" Nullable="false" />
+          <Property Type="DateTime" Name="UseDate" />
+          <Property Type="DateTime" Name="FailureDate" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LilyModelStoreContainer" CdmEntityContainer="LilyEntities">
+          <EntitySetMapping Name="friend">
+            <EntityTypeMapping TypeName="LilyModel.friend">
+              <MappingFragment StoreEntitySet="friend">
+                <ScalarProperty Name="userB" ColumnName="userB" />
+                <ScalarProperty Name="userA" ColumnName="userA" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user">
+            <EntityTypeMapping TypeName="LilyModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="channelid" ColumnName="channelid" />
+                <ScalarProperty Name="winadd" ColumnName="winadd" />
+                <ScalarProperty Name="expadd" ColumnName="expadd" />
+                <ScalarProperty Name="awardsadd" ColumnName="awardsadd" />
+                <ScalarProperty Name="awards" ColumnName="awards" />
+                <ScalarProperty Name="friendpn" ColumnName="friendpn" />
+                <ScalarProperty Name="systempn" ColumnName="systempn" />
+                <ScalarProperty Name="hasbuy" ColumnName="hasbuy" />
+                <ScalarProperty Name="achievements" ColumnName="achievements" />
+                <ScalarProperty Name="devicetoken" ColumnName="devicetoken" />
+                <ScalarProperty Name="devicetype" ColumnName="devicetype" />
+                <ScalarProperty Name="besthandvalue" ColumnName="besthandvalue" />
+                <ScalarProperty Name="ownroomtypes" ColumnName="ownroomtypes" />
+                <ScalarProperty Name="password2" ColumnName="password2" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="livingroomtype" ColumnName="livingroomtype" />
+                <ScalarProperty Name="roomid" ColumnName="roomid" />
+                <ScalarProperty Name="backgroundtype" ColumnName="backgroundtype" />
+                <ScalarProperty Name="money" ColumnName="money" />
+                <ScalarProperty Name="logintime" ColumnName="logintime" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="besthandtype" ColumnName="besthandtype" />
+                <ScalarProperty Name="maximumwinnote" ColumnName="maximumwinnote" />
+                <ScalarProperty Name="winningpercentage" ColumnName="winningpercentage" />
+                <ScalarProperty Name="wins" ColumnName="wins" />
+                <ScalarProperty Name="totalgame" ColumnName="totalgame" />
+                <ScalarProperty Name="chips" ColumnName="chips" />
+                <ScalarProperty Name="avator" ColumnName="avator" />
+                <ScalarProperty Name="exp" ColumnName="exp" />
+                <ScalarProperty Name="role" ColumnName="role" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="usertype" ColumnName="usertype" />
+                <ScalarProperty Name="nickname" ColumnName="nickname" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="feedback">
+            <EntityTypeMapping TypeName="LilyModel.feedback">
+              <MappingFragment StoreEntitySet="feedback">
+                <ScalarProperty Name="time" ColumnName="time" />
+                <ScalarProperty Name="content" ColumnName="content" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usermessage">
+            <EntityTypeMapping TypeName="LilyModel.usermessage">
+              <MappingFragment StoreEntitySet="usermessage">
+                <ScalarProperty Name="messagetype" ColumnName="messagetype" />
+                <ScalarProperty Name="time" ColumnName="time" />
+                <ScalarProperty Name="content" ColumnName="content" />
+                <ScalarProperty Name="receiver" ColumnName="receiver" />
+                <ScalarProperty Name="sender" ColumnName="sender" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="login">
+            <EntityTypeMapping TypeName="LilyModel.login">
+              <MappingFragment StoreEntitySet="login">
+                <ScalarProperty Name="logintime" ColumnName="logintime" />
+                <ScalarProperty Name="useridstr" ColumnName="useridstr" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="bots">
+            <EntityTypeMapping TypeName="LilyModel.bots">
+              <MappingFragment StoreEntitySet="bots">
+                <ScalarProperty Name="achievements" ColumnName="achievements" />
+                <ScalarProperty Name="besthandvalue" ColumnName="besthandvalue" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="livingroomtype" ColumnName="livingroomtype" />
+                <ScalarProperty Name="roomid" ColumnName="roomid" />
+                <ScalarProperty Name="backgroundtype" ColumnName="backgroundtype" />
+                <ScalarProperty Name="money" ColumnName="money" />
+                <ScalarProperty Name="logintime" ColumnName="logintime" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="besthandtype" ColumnName="besthandtype" />
+                <ScalarProperty Name="maximumwinnote" ColumnName="maximumwinnote" />
+                <ScalarProperty Name="winningpercentage" ColumnName="winningpercentage" />
+                <ScalarProperty Name="wins" ColumnName="wins" />
+                <ScalarProperty Name="totalgame" ColumnName="totalgame" />
+                <ScalarProperty Name="chips" ColumnName="chips" />
+                <ScalarProperty Name="avator" ColumnName="avator" />
+                <ScalarProperty Name="exp" ColumnName="exp" />
+                <ScalarProperty Name="role" ColumnName="role" />
+                <ScalarProperty Name="password2" ColumnName="password2" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="usertype" ColumnName="usertype" />
+                <ScalarProperty Name="nickname" ColumnName="nickname" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vUsers">
+            <EntityTypeMapping TypeName="LilyModel.vUsers">
+              <MappingFragment StoreEntitySet="vUsers">
+                <ScalarProperty Name="achievements" ColumnName="achievements" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="livingroomtype" ColumnName="livingroomtype" />
+                <ScalarProperty Name="roomid" ColumnName="roomid" />
+                <ScalarProperty Name="backgroundtype" ColumnName="backgroundtype" />
+                <ScalarProperty Name="money" ColumnName="money" />
+                <ScalarProperty Name="logintime" ColumnName="logintime" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="besthandtype" ColumnName="besthandtype" />
+                <ScalarProperty Name="maximumwinnote" ColumnName="maximumwinnote" />
+                <ScalarProperty Name="winningpercentage" ColumnName="winningpercentage" />
+                <ScalarProperty Name="wins" ColumnName="wins" />
+                <ScalarProperty Name="totalgame" ColumnName="totalgame" />
+                <ScalarProperty Name="chips" ColumnName="chips" />
+                <ScalarProperty Name="avator" ColumnName="avator" />
+                <ScalarProperty Name="exp" ColumnName="exp" />
+                <ScalarProperty Name="role" ColumnName="role" />
+                <ScalarProperty Name="password2" ColumnName="password2" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="usertype" ColumnName="usertype" />
+                <ScalarProperty Name="nickname" ColumnName="nickname" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="bank">
+            <EntityTypeMapping TypeName="LilyModel.bank">
+              <MappingFragment StoreEntitySet="bank">
+                <ScalarProperty Name="duration" ColumnName="duration" />
+                <ScalarProperty Name="itemid" ColumnName="itemid" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="optype" ColumnName="optype" />
+                <ScalarProperty Name="createtime" ColumnName="createtime" />
+                <ScalarProperty Name="bankout" ColumnName="bankout" />
+                <ScalarProperty Name="bankin" ColumnName="bankin" />
+                <ScalarProperty Name="bankid" ColumnName="bankid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="userpayment">
+            <EntityTypeMapping TypeName="LilyModel.userpayment">
+              <MappingFragment StoreEntitySet="userpayment">
+                <ScalarProperty Name="channelId" ColumnName="channelId" />
+                <ScalarProperty Name="alipaynote" ColumnName="alipaynote" />
+                <ScalarProperty Name="payway" ColumnName="payway" />
+                <ScalarProperty Name="itemid" ColumnName="itemid" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="money" ColumnName="money" />
+                <ScalarProperty Name="note" ColumnName="note" />
+                <ScalarProperty Name="type" ColumnName="type" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="time" ColumnName="time" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="configRobotStrategy">
+            <EntityTypeMapping TypeName="LilyModel.configRobotStrategy">
+              <MappingFragment StoreEntitySet="configRobotStrategy">
+                <ScalarProperty Name="rasieb" ColumnName="rasieb" />
+                <ScalarProperty Name="rasiea" ColumnName="rasiea" />
+                <ScalarProperty Name="delaymax" ColumnName="delaymax" />
+                <ScalarProperty Name="delaymin" ColumnName="delaymin" />
+                <ScalarProperty Name="callratio" ColumnName="callratio" />
+                <ScalarProperty Name="foldratio" ColumnName="foldratio" />
+                <ScalarProperty Name="typeround" ColumnName="typeround" />
+                <ScalarProperty Name="strategy" ColumnName="strategy" />
+                <ScalarProperty Name="strategyid" ColumnName="strategyid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="configSystem">
+            <EntityTypeMapping TypeName="LilyModel.configSystem">
+              <MappingFragment StoreEntitySet="configSystem">
+                <ScalarProperty Name="updateby" ColumnName="updateby" />
+                <ScalarProperty Name="updatetime" ColumnName="updatetime" />
+                <ScalarProperty Name="valuestr" ColumnName="valuestr" />
+                <ScalarProperty Name="value" ColumnName="value" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="userprops">
+            <EntityTypeMapping TypeName="LilyModel.userprops">
+              <MappingFragment StoreEntitySet="userprops">
+                <ScalarProperty Name="FailureDate" ColumnName="FailureDate" />
+                <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="PurchaseDate" ColumnName="PurchaseDate" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+                <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+                <ScalarProperty Name="ItemType" ColumnName="ItemType" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="LilyReportDataAdd" FunctionName="LilyModel.Store.LilyReportDataAdd" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Default" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="LilyModel" ZoomLevel="73">
+        <EntityTypeShape EntityType="LilyModel.friend" Width="1.5" PointX="0.75" PointY="0.75" Height="1.5879931640624996" />
+        <EntityTypeShape EntityType="LilyModel.user" Width="1.5" PointX="5.375" PointY="0.75" Height="5.59940673828125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LilyModel.feedback" Width="1.5" PointX="0.5" PointY="3.75" Height="1.7790128580729174" />
+        <EntityTypeShape EntityType="LilyModel.usermessage" Width="1.5" PointX="3" PointY="3.75" Height="1.9700325520833317" />
+        <EntityTypeShape EntityType="LilyModel.login" Width="1.5" PointX="7.75" PointY="0.75" Height="1.5879931640624996" />
+        <EntityTypeShape EntityType="LilyModel.bots" Width="1.5" PointX="0.75" PointY="6.75" Height="5.4083870442708335" />
+        <EntityTypeShape EntityType="LilyModel.vUsers" Width="1.5" PointX="7.375" PointY="3.75" Height="5.4083870442708353" />
+        <EntityTypeShape EntityType="LilyModel.bank" Width="1.5" PointX="3.375" PointY="7.75" Height="1.9700325520833317" />
+        <EntityTypeShape EntityType="LilyModel.userpayment" Width="1.5" PointX="9.375" PointY="3.75" Height="2.1050219726562531" />
+        <EntityTypeShape EntityType="LilyModel.configRobotStrategy" Width="1.5" PointX="9.375" PointY="7.75" Height="2.9251310221354174" />
+        <EntityTypeShape EntityType="LilyModel.configSystem" Width="1.5" PointX="5.375" PointY="10.75" Height="2.1610522460937531" />
+        <EntityTypeShape EntityType="LilyModel.userprops" Width="1.5" PointX="11.375" PointY="0.75" Height="2.9251310221354174" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

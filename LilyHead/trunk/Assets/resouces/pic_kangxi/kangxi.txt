@@ -1,0 +1,20 @@
+{"frames": {
+
+"Pic_512.png":
+{
+	"frame": {"x":0,"y":0,"w":512,"h":464},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":30,"w":512,"h":464},
+	"sourceSize": {"w":512,"h":512}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "kangxi.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4e1efe15b1611558625b909ccb4b2d3e$"
+}
+}

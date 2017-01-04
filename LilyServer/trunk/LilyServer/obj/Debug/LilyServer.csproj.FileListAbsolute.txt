@@ -1,0 +1,96 @@
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\log4net.config
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Resources\GameBlind.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Resources\GameGrade.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Resources\Achievement.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Resources\Awards.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Resources\Gifts.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Resources\Props.xml
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\LilyServer.dll.config
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\LilyServer.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\LilyServer.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\DataPersist.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\ExitGamesLibs.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\LilyAPNNotification.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Lite.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\LiteLobby.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\log4net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Photon.SocketServer.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\PhotonHostRuntimeInterfaces.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\PokerWorld.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\EricUtility.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\JdSoft.Apns.Notifications.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\ExitGames.Logging.Log4Net.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Newtonsoft.Json.Compact.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\DataPersist.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\LilyAPNNotification.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\LiteLobby.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\Lite.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\PokerWorld.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\bin\EricUtility.pdb
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\obj\Debug\ResolveAssemblyReference.cache
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\obj\Debug\LilyServer.dll
+C:\WorkingCopy\svn\LilyLeg\trunk\LilyServer\obj\Debug\LilyServer.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\bin\log4net.config
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Resources\GameBlind.xml
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Resources\GameGrade.xml
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Resources\Achievement.xml
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Resources\Awards.xml
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Resources\Gifts.xml
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Resources\Props.xml
+E:\job\work project\LilyServer\trunk\LilyServer\bin\LilyServer.dll.config
+E:\job\work project\LilyServer\trunk\LilyServer\bin\LilyServer.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\LilyServer.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\bin\DataPersist.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\ExitGamesLibs.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\LilyAPNNotification.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Lite.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\LiteLobby.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\log4net.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Photon.SocketServer.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\PhotonHostRuntimeInterfaces.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\PokerWorld.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\EricUtility.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\JdSoft.Apns.Notifications.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\ExitGames.Logging.Log4Net.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Newtonsoft.Json.Compact.dll
+E:\job\work project\LilyServer\trunk\LilyServer\bin\DataPersist.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\bin\LilyAPNNotification.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\bin\LiteLobby.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\bin\Lite.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\bin\PokerWorld.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\bin\EricUtility.pdb
+E:\job\work project\LilyServer\trunk\LilyServer\obj\Debug\ResolveAssemblyReference.cache
+E:\job\work project\LilyServer\trunk\LilyServer\obj\Debug\LilyServer.dll
+E:\job\work project\LilyServer\trunk\LilyServer\obj\Debug\LilyServer.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\log4net.config
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Resources\GameBlind.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Resources\GameGrade.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Resources\Achievement.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Resources\Awards.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Resources\Gifts.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Resources\Props.xml
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\LilyServer.dll.config
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\LilyServer.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\LilyServer.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\DataPersist.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\ExitGamesLibs.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\LilyAPNNotification.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Lite.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\LiteLobby.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\log4net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Photon.SocketServer.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\PhotonHostRuntimeInterfaces.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\PokerWorld.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\EricUtility.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\JdSoft.Apns.Notifications.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\ExitGames.Logging.Log4Net.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Newtonsoft.Json.Compact.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\DataPersist.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\LilyAPNNotification.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\LiteLobby.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\Lite.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\PokerWorld.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\bin\EricUtility.pdb
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\obj\Debug\ResolveAssemblyReference.cache
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\obj\Debug\LilyServer.dll
+K:\dongjinzhong\jau\LilyServer\trunk\LilyServer\obj\Debug\LilyServer.pdb

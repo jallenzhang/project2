@@ -1,0 +1,59 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="E1F918F4-F581-4280-9D91-3CF77B24C290/f:ActorCollection.cs" caret="3090" fromTop="17" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Resources/f:GameGrade.xml" caret="478" fromTop="7" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Helper/f:XMLResources.cs" caret="1517" fromTop="25" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:MasterServer/f:MasterApplication.cs" caret="2324" fromTop="18" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Helper/f:RobotHelper.cs" caret="1342" fromTop="18" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/f:HandType.cs" caret="0" fromTop="0" />
+    <File id="E1F918F4-F581-4280-9D91-3CF77B24C290/f:LitePeer.cs" caret="6571" fromTop="4" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Service/f:UserService.cs" caret="0" fromTop="0" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/f:LilyPeer.cs" caret="15690" fromTop="17" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:GameLobby.cs" caret="5574" fromTop="4" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:GameClientPeer.cs" caret="9210" fromTop="10" />
+    <File id="E1F918F4-F581-4280-9D91-3CF77B24C290/d:Caching/f:RoomReference.cs" caret="0" fromTop="0" />
+    <File id="E1F918F4-F581-4280-9D91-3CF77B24C290/d:Caching/f:RoomCacheBase.cs" caret="8674" fromTop="26" />
+    <File id="E1F918F4-F581-4280-9D91-3CF77B24C290/f:Room.cs" caret="7421" fromTop="17" />
+    <File id="FBAA74EB-22CE-4C30-9D10-0214B605578A/d:Game/f:AbstractDealer.cs" caret="406" fromTop="18" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/f:TableInfo.cs" caret="22730" fromTop="31" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:Game.cs" caret="2693" fromTop="21" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/f:OperationStatus.cs" caret="3132" fromTop="24" />
+    <File id="FBAA74EB-22CE-4C30-9D10-0214B605578A/d:Game/f:PokerGame.cs" caret="12248" fromTop="20" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/f:LilyGame.cs" caret="8646" fromTop="20" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:MasterServer/f:MasterClientPeer.cs" caret="2649" fromTop="0" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/d:HelperLib/f:SerializeHelper.cs" caret="1581" fromTop="21" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:PokerGame/f:PokerGameUsers.cs" caret="3591" fromTop="14" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:OutgoingMasterServerPeer.cs" caret="10509" fromTop="18" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:MasterServer/d:Lobby/f:AppLobby.cs" caret="5904" fromTop="10" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/f:PlayerInfo.cs" caret="8325" fromTop="26" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:MasterServer/d:GameServer/f:IncomingGameServerPeer.cs" caret="13240" fromTop="33" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Service/f:FriendService.cs" caret="12542" fromTop="26" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:PokerGame/f:PokerGameCareer.cs" caret="0" fromTop="0" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Service/f:RobotService.cs" caret="4925" fromTop="17" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/f:LilyServer.cs" caret="1166" fromTop="7" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/d:CareerGame/f:GameGrade.cs" caret="369" fromTop="14" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/d:CareerGame/f:GameBlind.cs" caret="177" fromTop="8" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Resources/f:Props.xml" caret="2051" fromTop="24" />
+    <File id="E1F918F4-F581-4280-9D91-3CF77B24C290/f:LitePeer.cs" caret="12648" fromTop="17" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Helper/f:XMLResources.cs" caret="1322" fromTop="20" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:GameClientPeer.cs" caret="10385" fromTop="11" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/f:LilyPeer.cs" caret="65112" fromTop="21" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Service/f:UserService.cs" caret="34826" fromTop="22" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:GameLobby.cs" caret="5298" fromTop="15" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:Game.cs" caret="1188" fromTop="16" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:PokerGame/f:PokerGameUsers.cs" caret="13808" fromTop="18" />
+    <File id="E1F918F4-F581-4280-9D91-3CF77B24C290/d:Caching/f:RoomCacheBase.cs" caret="8017" fromTop="11" />
+    <File id="FBAA74EB-22CE-4C30-9D10-0214B605578A/d:Game/f:PokerGame.cs" caret="22415" fromTop="17" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/f:TableInfo.cs" caret="23101" fromTop="24" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/f:OperationStatus.cs" caret="3150" fromTop="25" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:PokerGame/f:PokerGameCareer.cs" caret="1683" fromTop="18" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Service/f:RobotService.cs" caret="4979" fromTop="11" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/f:LilyGame.cs" caret="8769" fromTop="25" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:MasterServer/d:Lobby/f:AppLobby.cs" caret="8038" fromTop="29" />
+    <File id="918525F6-635E-4D56-A85C-7F4C5E95E822/d:GameServer/f:OutgoingMasterServerPeer.cs" caret="11032" fromTop="27" />
+    <File id="3A862083-3A6F-4B7A-89CF-9205787635FE/f:PlayerInfo.cs" caret="8317" fromTop="23" />
+    <File id="4BC98113-D7EB-4861-A1FE-6864A114D317/d:Service/f:FriendService.cs" caret="12946" fromTop="28" />
+  </RecentEdits>
+</RecentFiles>

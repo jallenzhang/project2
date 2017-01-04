@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="css/pay_android.css" />
+        <style>
+            /* App custom styles */
+            .myCenter
+            {
+                text-align:right;   
+                background-repeat:repeat-x;
+                background-image:url('image/pay_Topbg.png'); 
+                height:50px;          
+            }
+            .ui-btn-right
+            {
+                background-color:transparent;
+            }
+            .myCenter img
+            {
+                margin-top: 10px;
+                margin-bottom:5px;
+                max-height:65%;
+            }    
+            .closeBtn
+            {
+                margin-right:5px;    
+            }
+            .myHeaderCenter
+            {
+                width:70%;   
+                float:left; 
+                text-align:right;
+            }
+            .myRight
+            {
+                width:30%;
+                float:right;
+            }            
+            .tabImg img
+            {               
+                width: 100%;
+                height: 100%;
+                margin-top: 5px;
+                max-width:400px;                
+                max-height:115px;
+            }    
+            .tipFont
+            {
+                clear:both;
+                color:#D38D51;   
+                font-weight:bold;
+                font-size:12px;
+                text-shadow:none;
+                text-align:center;
+                line-height:25px;
+                vertical-align:middle;             
+                background-image:url('image/pay_Topbg_orange.png');  
+                background-repeat:repeat;
+                height: 25px;   
+            }        
+            .ContentCenter
+            {
+                text-align:center;    
+            }
+            /* Portrait 竖着 */
+            @media screen and (orientation:portrait)
+            {
+                .myHeaderCenter img
+                {
+                    margin-right:5%;
+                }
+            }
+            /* Landscape 横着 */
+            @media screen and (orientation:landscape)
+            {
+                .myHeaderCenter img
+                {
+                    margin-right:22%;
+                }
+            }
+        </style>
+        <script src="js/jquery-1.8.0.min.jss">
+        </script>
+        <script src="js/jquery.mobile-1.1.1.min.jss">
+        </script>
+        <script src="js/pay.jss">
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="f" data-role="header">
+                <div class="myCenter">                                        
+                    <div class="myHeaderCenter">
+                        <img class="titleImg" src="image/pay_Topbg_font.png" alt="image" />   
+                    </div>
+                    <div class="myRight">
+                        <a id="close"><img id="idCloseBtn" class="closeBtn" src="image/pay_Topbg_btn.png" alt="image" /></a>
+                    </div>
+                </div>                               
+                <div class="tipFont">昵称<label id="nickname"></label>, 欢迎使用康熙安全支付服务</div>   
+            </div>
+            <div data-role="content">
+                <div class="ContentCenter">
+                    <a id="alipay">
+                        <div class="tabImg">
+                            <img id="idAliPay" class="buttom" src="image/pay_CenterBtn_1.png" alt="image" />
+                        </div>
+                    </a>
+                    <a id="yeepay">
+                        <div class="tabImg">
+                            <img id="idYeePay" src="image/pay_CenterBtn_2.png" alt="image" />
+                        </div>
+                    </a>
+                    <div class="tabImg">
+                        <img src="image/pay_DownPic.png" alt="image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        </script>
+    </body>
+</html>

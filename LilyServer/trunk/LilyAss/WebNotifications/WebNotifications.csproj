@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D26AEE8-D54D-4DD9-B5E9-C78C62AF4B25}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebNotifications</RootNamespace>
+    <AssemblyName>WebNotifications</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.3.1.7705, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BundleTransformer.Core">
+      <HintPath>..\packages\BundleTransformer.Core.1.5.0\lib\net40\BundleTransformer.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MvcPager">
+      <HintPath>..\Lib\MvcPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenFlashChart, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\OpenFlashChart.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\AvoidBrushUserCountAction.cs" />
+    <Compile Include="Common\PayConfigFile.cs" />
+    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Models\YeePay\BuyCallbackResult.cs" />
+    <Compile Include="Utils\AliSecuriy\AlipayFunction.cs" />
+    <Compile Include="Helper\PayHelper\AlipayHelper.cs" />
+    <Compile Include="Utils\AliSecuriy\RSA.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Content\DataSets\MyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\A91PayController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ActionManagerController.cs" />
+    <Compile Include="Controllers\AdminManagerController.cs" />
+    <Compile Include="Controllers\AlixPayController.cs" />
+    <Compile Include="Controllers\BalancePayAccountController.cs" />
+    <Compile Include="Controllers\ChannelUserController.cs" />
+    <Compile Include="Controllers\ChannelUserManagerController.cs" />
+    <Compile Include="Controllers\CommonController.cs" />
+    <Compile Include="Controllers\ChannelController.cs" />
+    <Compile Include="Controllers\PaymentController.cs" />
+    <Compile Include="Controllers\PhotonController.cs" />
+    <Compile Include="Controllers\DataManagerController.cs" />
+    <Compile Include="Controllers\GameConfigController.cs" />
+    <Compile Include="Controllers\MarketDataController.cs" />
+    <Compile Include="Controllers\OperationDataController.cs" />
+    <Compile Include="Controllers\DataAnalyzeController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NotificationController.cs" />
+    <Compile Include="Controllers\ProductDataController.cs" />
+    <Compile Include="Controllers\PromotionController.cs" />
+    <Compile Include="Controllers\UserSearchController.cs" />
+    <Compile Include="Controllers\YeepayController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\AvoidBrushCountHelper.cs" />
+    <Compile Include="Helper\BuyItemHelper\BuyManagerHelper.cs" />
+    <Compile Include="Helper\BuyItemHelper\BuyScenceDic.cs" />
+    <Compile Include="Helper\BuyItemHelper\BuyAvatorDic.cs" />
+    <Compile Include="Helper\BuyItemHelper\BuyPetDic.cs" />
+    <Compile Include="Helper\BuyItemHelper\BuyJadeDic.cs" />
+    <Compile Include="Helper\BuyItemHelper\BuyLineageDic.cs" />
+    <Compile Include="Helper\CodeHelper.cs" />
+    <Compile Include="Helper\DateHelper.cs" />
+    <Compile Include="Helper\ExportToFile.cs" />
+    <Compile Include="Helper\ForAllPayHelper.cs" />
+    <Compile Include="Helper\LilyHelper\LilyAvatorHelper.cs" />
+    <Compile Include="Helper\LilyHelper\LilyGiftHelper.cs" />
+    <Compile Include="Helper\SiteConfigHelper.cs" />
+    <Compile Include="Models\A91Pay\ClassExtensions.cs" />
+    <Compile Include="Models\ChannelUser\DataReport.cs" />
+    <Compile Include="Models\ChannelUser\UserInChannelExt.cs" />
+    <Compile Include="Models\Channel\DeviceCategoryEnum.cs" />
+    <Compile Include="Models\Channel\DeviceSystemObj.cs" />
+    <Compile Include="Models\Channel\DeviceChannelObj.cs" />
+    <Compile Include="Models\Channel\DeviceTypeObj.cs" />
+    <Compile Include="Models\Channel\DeviceUserObj.cs" />
+    <Compile Include="Models\CustomUser\MyUser.cs" />
+    <Compile Include="Models\Custom\BuyItemObject.cs" />
+    <Compile Include="Models\Custom\OnlineCaculateObject.cs" />
+    <Compile Include="Models\Custom\PaymentObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Custom\PropItem.cs" />
+    <Compile Include="Models\Gift\gift.cs" />
+    <Compile Include="Models\Gift\GiftManager.cs" />
+    <Compile Include="Helper\LilyHelper\LevelExpHelper.cs" />
+    <Compile Include="Helper\BuyItemHelper\BuyChipsDic.cs" />
+    <Compile Include="Helper\LilyHelper\LilyRoomHelper.cs" />
+    <Compile Include="Helper\ReceiptHelper.cs" />
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Custom\CustomObject.cs" />
+    <Compile Include="Models\Custom\PartnerExtern.cs" />
+    <Compile Include="Models\Custom\V2EveryChipsObject.cs" />
+    <Compile Include="Models\DataJackModel.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataJackModel.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataLilyModel.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataLilyModel.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DynamicReport.cs" />
+    <Compile Include="Permission\Model\Comparint.cs" />
+    <Compile Include="Permission\Service\ActionPermissionServiceImpl.cs" />
+    <Compile Include="Permission\Attribute\AuthorizeFilterAttribute.cs" />
+    <Compile Include="Permission\Model\BaseController.cs" />
+    <Compile Include="Permission\Service\IActionPermissionService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Yeepay\Digest.cs" />
+    <Compile Include="Utils\Yeepay\HmacMD5.cs" />
+    <Compile Include="Utils\Yeepay\HttpUtils.cs" />
+    <Compile Include="Helper\PayHelper\YeepayHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Chart\open-flash-chart-SimplifiedChinese.swf" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\Custom\General.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Content\Chart\open-flash-chart.swf" />
+    <Content Include="Resources\Gifts.xml" />
+    <Content Include="Global.asax" />
+    <Content Include="Resources\Props.xml" />
+    <Content Include="Scripts\Custom\TabSwitch.js" />
+    <Content Include="Scripts\Custom\LeftMenu.js" />
+    <Content Include="Scripts\Custom\swfobject.js" />
+    <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.2.js" />
+    <Content Include="Scripts\jquery-1.6.2.min.js" />
+    <Content Include="Scripts\jquery-custom-cookie.js" />
+    <Content Include="Scripts\jquery-ui-1.8.11.js" />
+    <Content Include="Scripts\jquery-ui-1.8.11.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.0.0.debug.js" />
+    <Content Include="Scripts\knockout-2.0.0.js" />
+    <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
+    <Content Include="StaticPages\css\android.css" />
+    <Content Include="StaticPages\css\ios.css" />
+    <Content Include="StaticPages\css\jquery.mobile-1.1.1.min.css" />
+    <Content Include="StaticPages\css\register.android.css" />
+    <Content Include="StaticPages\css\register.ios.css" />
+    <Content Include="StaticPages\image\144.png" />
+    <Content Include="StaticPages\image\Btn_done.png" />
+    <Content Include="StaticPages\image\Btn_done_press.png" />
+    <Content Include="StaticPages\image\Btn_esc.png" />
+    <Content Include="StaticPages\image\Btn_esc_press.png" />
+    <Content Include="StaticPages\image\Btn_launch.png" />
+    <Content Include="StaticPages\image\Btn_launch_press.png" />
+    <Content Include="StaticPages\image\Btn_reg.png" />
+    <Content Include="StaticPages\image\Btn_reg_press.png" />
+    <Content Include="StaticPages\image\LIBg.png" />
+    <Content Include="StaticPages\image\LIError.png" />
+    <Content Include="StaticPages\image\LIHook.png" />
+    <Content Include="StaticPages\image\LIicon_bg.png" />
+    <Content Include="StaticPages\image\LITopBlueBg.png" />
+    <Content Include="StaticPages\image\loading.gif" />
+    <Content Include="StaticPages\Logina.html" />
+    <Content Include="StaticPages\Logini.html" />
+    <Content Include="StaticPages\Registera.html" />
+    <Content Include="StaticPages\Registeri.html" />
+    <Content Include="Views\A91Pay\NotifyResult.aspx" />
+    <Content Include="Views\A91Pay\Notify.aspx" />
+    <Content Include="Views\ActionManager\AddRoles.aspx" />
+    <Content Include="Views\ActionManager\AddUserToRoles.aspx" />
+    <Content Include="Views\ActionManager\ActionAdd.aspx" />
+    <Content Include="Views\ActionManager\Index.aspx" />
+    <Content Include="Views\AdminManager\Index.aspx" />
+    <Content Include="Views\AdminManager\Menu.ascx" />
+    <Content Include="Views\AlixPay\NotifyResult.aspx" />
+    <Content Include="Views\AlixPay\Notify.aspx" />
+    <Content Include="Views\BalancePayAccount\BalancePayAccountList.ascx" />
+    <Content Include="Views\BalancePayAccount\ShowAllData.aspx" />
+    <Content Include="Views\ChannelUserManager\Index.aspx" />
+    <Content Include="Views\ChannelUser\Index.aspx" />
+    <Content Include="Views\ChannelUser\Menu.ascx" />
+    <Content Include="Views\Channel\ChannelAdd.aspx" />
+    <Content Include="Views\Channel\ChannelModify.aspx" />
+    <Content Include="Views\Channel\ChannelIndex.aspx" />
+    <Content Include="Views\Channel\UserIndex.aspx" />
+    <Content Include="Views\Channel\DeviceSystemAndroid.aspx" />
+    <Content Include="Views\Channel\DeviceSystemIOS.aspx" />
+    <Content Include="Views\Channel\DeviceIncome.aspx" />
+    <Content Include="Views\Channel\DeviceTypeIOS.aspx" />
+    <Content Include="Views\Channel\DeviceTypeAndroid.aspx" />
+    <Content Include="Views\Common\Error404.aspx" />
+    <Content Include="Views\DataManager\DataLeftMenu.ascx" />
+    <Content Include="Views\DataManager\Index.aspx" />
+    <Content Include="Views\GameConfig\BotConfigIndex.aspx" />
+    <Content Include="Views\GameConfig\BotConfigModify.aspx" />
+    <Content Include="Views\GameConfig\SystemConfigAdd.aspx" />
+    <Content Include="Views\GameConfig\SystemConfigModify.aspx" />
+    <Content Include="Views\GameConfig\SystemConfigIndex.aspx" />
+    <Content Include="Views\GameConfig\GameConfigList.ascx" />
+    <Content Include="Views\Channel\DeviceChannel.aspx" />
+    <Content Include="Views\Channel\ChannelMenu.ascx" />
+    <Content Include="Views\Payment\BuyItemsInfo.aspx" />
+    <Content Include="Views\Payment\PaymentList.ascx" />
+    <Content Include="Views\Payment\PaymentInfo.aspx" />
+    <Content Include="Views\MarketData\MarketList.ascx" />
+    <Content Include="Views\MarketData\V1RegisterNum.aspx" />
+    <Content Include="Views\OperationData\V8SingleRechargeValue.aspx" />
+    <Content Include="Views\OperationData\V9PayPercent.aspx" />
+    <Content Include="Views\OperationData\V10ARPUValue.aspx" />
+    <Content Include="Views\OperationData\V11PayValueTotal.aspx" />
+    <Content Include="Views\OperationData\V12ActiveName.aspx" />
+    <Content Include="Views\OperationData\V7RechargeNum.aspx" />
+    <Content Include="Views\OperationData\V5UserLevelDist.aspx" />
+    <Content Include="Views\OperationData\V6ActiveName.aspx" />
+    <Content Include="Views\OperationData\OperationList.ascx" />
+    <Content Include="Views\Photon\Monitor.aspx" />
+    <Content Include="Views\ProductData\V23TodayRoundTimesAndDate.aspx" />
+    <Content Include="Views\ProductData\V7CostOfPalyerBuyChips.aspx" />
+    <Content Include="Views\ProductData\V8GiftsBuyTimes.aspx" />
+    <Content Include="Views\ProductData\V9SceneUsedTimes.aspx" />
+    <Content Include="Views\ProductData\V10RoleUsedTimes.aspx" />
+    <Content Include="Views\ProductData\V12WorldCallUsedTimes.aspx" />
+    <Content Include="Views\ProductData\V6TableTax.aspx" />
+    <Content Include="Views\ProductData\ProductList.ascx" />
+    <Content Include="Views\ProductData\V5CreateRoomChips.aspx" />
+    <Content Include="Views\ProductData\V4ActiveSendChips.aspx" />
+    <Content Include="Views\ProductData\V3UserBuyChips.aspx" />
+    <Content Include="Views\ProductData\V2EveryChips.aspx" />
+    <Content Include="Views\DataAnalyze\V43UserRegisterBeSentChipsNum.aspx" />
+    <Content Include="Views\DataAnalyze\V31HumanInGameNum.aspx" />
+    <Content Include="Views\DataAnalyze\V34WinLossData.aspx" />
+    <Content Include="Views\DataAnalyze\V41ChipsTotal.aspx" />
+    <Content Include="Views\DataAnalyze\Index.aspx" />
+    <Content Include="Views\DataAnalyze\V23SoftRegisterNum.aspx" />
+    <Content Include="Views\Notification\PushMsg.aspx" />
+    <Content Include="Views\ProductData\V1RegistChips.aspx" />
+    <Content Include="Views\Promotion\AddParter.aspx" />
+    <Content Include="Views\Promotion\PromotionMenu.ascx" />
+    <Content Include="Views\Promotion\GetUrlView.aspx" />
+    <Content Include="Views\Promotion\ListParter.aspx" />
+    <Content Include="Views\Test\Index.aspx" />
+    <Content Include="Views\UserSearch\UserSearchList.ascx" />
+    <Content Include="Views\UserSearch\Index.aspx" />
+    <Content Include="Views\UserSearch\OnlineNum.aspx" />
+    <Content Include="Views\YeePay\Notify.aspx" />
+    <Content Include="Views\YeePay\NotifyResult.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\aspNetHome.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\findHosting.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\NuGetGallery.png" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="Images\windowsLive.png" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\Login.aspx" />
+    <Content Include="Views\Account\LoginPartial.ascx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Account\RegisterPartial.ascx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\LoginUserControl.ascx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\LilyBody\trunk\DataPersist\DataPersist.csproj">
+      <Project>{3A862083-3A6F-4B7A-89CF-9205787635FE}</Project>
+      <Name>DataPersist</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LilyAPNNotification\LilyAPNNotification.csproj">
+      <Project>{3EA819EE-C490-419E-BF74-46FB056586BF}</Project>
+      <Name>LilyAPNNotification</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aps_development.p12" />
+    <None Include="aps_production.p12" />
+    <None Include="Content\DataSets\MyDataSet.xsc">
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Content\DataSets\MyDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Content\DataSets\MyDataSet.xss">
+      <DependentUpon>MyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Models\DataJackModel.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataJackModel.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\DataLilyModel.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataLilyModel.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="StaticPages\js\common.js" />
+    <Content Include="StaticPages\js\jquery-1.8.0.min.js" />
+    <Content Include="StaticPages\js\jquery.mobile-1.1.1.min.js" />
+    <Content Include="StaticPages\js\login.js" />
+    <Content Include="StaticPages\js\register.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\Reports\V23SoftRegisterNumReport.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Models\DataLilyModel.dbml.layout">
+      <DependentUpon>DataLilyModel.dbml</DependentUpon>
+    </None>
+    <None Include="Models\DataJackModel.dbml.layout">
+      <DependentUpon>DataJackModel.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>20135</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
